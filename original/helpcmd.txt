@@ -1,0 +1,1 @@
+cat old.sh | tr -d '\015' > new.sh

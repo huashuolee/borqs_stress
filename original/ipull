@@ -1,0 +1,56 @@
+#!/bin/bash
+isclean=false
+iscatchclean=false
+isnotbplog=false
+if [ "`adb get-state`" = "unknown" ];then
+	echo "ADB not connetced."
+	exit 1
+else
+	adb root
+	sleep 3
+	adb remount
+	sleep 3
+	while getopts "rcb" opt;do
+		case $opt in
+			r) isclean=true;;
+			c) iscatchclean=true;;
+			b) isnotbplog=true;;
+		esac
+	done
+	if $isclean;then
+		echo "Clean logs.."
+		adb shell rm -r /data/logs/*
+		adb shell rm -r /data/system/dropbox/*
+		echo "Over~"
+		exit 0
+	fi
+	rm -fr /home/luke/sdk/LOGS/*
+	rm -fr ./logs.7z
+	echo "Now, catching logs.."
+	adb shell rm -r /data/logs/logcat.log.*[234567890][0-9]
+	adb shell rm -r /data/logs/aplog.[456789]
+	adb shell rm -r /data/logs/aplog.log.[56789]
+	adb shell rm -r /data/logs/aplog.log.[12345][0-9]
+	adb shell rm -r /data/logs/gps
+	adb pull /data/logs/ /home/luke/sdk/LOGS
+	adb pull /data/logs/panic/ /home/luke/sdk/LOGS > /dev/null
+	adb pull /data/system/dropbox /home/luke/sdk/LOGS
+	adb pull /data/anr /home/luke/sdk/LOGS
+	adb shell busybox ifconfig -a > /home/luke/sdk/LOGS/ifconfig.txt
+	adb shell busybox route -n > /home/luke/sdk/LOGS/route.txt
+	adb shell lsmod > /home/luke/sdk/LOGS/lsmod.txt
+	adb shell cat /proc/mounts > /home/luke/sdk/LOGS/mount.txt
+	adb shell dumpstate > /home/luke/sdk/LOGS/dumpsys.txt
+	$isnotbplog && rm -r /home/luke/sdk/LOGS/bplog*
+	cp /home/luke/sdk/Putty.log /home/luke/sdk/LOGS/
+	echo " " > /home/luke/sdk/Putty.log
+	7z a logs /home/luke/sdk/LOGS/
+	rm -fr /home/luke/sdk/LOGS/*
+	mv ./logs.7z /home/luke/sdk/LOGS
+	chmod 777 -R /home/luke/sdk/LOGS
+	if $iscatchclean;then
+		echo "Clean logs.."
+		adb shell rm -r /data/logs/*
+		adb shell rm -r /data/system/dropbox/*
+	fi
+fi

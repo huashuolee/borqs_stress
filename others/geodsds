@@ -1,0 +1,12 @@
+#! /bin/bash
+n=1
+while true; do
+adb -s Medfield2EB74901 shell input motionevent 298 123 down
+adb -s Medfield2EB74901 shell input motionevent 298 123 up
+sleep 2
+adb -s Medfield2EB74901 shell input motionevent 257 363 down
+adb -s Medfield2EB74901 shell input motionevent 257 363 up
+n=$((n+1))
+echo $n 
+sleep 1
+done

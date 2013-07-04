@@ -1,0 +1,320 @@
+#!/bin/bash
+dir()
+{
+echo "
+b002	李晓波	Bob Li	8133	Executive Management	bob.li@borqs.com
+b004	陈锡源	Pat Chan	8129	Executive Management	pat.chan@borqs.com
+b005	饶宏	Rao Hong 	8132	Executive Management	hong.rao@borqs.com
+b025	张明	Zhang Ming	8309	Executive Management	ming.zhang@borqs.com
+b043	王暾	Tracy Wang	8125	Executive Management	tracy.wang@borqs.com
+b080	李鸿明	Howard Li	8131	Executive Management	hongming.li@borqs.com
+b256	伍自坚	Gene Wuu	8227	Executive Management	gene.wuu@borqs.com
+b400	杨松	Randy Yang	8126	Executive Management	randy.yang@borqs.com
+b415	展文博	Victor Zhan	8138	Executive Management	victor.zhan@borqs.com
+b009	毛然	Daphne Mao	8106	BD/Legal	daphne.mao@borqs.com
+b351	吴佳佳	Tina Wu	8038	BD/Legal	jiajia.wu@borqs.com
+b010	黄维	Wickey Huang	8095	Finance	wei.huang@borqs.com
+b088	李杭	Amanda Li	8091	Finance	amanda.li@borqs.com
+b310	蔡璐雅	Cai Luya	8052	Finance	luya.cai@borqs.com
+b445	王艳军	Karen Wang	8053	Finance	yanjun.wang@borqs.com
+b007	孙喻	Sunny Sun	8105	HR&Admin	sunny.sun@borqs.com
+b008	梁颖先	Terry Liang	8073	HR&Admin	terry.liang@borqs.com
+b047	梁丹楠	Doris Liang	8057	HR&Admin	dannan.liang@borqs.com
+b189	何盼	Betty He	8096	HR&Admin	betty.he@borqs.com
+b356	薛明宇	Jessica Xue	8139	HR&Admin	jessica.xue@borqs.com
+b494	田阔	Olivia Tian	8058	HR&Admin	olivia.tian@borqs.com
+b521	陈思	Seven Chen	8000	HR&Admin	si.chen@borqs.com
+b527	时静	Shi Jing	1000	HR&Admin	jing.shi@borqs.com
+b575	董珊	Dasiy Dong	8000	HR&Admin	shan.dong@borqs.com
+b435	杜嵬	Du Wei	8210	Mobile Internet BU	wei.du@borqs.com
+b634	徐小明	Xu Xiaoming	8211	Mobile Internet BU	xiaoming.xu@borqs.com
+b296	倪振洲	Ni Zhenzhou	8016	Operation	zhenzhou.ni@borqs.com
+b291	杜敏杰	8165	Product Management	minjie.du@borqs.com
+b298	胡智力	Hu Zhili	8020	Product Management	zhili.hu@borqs.com
+b330	刘杰	Sunny Liu	8022	Product Management	jie.liu@borqs.com
+b370	和文娟	He Wenjuan	8021	Product Management	wenjuan.he@borqs.com
+b384	李泽澄	Alex Li	8027	Product Management	alex.li@borqs.com
+b388	王磊	Jason Wang 	8159	Product Management	jason.wang@borqs.com
+b453	高雪斌	Tony Gao	8026	Product Management	xuebin.gao@borqs.com
+b632	王冠楠	Wang Guannan	Product Management	guannan.wang@borqs.com
+b051	李建兵	Li Jianbing	8035	R&D	jianbing.li@borqs.com
+b069	邹伟	Zou Wei	8262	R&D	wei.zou@borqs.com
+b128	郑妍	Zheng Yan	8109	R&D	yan.zheng@borqs.com
+b219	李俊学	Li Junxue	8321	R&D	junxue.li@borqs.com
+b255	曾洛军	Zeng Luojun	8263	R&D	luojun.zeng@borqs.com
+b312	倪林	Javen Ni	1062	R&D	javen.ni@borqs.com
+b357	邓琳玲	Deng Linling	8286	R&D	linling.deng@borqs.com
+b392	温春蕊	Wen Chunrui	8269	R&D	chunrui.wen@borqs.com
+b395	米晓川	Mi Xiaochuan	8323	R&D	xiaochuan.mi@borqs.com
+b481	刘松	Liu Song	8335	R&D	song.liu@borqs.com
+b488	周晓飞	Zhou Xiaofei	8336	R&D	xiaofei.zhou@borqs.com
+b491	官酩杰	Guan Mingjie	8266	R&D	mingjie.guan@borqs.com
+b497	武磊	Wu Lei	8285	R&D	lei.wu@borqs.com
+b518	牛禹	Niu Yu	8271	R&D	yu.niu@borqs.com
+b522	姜锋	Jiang Feng	8275	R&D	feng.jiang@borqs.com
+b523	林尔	Lin Er	8281	R&D	er.lin@borqs.com
+b528	刘丹丹	Liu Dandan	8277	R&D	dandan.liu@borqs.com
+b533	张霁	Zhang Ji	8291	R&D	ji.zhang@borqs.com
+b550	胡恒一	Hu Hengyi	8273	R&D	hengyi.hu@borqs.com
+b551	李俊杰	Li Junjie	8331	R&D	junjie.li@borqs.com
+b558	冷广伟	Leng Guangwei	8332	R&D	guangwei.leng@borqs.com
+b566	苗世虎	Miao Shihu	8265	R&D	shihu.miao@borqs.com
+b584	惠伟栋	Hui Weidong	8296	R&D	weidong.hui@borqs.com
+b607	胡玉捷	Hu Yujie	R&D	yujie.hu@borqs.com
+b612	王娟娟	Wang Juanjuan	8337	R&D	juanjuan.wang@borqs.com
+b214	刘昌晖	Liu Changhui 	8115	R&D	changhui.liu@borqs.com
+b224	裴广勇	Mike Pei	8186	R&D	mike.pei@borqs.com
+b289	许一瑾	Amanda Xu	8199	R&D	amanda.xu@borqs.com
+b311	张曰林	Zhang Yuelin	8235	R&D	yuelin.zhang@borqs.com
+b359	李传	Li Chuan	8183	R&D	chuan.li@borqs.com
+b431	刘帅	Liu Shuai	8200	R&D	shuai.liu@borqs.com
+b468	潘峰	Pan Feng	8202	R&D	feng.pan@borqs.com
+b531	贺浩	He Hao	8201	R&D	hao.he@borqs.com
+b540	王真	Wang Zhen	8226	R&D	zhen.wang@borqs.com
+b554	何涛	He Tao	8236	R&D	tao.he@borqs.com
+b573	任瑞	Elena Ren	8198	R&D	rui.ren@borqs.com
+b580	刘斌斌	Liu Binbin	8237	R&D	binbin.liu@borqs.com
+b027	洪名松	Derek Hong	8282	R&D	mingsong.hong@borqs.com
+b132	张利	Stone Zhang	1129	R&D	stone.zhang@borqs.com
+b249	陈开炳	Chen Kaibing	8152	R&D	kaibing.chen@borqs.com
+b326	赵青芝	Zhao Qingzhi	8260	R&D	qingzhi.zhao@borqs.com
+b355	王克	Wang Ke	8220	R&D	ke.wang@borqs.com
+b526	张弘	Zhang Hong	8390	R&D	hong.zhang@borqs.com
+b547	胡菲菲	Hu Feifei	8365	R&D	feifei.hu@borqs.com
+b556	付银刚	Frank Fu	8175	R&D	yingang.fu@borqs.com
+b560	葛立亭	Ge Liting	8603	R&D	liting.ge@borqs.com
+b586	张永康	Zhang Yongkang	8605	R&D	yongkang.zhang@borqs.com
+b600	卢子明	Lu Ziming	8173	R&D	ziming.lu@borqs.com
+b624	杜兆峰	Du Zhaofeng	1087	R&D	zhaofeng.du@borqs.com
+b633	单杰晶	Shan Jiejing	R&D	jiejing.shan@borqs.com
+b063	井科伟	Jing Kewei	8299	R&D	kewei.jing@borqs.com
+b135	文灿峰	Wen Canfeng	8078	R&D	canfeng.wen@borqs.com
+b136	许京京	Xu Jingjing	1012	R&D	jing.xu@borqs.com
+b215	何晓娟	He Xiaojuan	8120	R&D	xiaojuan.he@borqs.com
+b220	马洪波	Kevin Ma	8388	R&D	hongbo.ma@borqs.com
+b225	林卫强	David Lin	8176	R&D	weiqiang.lin@borqs.com
+b230	蒋厉利	Jiang Lili	1025	R&D	lili.jiang@borqs.com
+b318	赵韧	Ryan Zhao	1027	R&D	ren.zhao@borqs.com
+b342	杨春皞	Yang Chunhao	8025	R&D	chunhao.yang@borqs.com
+b401	崔怡	Cui Yi	8303	R&D	yi.cui@borqs.com
+b492	白璐	Blue Bai	8059	R&D	lu.bai@borqs.com
+b499	张娟	Zhang Juan	8278	R&D	juan.zhang@borqs.com
+b524	耿东福	Geng Dongfu	8302	R&D	dongfu.geng@borqs.com
+b570	肖鹏	Denis Xiao	8396	R&D	peng.xiao@borqs.com
+b571	祖朋新	Zu Pengxin	8228	R&D	pengxin.zu@borqs.com
+b616	孟浩然	Meng Haoran	8056	R&D	haoran.meng@borqs.com
+b023	谢益民	Mason Xie	8128	R&D	mason.xie@borqs.com
+b050	鲁威	Lu Wei	8317	R&D	wei.lu@borqs.com
+b270	张军	David Zhang	8329	R&D	jun.zhang@borqs.com
+b316	李珂珍	Li Kezhen	8316	R&D	kezhen.li@borqs.com
+b336	杜顺鹏	Du Shunpeng	8330	R&D	shunpeng.du@borqs.com
+b340	王维	Leno Wang	8315	R&D	wei.wang1@borqs.com
+b404	张蕊	Zhang Rui	8292	R&D	rui.zhang@borqs.com
+b437	陶岚	Tao Lan	8267	R&D	lan.tao@borqs.com
+b447	吴丽春	Kaitlin Woo	2890	R&D	lichun.wu@borqs.com
+b525	丛国华	Cong Guohua	8276	R&D	hao.he@borqs.com
+b529	罗晨	Luo Chen	8280	R&D	yaqiong.zhou@borqs.com
+b568	杨寅	Yang Yin	8283	R&D	yin.yang@borqs.com
+b577	刘宇飞	Liu Yufei	8293	R&D	kun.huang@borqs.com
+b623	鲍鹏丽	Bao Pengli	8325	R&D	pengli.bao@borqs.com
+b640	宋萌浩	Song Menghao	R&D	menghao.song@borqs.com
+b052	王卫	Wayne Wang	8166	R&D	wei.wang@borqs.com
+b058	刘华东	Liu Huadong 	8257	R&D	huadong.liu@borqs.com
+b173	张少伟	Zhang Shaowei	8229	R&D	shaowei.zhang@borqs.com
+b391	罗小飞	Luo Xiaofei	8190	R&D	xiaofei.luo@borqs.com
+b516	姜长胜	Dick Jiang	8255	R&D	feng.jiang@borqs.com
+b578	陈果	Arne Chen	8256	R&D	haoyi.zhang@borqs.com
+b582	高荣欣	Gao Rongxin	8195	R&D	lijun.wang@borqs.com
+b608	杨锋	Yang Feng	8193	R&D	feng.yang@borqs.com
+b613	范秋娟	Fan Qiujuan	8231	R&D	qiujuan.fan@borqs.com
+b068	公政	Gong Zheng	8639	R&D	zheng.gong@borqs.com
+b383	王鹏飞	Wang Pengfei	8639	R&D	pengfei.wang@borqs.com
+b475	李汀	Steven Li	8600	R&D	ting.li@borqs.com
+b628	王安	Wang An	8369	R&D	an.wang@borqs.com
+b038	薛飞	Xue Fei 	1066	R&D	fei.xue@borqs.com
+b182	赵非	Zhao Fei	8318	R&D	fei.zhao@borqs.com
+b221	费建江	Fei Jianjiang	8318	R&D	jianjiang.fei@borqs.com
+b314	盛杲	Sheng Gao	1018	R&D	gao.sheng@borqs.com
+b341	李鹏	Li Peng	8320	R&D	peng.li1@borqs.com
+b348	冀鹏程	Ji Pengcheng	1013	R&D	pengcheng.ji@borqs.com
+b390	林泉	Lin Quan	1115	R&D	quan.lin@borqs.com
+b520	常洋	Chang Yang	1019	R&D	hengyi.hu@borqs.com
+b576	白宝磊	Bai Baolei	1021	R&D	baolei.bai@borqs.com
+b614	王逸凡	Evan Wang	8319	R&D	yifan.wang@borqs.com
+b029	赵亮	Zhao Liang	1131	R&D	liang.zhao@borqs.com
+b046	宋志强	Song Zhiqiang	1059	R&D	zhiqiang.song@borqs.com
+b102	王爱军	River Wang	8506	R&D	river.wang@borqs.com
+b167	于曙风	Yu Shufeng 	8352	R&D	shufeng.yu@borqs.com
+b305	陈良思	Chen Liangsi	8505	R&D	liangsi.chen@borqs.com
+b309	贾世坤	Jia Shikun	8111	R&D	shikun.jia@borqs.com
+b333	刘佳子	Liu Jiazi	1057	R&D	jiazi.liu@borqs.com
+b325	车春立	Che Chunli	1095	R&D	chunli.che@borqs.com
+b482	李涛	Li Tao	8503	R&D	tao.li@borqs.com
+b507	张艳茹	Zhang Yanru	8368	R&D	yanru.zhang@borqs.com
+b508	戴官宏	Lucas Dai	1110	R&D	lucas.dai@borqs.com
+b532	郝建义	Hao Jianyi	1108	R&D	jianyi.hao@borqs.com
+b538	王晓旭	Wang Xiaoxu	1079	R&D	xiaoxu.wang@borqs.com
+b546	刘朝威	Liu Chaowei	8361	R&D	chaowei.liu@borqs.com
+b549	陈杨	Chen Yang	1105	R&D	yang.chen@borqs.com
+b555	刘威	Liu Wei	1106	R&D	wei.liu@borqs.com
+b561	张晶	Ice Zhang	1070	R&D	ice.zhang@borqs.com
+b588	刘敏	Liu Min	8380	R&D	min.liu@borqs.com
+b589	闫慧	Yan Hui	8171	R&D	hui.yan@borqs.com
+b591	崔英杰	Jenefer Cui	8172	R&D	yingjie.cui@borqs.com
+b592	何景波	He Jingbo	8360	R&D	jingbo.he@borqs.com
+b635	韦炜	Wei Wei	R&D	wei.wei@borqs.com
+b639	王丰	Frank Wang	R&D	feng.wang@borqs.com
+b641	孙连会	Sun Lianhui	1109	R&D	lianhui.sun@borqs.com
+b643	郭俊飞	Guo Junfei	R&D	junfei.guo@borqs.com
+b644	孙元	Sun Yuan	8169	R&D	yuan.sun@borqs.com
+b645	申朋儒	Shen Pengru	R&D	pengru.shen@borqs.com
+b015	毕松	Bi Song	8312	R&D	song.bi@borqs.com
+b024	屈永志	Young Qu	1072	R&D	yongzhi.qu@borqs.com
+b103	田禹	Tian Yu	8112	R&D	yu.tian@borqs.com
+b129	张建利	Jerry Zhang	1061	R&D	jianli.zhang@borqs.com
+b169	高淑军	Gao Shujun	1090	R&D	shujun.gao@borqs.com
+b232	薛斌	Xue Bin	1102	R&D	bin.xue@borqs.com
+b280	王洪	Wang Hong	1103	R&D	hong.wang@borqs.com
+b307	周璨	Zhou Can	8288	R&D	can.zhou@borqs.com
+b375	栗强	Li Qiang	1100	R&D	qiang.li@borqs.com
+b379	刘志新	Liu Zhixin	1102	R&D	zhixin.liu@borqs.com
+b413	傅巧妮	Nicki Fu	8170	R&D	qiaoni.fu@borqs.com
+b416	郑海雄	Zheng Haixiong	1061	R&D	haixiong.zheng@borqs.com
+b420	鲁为	Lu Wei	8398	R&D	wei.lu01@borqs.com
+b434	朱进洲	Zhu Jinzhou	8387	R&D	jinzhou.zhu@borqs.com
+b444	代子为	Dai Ziwei	8357	R&D	ziwei.dai@borqs.com
+b448	李耀亮	Li Yaoliang	1086	R&D	yaoliang.li@borqs.com
+b456	黄长亮	Huang Changliang	8311	R&D	changliang.huang@borqs.com
+b461	孙良	Sun Liang	1102	R&D	liang.sun@borqs.com
+b553	宋仓龙	Denis Song	1100	R&D	canglong.song@borqs.com
+b557	张希冬	Zhang Xidong	R&D	xidong.zhang@borqs.com
+b559	石涛	Shi Tao	8310	R&D	tao.shi@borqs.com
+b585	谭瑞	Demon Tan	8395	R&D	rui.tan@borqs.com
+b596	于思晗	Adonis Yu	8287	R&D	sihan.yu@borqs.com
+b611	邓永霞	Deng Yongxia	1061	R&D	yongxia.deng@borqs.com
+b615	滕禹桥	Teng Yuqiao	1103	R&D	yuqiao.teng@borqs.com
+b618	孟聪	Meng Cong	1100	R&D	cong.meng@borqs.com
+b619	秦文杰	Qin Wenjie	1063	R&D	wenjie.qin@borqs.com
+b620	张磊	Zhang Lei	R&D	lei.zhang@borqs.com
+b631	宋志刚	Song Zhigang	1089	R&D	zhigang.song@borqs.com
+b636	欧阳金苗	Ouyang Jinmiao	R&D	jinmiao.ouyang@borqs.com
+b642	黄身怀	Huang Shenhuai	8386	R&D	shenhuai.huang@borqs.com
+b647	陈海恒	Chen Haiheng	R&D	haiheng.chen@borqs.com
+b649	张志强	Zhang Zhiqiang	R&D	zhiqiang.zhang@borqs.com
+b151	周景泽	Zhou Jingze	1083	R&D	jingze.zhou@borqs.com
+b042	丁玮	David Ding	8608	R&D	david.ding@borqs.com
+b070	周欣	Zhou Xin	8031	R&D	xin.zhou@borqs.com
+b194	安娜尔	Anael An	8032	R&D	anael.an@borqs.com
+b450	张小丽	Zhang Xiaoli	8037	R&D	xiaoli.zhang@borqs.com
+b537	郭术娟	Guo Shujuan	8602	R&D	shujuan.guo@borqs.com
+b542	吴赛东	Wu Saidong	8036	R&D	saidong.wu@borqs.com
+b301	梁雪斌	Liang Xuebin	8366	R&D	xuebin.liang@borqs.com
+b020	廖旭旺	Liao Xuwang 	8233	R&D	xuwang.liao@borqs.com
+b059	周登祥	Zhou Dengxiang 	8050	R&D	dengxiang.zhou@borqs.com
+b209	柯田	Ke Tian	8187	R&D	tian.ke@borqs.com
+b211	余雪亭	Yu Xueting	8179	R&D	xueting.yu@borqs.com
+b251	陈学通	Chen Xuetong	8178	R&D	xuetong.chen@borqs.com
+b315	孙岳辰	Sun Yuechen	8181	R&D	yuechen.sun@borqs.com
+b335	周虎	Zhou Hu	8238	R&D	hu.zhou@borqs.com
+b469	张靖	Zhang Jing	8197	R&D	jing.zhang@borqs.com
+b498	方迪	Fang Di	8222	R&D	di.fang@borqs.com
+b534	刘春荣	Liu Chunrong	8239	R&D	chunrong.liu@borqs.com
+b541	顾秀娟	Gu Xiujuan	8180	R&D	xiujuan.gu@borqs.com
+b572	张子浩	Zhang Zihao	8191	R&D	zihao.zhang@borqs.com
+b011	高志虹	Irene Gao	8075	R&D	irene.gao@borqs.com
+b041	邓焰群	Deng Yanqun	8157	R&D	yanqun.deng@borqs.com
+b014	刘明路	Mike Liu	1060	R&D	mike.liu@borqs.com
+b053	纪海军	Ji Haijun	8378	R&D	haijun.ji@borqs.com
+b056	卢志勇	Eric Lu	1082	R&D	eric.lu@borqs.com
+b304	郑强	Damon Zheng	8381	R&D	qiang.zheng@borqs.com
+b320	周明昊	Zhou Minghao	8371	R&D	minghao.zhou@borqs.com
+b323	刘源	Liu Yuan	8377	R&D	yuan.liu@borqs.com
+b352	邵玥	Shao Yue	1080	R&D	yue.shao@borqs.com
+b385	牟楠楠	Mu Nannan	8376	R&D	nannan.mu@borqs.com
+b539	周亚琼	Zhou Yaqiong	8379	R&D	yaqiong.zhou@borqs.com
+b562	欧阳琥	Ouyang Hu	8382	R&D	hu.ouyang@borqs.com
+b567	暴学亮	Bao Xueliang	8383	R&D	xueliang.bao@borqs.com
+b593	辛磊	Xin Lei	1009	R&D	lei.xin@borqs.com
+b594	王月雷	Wang Yuelei	8375	R&D	yuelei.wang@borqs.com
+b597	洪楠	Hong Nan	1055	R&D	nan.hong@borqs.com
+b599	韩昆鹏	Alex Han	R&D	kunpeng.han@borqs.com
+b606	侯晓飞	Hou Xiaofei	8372	R&D	xiaofei.hou@borqs.com
+b617	张浩轶	Zhang Haoyi	1077	R&D	haoyi.zhang@borqs.com
+b621	王利军	Wang Lijun	1075	R&D	lijun.wang@borqs.com
+b625	刘吉洋	Liu Jiyang	8385	R&D	jiyang.liu@borqs.com
+b627	邹龙跃	Zou Longyue	8373	R&D	longyue.zou@borqs.com
+b646	刘宏亮	Liu Hongliang	1081	R&D	hongliang.liu@borqs.com
+b648	蔡峰	Cai Feng	R&D	feng.cai@borqs.com
+b036	贺晓聪	He Xiaocong	8086	R&D	xiaocong.he@borqs.com
+b037	张少方	Zhang Shaofang	1061	R&D	shaofang.zhang@borqs.com
+b067	杨霄	Yang Xiao	R&D	xiao.yang@borqs.com
+b072	鲍红彬	Bao Hongbin	1129	R&D	hongbin.bao@borqs.com
+b079	姜琳	Calin Jiang	1127	R&D	calin.jiang@borqs.com
+b099	陈继良	Chen Jiliang 	8107	R&D	jiliang.chen@borqs.com
+b104	匡正	Kuang Zheng	8088	R&D	zheng.kuang@borqs.com
+b199	郑子友	Zheng Ziyou	8163	R&D	ziyou.zheng@borqs.com
+b223	景涛	Daniel Jing	8251	R&D	daniel.jing@borqs.com
+b235	姜宇	Jiang Yu	8308	R&D	yu.jiang@borqs.com
+b260	郭志强	Guo Zhiqiang	R&D	zhiqiang.guo@borqs.com
+b261	邹园园	Zou Yuanyuan	8252	R&D	yuanyuan.zou@borqs.com
+b269	赵莹	Zhao Ying	8116	R&D	ying.zhao@borqs.com
+b284	张玥	Luke Zhang	1051	R&D	luke.zhang@borqs.com
+b338	郎艳	Lang Yan	1063	R&D	yan.lang@borqs.com
+b339	唐瑜	Agatha Tang	8326	R&D	agatha.tang@borqs.com
+b345	李中茹	Li Zhongru	8399	R&D	zhongru.li@borqs.com
+b347	张荣	Zhang Rong	8359	R&D	rong.zhang@borqs.com
+b362	贾雷	Jia Lei	8279	R&D	lei.jia@borqs.com
+b366	马迎	Ma Ying	8017	R&D	ying.ma@borqs.com
+b442	董妍	Dong Yan	1117	R&D	yan.dong@borqs.com
+b466	王杉杉	Wang Shanshan	8076	R&D	shanshan.wang@borqs.com
+b487	曹丽娜	Cao Lina	8017	R&D	lina.cao@borqs.com
+b493	李琳	Li Lin	1122	R&D	lin.li@borqs.com
+b503	孟阳	Meng Yang	8192	R&D	yang.meng@borqs.com
+b530	李弘	Li Hong	1118	R&D	hong.li@borqs.com
+b536	魏娜	Wei Na	1068	R&D	na.wei@borqs.com
+b543	胡颖露	Luna Hu	8355	R&D	yinglu.hu@borqs.com
+b544	党媛媛	Barbara Dang	8118	R&D	yuanyuan.dang@borqs.com
+b548	王琳	Wang Lin	8253	R&D	lin.wang@borqs.com
+b563	初金媛	Chu Jinyuan	8108	R&D	jinyuan.chu@borqs.com
+b564	朱婉菁	Zhu Wanjing	8300	R&D	wanjing.zhu@borqs.com
+b565	李华硕	Li Huashuo	1126	R&D	huashuo.li@borqs.com
+b569	杜鹏	Mars Du	8119	R&D	mars.du@borqs.com
+b579	韩飞	Han Fei	8017	R&D	fei.han@borqs.com
+b583	刘承涛	Liu Chengtao	8232	R&D	chengtao.liu@borqs.com
+b587	左大鹏	Zuo Dapeng	8328	R&D	dapeng.zuo@borqs.com
+b598	李惠	Li Hui	R&D	hui.li@borqs.com
+b601	张嘉	Zhang Jia	R&D	jia.zhang@borqs.com
+b602	王頔	Wang Di	1050	R&D	di.wang@borqs.com
+b605	陈彦琦	Chen Yanqi	1119	R&D	yanqi.chen@borqs.com
+b609	黄瑞	Huag Rui	R&D	rui.huang@borqs.com
+b626	鉏振伟	Reynold chi	8099	R&D	zhenwei.chi@borqs.com
+b630	刘智宇	Liu Zhiyu	R&D	zhiyu.liu@borqs.com
+b637	朴承国	Piao Chengguo	R&D	chengguo.piao@borqs.com
+b638	谢陈	Xie Chen	R&D	chen.xie@borqs.com
+b321	孙蕊	Rebecca Sun	8010	Sales/Carrier Sales	rebecca.sun@borqs.com
+b407	乔治	George Qiao	8356	Sales/Carrier Sales	zhi.qiao@borqs.com
+b408	陈鹰	Chen Ying	8060	Sales/Carrier Sales	ying.chen@borqs.com
+b446	徐兵	Kathy Xu	8168	Sales/Carrier Sales	kathy.xu@borqs.com
+b470	韩学昭	Han Xuezhao	8069	Sales/Carrier Sales	xuezhao.han@borqs.com
+b480	包蒙蒙	Athena Bao	8009	Sales/Carrier Sales	mengmeng.bao@borqs.com
+b590	黄钺	Henry Huang	∕	Sales/Carrier Sales	yue.huang@borqs.com
+b604	王萍	Wang Ping	Sales/Carrier Sales	
+b101	金钟熙	Vince Kim	8136	Sales/Handest Sales	vince.kim@borqs.com
+b259	张斯成	Steven Zhang	8160	Sales/Handest Sales	steven.zhang@borqs.com
+b286	邹俊峰	Adam Zou	8298	Sales/Handest Sales	adam.zou@borqs.com
+b389	Danny So	Danny So	8216	Sales/Handest Sales	danny.so@borqs.com
+b399	何建军	Jason He	8307	Sales/Handest Sales	jianjun.he@borqs.com
+b140	张譞	Jessie Zhang	8122	Sales/Marketing	xuan.zhang@borqs.com
+b281	王佳	Michelle Wang	8135	Sales/Marketing	michelle.wang@borqs.com
+b484	聂嘉兴	Janice Nie	8155	Sales/Marketing	jiaxing.nie@borqs.com
+b610	黄鹍	Huang Kun	8153	Sales/Marketing	kun.huang@borqs.com
+b650	石洋	Shi Yang	Sales/Marketing	yang.shi@borqs.com
+b233	马佑民	Tim Ma	8018	Test & Support 	tim.ma@borqs.com"
+}
+
+main()
+{
+	dir | grep -i "$1"
+}
+
+main $@

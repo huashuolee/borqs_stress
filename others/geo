@@ -1,0 +1,10 @@
+#! /bin/bash
+n=1
+while true; do
+adb -s 014E0F5002010015 shell input tap 593 265
+sleep 2
+adb -s 014E0F5002010015 shell input tap 550 820
+n=$((n+1))
+echo $n 
+sleep 1
+done

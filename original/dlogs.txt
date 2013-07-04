@@ -1,0 +1,1492 @@
+--------- beginning of /dev/log/system
+03-31 16:58:58.747 D/ConnectivityService( 1474): tryFailover(): prevNetType=0, feature=default
+03-31 16:58:58.747 D/ConnectivityService( 1474): getMobileDataEnabled returning true
+03-31 16:58:58.747 D/ConnectivityService( 1474): Attempting to switch to WIFI
+03-31 16:58:58.747 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 16:58:58.747 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 16:58:58.757 D/ConnectivityService( 1474): reportNetworkCondition(1, 100)
+03-31 16:58:58.757 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=100,mActiveDefaultNetwork=1
+03-31 16:58:58.757 D/ConnectivityService( 1474): currently in hold - not setting new end evt
+03-31 16:58:58.777 D/ConnectivityService( 1474): reportNetworkCondition(1, 100)
+03-31 16:58:58.777 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=100,mActiveDefaultNetwork=1
+03-31 16:58:58.777 D/ConnectivityService( 1474): currently in hold - not setting new end evt
+03-31 16:58:58.947 D/ConnectivityService( 1474): Inet hold end, net=1, condition =100, published condition =0
+03-31 16:58:58.947 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 16:58:58.947 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 16:59:00.337 I/TelephonyRegistry( 1474): notifyCallForwardingChanged: false
+03-31 16:59:00.717 I/ActivityManager( 1474): moveTaskToBack: 73
+03-31 16:59:04.397 D/WifiService( 1474): acquireWifiLockLocked: WifiLock{NetworkLocationPassiveCollector type=2 binder=android.os.BinderProxy@34105d40}
+03-31 16:59:05.747 D/WifiService( 1474): releaseWifiLockLocked: WifiLock{NetworkLocationPassiveCollector type=2 binder=android.os.BinderProxy@34105d40}
+03-31 16:59:07.497 I/TelephonyRegistry( 1474): notifyServiceState: 0 home CHN-UNICOM UNICOM 46001  UMTS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+03-31 16:59:07.507 I/TelephonyRegistry( 1474): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=3
+03-31 16:59:53.407 I/ActivityManager( 1474): No longer want com.google.android.apps.maps:LocationFriendService (pid 11203): hidden #16
+03-31 16:59:53.407 W/ActivityManager( 1474): Scheduling restart of crashed service com.google.android.apps.maps/com.google.googlenav.appwidget.friends.FriendsAppWidgetUpdateService in 5000ms
+03-31 16:59:58.417 I/ActivityManager( 1474): Start proc com.google.android.apps.maps:LocationFriendService for service com.google.android.apps.maps/com.google.googlenav.appwidget.friends.FriendsAppWidgetUpdateService: pid=14491 uid=10044 gids={3003, 1015}
+03-31 17:00:02.177 I/ActivityManager( 1474): No longer want com.google.android.apps.maps (pid 13430): hidden #16
+03-31 17:00:02.227 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:00:02.237 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:04:58.832 W/WifiService( 1474): misformatted scan result for: fc:75:16:99:29:8e	2412	-40	[WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]	
+03-31 17:04:58.832 W/WifiService( 1474): misformatted scan result for: fc:75:16:99:29:8e	2412	-40	[WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]	
+03-31 17:04:58.842 W/WifiService( 1474): misformatted scan result for: fc:75:16:99:29:8e	2412	-40	[WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]	
+03-31 17:05:03.482 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: DISCONNECTED/DISCONNECTED
+03-31 17:05:03.482 D/ConnectivityService( 1474): ConnectivityChange for WIFI: DISCONNECTED/DISCONNECTED
+03-31 17:05:03.482 D/ConnectivityService( 1474): handleDisconnect prevNetType:1
+03-31 17:05:03.482 D/ConnectivityService( 1474): prevNetType=1/mNetTrackers.get(prevNetType).attributes.isDefault()=true --- tryFailover()
+03-31 17:05:03.482 D/ConnectivityService( 1474): tryFailover(): prevNetType=1, feature=default
+03-31 17:05:03.482 D/ConnectivityService( 1474): getMobileDataEnabled returning true
+03-31 17:05:03.482 D/ConnectivityService( 1474): Attempting to switch to mobile
+03-31 17:05:03.482 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :1
+03-31 17:05:03.502 I/TelephonyRegistry( 1474): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=default:dataEnabled interfaceName=null networkType=3
+03-31 17:05:03.512 D/ConnectivityService( 1474): ConnectivityChange for mobile/default: CONNECTING/CONNECTING
+03-31 17:05:03.512 D/ConnectivityService( 1474): ConnectivityChange for mobile: CONNECTING/CONNECTING
+03-31 17:05:03.512 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:05:03.522 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=-1
+03-31 17:05:03.522 D/ConnectivityService( 1474): no active default network - aborting
+03-31 17:05:07.482 I/TelephonyRegistry( 1474): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=default:dataEnabled interfaceName=rmnet0 networkType=3
+03-31 17:05:07.492 D/ConnectivityService( 1474): ConnectivityChange for mobile/default: CONNECTED/CONNECTED
+03-31 17:05:07.492 D/ConnectivityService( 1474): ConnectivityChange for mobile: CONNECTED/CONNECTED
+03-31 17:05:07.492 D/ConnectivityService( 1474): handleConnect(), info=NetworkInfo: type: 0|mobile[UMTS], state: CONNECTED/CONNECTED, aptype: default, ifname: rmnet0, reason: dataEnabled, extra: 3gnet, roaming: false, failover: true, isAvailable: true
+03-31 17:05:07.492 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :0
+03-31 17:05:07.492 D/ConnectivityService( 1474): adding dns 202.106.195.68 for mobile
+03-31 17:05:07.502 D/ConnectivityService( 1474): adding dns 202.106.46.151 for mobile
+03-31 17:05:07.502 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for mobile/default
+03-31 17:05:07.502 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:05:14.902 D/ConnectivityService( 1474): reportNetworkCondition(0, 100)
+03-31 17:05:14.912 D/ConnectivityService( 1474): Inet connectivity change, net=0, condition=100,mActiveDefaultNetwork=0
+03-31 17:05:14.912 D/ConnectivityService( 1474): starting a change hold
+03-31 17:05:15.412 D/ConnectivityService( 1474): Inet hold end, net=0, condition =100, published condition =0
+03-31 17:05:15.412 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for mobile/default
+03-31 17:05:15.412 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:05:18.872 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: DISCONNECTED/SCANNING
+03-31 17:05:18.872 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: DISCONNECTED/SCANNING
+03-31 17:05:19.242 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/CONNECTING
+03-31 17:05:19.242 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTING/CONNECTING
+03-31 17:05:19.242 W/WifiService( 1474): misformatted scan result for: fc:75:16:99:29:8e	2412	-41	[WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]	
+03-31 17:05:19.252 W/WifiService( 1474): misformatted scan result for: fc:75:16:99:29:8e	2412	-41	[WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]	
+03-31 17:05:19.262 W/WifiService( 1474): misformatted scan result for: fc:75:16:99:29:8e	2412	-41	[WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][WPS][ESS]	
+03-31 17:05:19.412 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/AUTHENTICATING
+03-31 17:05:19.412 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: CONNECTING/AUTHENTICATING
+03-31 17:05:19.472 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/OBTAINING_IPADDR
+03-31 17:05:19.472 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: CONNECTING/OBTAINING_IPADDR
+03-31 17:05:19.672 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTED/CONNECTED
+03-31 17:05:19.672 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+03-31 17:05:19.672 D/ConnectivityService( 1474): handleConnect(), info=NetworkInfo: type: 1|WIFI[], state: CONNECTED/CONNECTED, aptype: default, ifname: (unspecified), reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-31 17:05:19.672 V/ConnectivityService( 1474): Policy requires mobile teardown
+03-31 17:05:19.672 D/ConnectivityService( 1474): teardown NetworkInfo: type: 0|mobile[UMTS], state: CONNECTED/CONNECTED, aptype: default, ifname: rmnet0, reason: dataEnabled, extra: 3gnet, roaming: false, failover: false, isAvailable: true
+03-31 17:05:19.682 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :1
+03-31 17:05:19.682 D/ConnectivityService( 1474): adding dns 192.168.1.60 for WIFI
+03-31 17:05:19.682 D/ConnectivityService( 1474): adding dns 202.106.0.20 for WIFI
+03-31 17:05:19.682 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:05:19.682 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:05:19.692 D/ConnectivityService( 1474): reportNetworkCondition(0, 0)
+03-31 17:05:19.692 D/WifiWatchdogService( 1474): (android.server.ServerThread) wifi.borqs.com (00:1d:7e:a0:0e:81) does not require the watchdog
+03-31 17:05:19.692 D/ConnectivityService( 1474): Inet connectivity change, net=0, condition=0,mActiveDefaultNetwork=1
+03-31 17:05:19.692 D/ConnectivityService( 1474): given net not default - aborting
+03-31 17:05:21.282 I/TelephonyRegistry( 1474): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=default:dataDisabled interfaceName=null networkType=3
+03-31 17:05:21.302 D/ConnectivityService( 1474): ConnectivityChange for mobile/default: DISCONNECTED/DISCONNECTED
+03-31 17:05:21.302 D/ConnectivityService( 1474): ConnectivityChange for mobile: DISCONNECTED/DISCONNECTED
+03-31 17:05:21.302 D/ConnectivityService( 1474): handleDisconnect prevNetType:0
+03-31 17:05:21.302 D/ConnectivityService( 1474): prevNetType=0/mNetTrackers.get(prevNetType).attributes.isDefault()=true --- tryFailover()
+03-31 17:05:21.302 D/ConnectivityService( 1474): tryFailover(): prevNetType=0, feature=default
+03-31 17:05:21.302 D/ConnectivityService( 1474): getMobileDataEnabled returning true
+03-31 17:05:21.302 D/ConnectivityService( 1474): Attempting to switch to WIFI
+03-31 17:05:21.302 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :0
+03-31 17:05:21.322 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:05:21.322 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:05:41.092 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:05:41.092 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:05:41.092 D/ConnectivityService( 1474): starting a change hold
+03-31 17:05:44.102 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =0
+03-31 17:05:44.102 D/ConnectivityService( 1474): no change in condition - aborting
+03-31 17:06:09.090 D/ConnectivityService( 1474): reportNetworkCondition(1, 100)
+03-31 17:06:09.090 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=100,mActiveDefaultNetwork=1
+03-31 17:06:09.090 D/ConnectivityService( 1474): starting a change hold
+03-31 17:06:09.600 D/ConnectivityService( 1474): Inet hold end, net=1, condition =100, published condition =0
+03-31 17:06:09.600 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:06:09.600 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:14:30.568 I/ActivityManager( 1474): Start proc com.google.android.apps.maps for service com.google.android.apps.maps/com.google.googlenav.prefetch.android.PrefetcherService: pid=14870 uid=10044 gids={3003, 1015}
+03-31 17:15:02.635 D/WifiService( 1474): got ACTION_DEVICE_IDLE
+03-31 17:15:03.025 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: DISCONNECTED/IDLE
+03-31 17:15:03.025 D/ConnectivityService( 1474): ConnectivityChange for WIFI: DISCONNECTED/IDLE
+03-31 17:15:03.025 D/ConnectivityService( 1474): handleDisconnect prevNetType:1
+03-31 17:15:03.025 D/ConnectivityService( 1474): prevNetType=1/mNetTrackers.get(prevNetType).attributes.isDefault()=true --- tryFailover()
+03-31 17:15:03.025 D/ConnectivityService( 1474): tryFailover(): prevNetType=1, feature=default
+03-31 17:15:03.025 D/ConnectivityService( 1474): getMobileDataEnabled returning true
+03-31 17:15:03.035 D/ConnectivityService( 1474): Attempting to switch to mobile
+03-31 17:15:03.035 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :1
+03-31 17:15:03.045 I/TelephonyRegistry( 1474): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=default:dataEnabled interfaceName=null networkType=3
+03-31 17:15:03.065 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:15:03.075 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=-1
+03-31 17:15:03.075 D/ConnectivityService( 1474): no active default network - aborting
+03-31 17:15:03.115 D/ConnectivityService( 1474): ConnectivityChange for mobile/default: CONNECTING/CONNECTING
+03-31 17:15:03.115 D/ConnectivityService( 1474): ConnectivityChange for mobile: CONNECTING/CONNECTING
+03-31 17:15:06.955 I/TelephonyRegistry( 1474): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=default:dataEnabled interfaceName=rmnet0 networkType=3
+03-31 17:15:06.965 D/ConnectivityService( 1474): ConnectivityChange for mobile/default: CONNECTED/CONNECTED
+03-31 17:15:06.965 D/ConnectivityService( 1474): ConnectivityChange for mobile: CONNECTED/CONNECTED
+03-31 17:15:06.965 D/ConnectivityService( 1474): handleConnect(), info=NetworkInfo: type: 0|mobile[UMTS], state: CONNECTED/CONNECTED, aptype: default, ifname: rmnet0, reason: dataEnabled, extra: 3gnet, roaming: false, failover: true, isAvailable: true
+03-31 17:15:06.985 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :0
+03-31 17:15:06.985 D/ConnectivityService( 1474): adding dns 202.106.195.68 for mobile
+03-31 17:15:06.985 D/ConnectivityService( 1474): adding dns 202.106.46.151 for mobile
+03-31 17:15:06.985 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for mobile/default
+03-31 17:15:06.985 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:15:25.415 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:15:25.525 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: DISCONNECTED/SCANNING
+03-31 17:15:25.525 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: DISCONNECTED/SCANNING
+03-31 17:15:25.835 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/CONNECTING
+03-31 17:15:25.835 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTING/CONNECTING
+03-31 17:15:26.035 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/AUTHENTICATING
+03-31 17:15:26.035 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: CONNECTING/AUTHENTICATING
+03-31 17:15:26.085 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/OBTAINING_IPADDR
+03-31 17:15:26.085 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: CONNECTING/OBTAINING_IPADDR
+03-31 17:15:26.495 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTED/CONNECTED
+03-31 17:15:26.495 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+03-31 17:15:26.495 D/ConnectivityService( 1474): handleConnect(), info=NetworkInfo: type: 1|WIFI[], state: CONNECTED/CONNECTED, aptype: default, ifname: (unspecified), reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-31 17:15:26.495 V/ConnectivityService( 1474): Policy requires mobile teardown
+03-31 17:15:26.495 D/ConnectivityService( 1474): teardown NetworkInfo: type: 0|mobile[UMTS], state: CONNECTED/CONNECTED, aptype: default, ifname: rmnet0, reason: dataEnabled, extra: 3gnet, roaming: false, failover: false, isAvailable: true
+03-31 17:15:26.505 D/WifiWatchdogService( 1474): (android.server.ServerThread) wifi.borqs.com (00:1e:e5:a2:43:ee) does not require the watchdog
+03-31 17:15:26.505 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :1
+03-31 17:15:26.505 D/ConnectivityService( 1474): adding dns 192.168.1.60 for WIFI
+03-31 17:15:26.505 D/ConnectivityService( 1474): adding dns 202.106.0.20 for WIFI
+03-31 17:15:26.505 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:15:26.505 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:15:27.695 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@344044d0
+03-31 17:16:02.745 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:16:06.795 I/TelephonyRegistry( 1474): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=default:dataDisabled interfaceName=null networkType=3
+03-31 17:16:06.805 D/ConnectivityService( 1474): ConnectivityChange for mobile/default: DISCONNECTED/DISCONNECTED
+03-31 17:16:06.805 D/ConnectivityService( 1474): ConnectivityChange for mobile: DISCONNECTED/DISCONNECTED
+03-31 17:16:06.805 D/ConnectivityService( 1474): handleDisconnect prevNetType:0
+03-31 17:16:06.805 D/ConnectivityService( 1474): prevNetType=0/mNetTrackers.get(prevNetType).attributes.isDefault()=true --- tryFailover()
+03-31 17:16:06.805 D/ConnectivityService( 1474): tryFailover(): prevNetType=0, feature=default
+03-31 17:16:06.815 D/ConnectivityService( 1474): getMobileDataEnabled returning true
+03-31 17:16:06.815 D/ConnectivityService( 1474): Attempting to switch to WIFI
+03-31 17:16:06.815 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :0
+03-31 17:16:06.835 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:16:06.835 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:16:11.685 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:16:11.685 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:16:11.685 D/ConnectivityService( 1474): starting a change hold
+03-31 17:16:14.325 D/ConnectivityService( 1474): reportNetworkCondition(1, 100)
+03-31 17:16:14.325 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=100,mActiveDefaultNetwork=1
+03-31 17:16:14.325 D/ConnectivityService( 1474): currently in hold - not setting new end evt
+03-31 17:16:14.685 D/ConnectivityService( 1474): Inet hold end, net=1, condition =100, published condition =0
+03-31 17:16:14.685 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:16:14.685 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:17:11.355 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:17:11.355 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:19:38.295 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:19:40.045 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@33fa4930
+03-31 17:19:43.235 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:19:43.265 I/ActivityManager( 1474): Start proc com.android.camera for activity com.android.camera/.Camera: pid=15283 uid=10066 gids={1006, 1015}
+03-31 17:19:43.305 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:19:43.325 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=19}
+03-31 17:19:45.785 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:19:53.315 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:19:53.335 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=20}
+03-31 17:19:53.385 I/ActivityManager( 1474): No longer want com.innopath.activecare (pid 12628): hidden #16
+03-31 17:19:55.865 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:19:55.895 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:19:55.905 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=21}
+03-31 17:19:58.415 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:20:03.465 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:20:03.485 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=22}
+03-31 17:20:05.295 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:20:05.395 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:20:05.415 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=23}
+03-31 17:20:08.055 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:20:20.235 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:20:20.255 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=24}
+03-31 17:20:21.885 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:20:21.945 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:20:21.945 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=25}
+03-31 17:20:24.075 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:20:31.085 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:20:31.105 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=26}
+03-31 17:20:32.525 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:20:32.585 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:20:32.585 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=27}
+03-31 17:20:36.745 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:20:38.255 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:20:43.165 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:20:43.185 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=28}
+03-31 17:20:45.005 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:20:45.115 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:20:45.135 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=29}
+03-31 17:20:47.455 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:21:02.075 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:21:02.095 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=30}
+03-31 17:21:03.585 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:21:03.715 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:21:03.715 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=31}
+03-31 17:21:05.195 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:21:12.135 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:21:12.155 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=32}
+03-31 17:21:14.175 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:21:14.285 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:21:14.295 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=33}
+03-31 17:21:17.175 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:21:22.795 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:21:22.815 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=34}
+03-31 17:21:24.775 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:21:24.885 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:21:24.885 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=35}
+03-31 17:21:26.745 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:21:32.895 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:21:32.915 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=36}
+03-31 17:21:34.735 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:21:34.855 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:21:34.875 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=37}
+03-31 17:21:36.435 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:21:42.585 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:21:42.605 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=38}
+03-31 17:21:44.895 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:21:44.905 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:21:44.925 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=39}
+03-31 17:21:50.235 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:21:55.655 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:21:55.675 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=40}
+03-31 17:21:57.435 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:21:57.535 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:21:57.545 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=41}
+03-31 17:22:00.045 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:22:06.785 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:22:06.805 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=42}
+03-31 17:22:08.465 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:22:08.575 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:22:08.585 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=43}
+03-31 17:22:10.585 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:22:17.015 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:22:17.035 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=44}
+03-31 17:22:17.135 I/ActivityManager( 1474): No longer want com.orange.phonebackup:voxphonebackupservice (pid 11669): hidden #16
+03-31 17:22:17.145 W/ActivityManager( 1474): Scheduling restart of crashed service com.orange.phonebackup/com.voxmobili.app.service.BackupService in 5000ms
+03-31 17:22:18.525 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:22:18.645 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:22:18.655 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=45}
+03-31 17:22:21.475 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:22:22.155 I/ActivityManager( 1474): Start proc com.orange.phonebackup:voxphonebackupservice for service com.orange.phonebackup/com.voxmobili.app.service.BackupService: pid=16147 uid=10027 gids={3003}
+03-31 17:22:27.235 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:22:27.255 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=46}
+03-31 17:22:27.345 I/ActivityManager( 1474): No longer want com.google.android.apps.maps:NetworkLocationService (pid 11814): hidden #16
+03-31 17:22:27.355 W/ActivityManager( 1474): Scheduling restart of crashed service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService in 5000ms
+03-31 17:22:28.835 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:22:28.965 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:22:28.975 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=47}
+03-31 17:22:30.595 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:22:32.365 I/ActivityManager( 1474): Start proc com.google.android.apps.maps:NetworkLocationService for service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService: pid=16231 uid=10044 gids={3003, 1015}
+03-31 17:22:32.685 I/ActivityManager( 1474): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=16239 uid=10044 gids={3003, 1015}
+03-31 17:22:33.155 D/WifiService( 1474): acquireWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@3411a520}
+03-31 17:22:37.475 D/WifiService( 1474): releaseWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@3411a520}
+03-31 17:22:38.545 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:22:43.475 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:22:43.495 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=48}
+03-31 17:22:43.615 I/ActivityManager( 1474): No longer want com.android.mms (pid 12636): hidden #16
+03-31 17:23:02.915 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:23:02.955 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:23:02.975 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=49}
+03-31 17:23:04.875 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:23:11.215 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:23:11.235 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=50}
+03-31 17:23:12.875 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:23:12.925 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:23:12.935 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=51}
+03-31 17:23:14.925 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:23:22.275 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:23:22.295 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=52}
+03-31 17:23:25.205 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:23:25.225 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:23:25.235 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=53}
+03-31 17:23:37.655 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:23:38.705 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:23:39.215 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:23:39.235 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=54}
+03-31 17:23:40.465 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:23:40.585 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:23:40.605 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=55}
+03-31 17:23:42.065 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:23:48.305 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:23:48.325 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=56}
+03-31 17:23:49.895 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:23:49.965 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:23:49.975 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=57}
+03-31 17:23:52.125 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:24:06.205 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:24:06.225 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=58}
+03-31 17:24:08.735 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:24:08.765 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:24:08.775 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=59}
+03-31 17:24:10.445 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:24:20.385 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:24:20.405 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=60}
+03-31 17:24:32.575 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:24:32.595 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:24:32.615 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=61}
+03-31 17:24:35.385 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:24:36.295 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:24:36.325 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:24:36.325 D/ConnectivityService( 1474): starting a change hold
+03-31 17:24:36.325 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/OBTAINING_IPADDR
+03-31 17:24:36.325 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTING/OBTAINING_IPADDR
+03-31 17:24:36.325 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/OBTAINING_IPADDR
+03-31 17:24:36.325 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: CONNECTING/OBTAINING_IPADDR
+03-31 17:24:36.645 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTED/CONNECTED
+03-31 17:24:36.645 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+03-31 17:24:36.645 D/ConnectivityService( 1474): handleConnect(), info=NetworkInfo: type: 1|WIFI[], state: CONNECTED/CONNECTED, aptype: default, ifname: (unspecified), reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-31 17:24:36.645 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :1
+03-31 17:24:36.645 D/ConnectivityService( 1474): adding dns 192.168.1.60 for WIFI
+03-31 17:24:36.645 D/ConnectivityService( 1474): adding dns 202.106.0.20 for WIFI
+03-31 17:24:36.645 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:24:36.655 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:24:36.665 D/WifiWatchdogService( 1474): (android.server.ServerThread) wifi.borqs.com (00:1d:7e:a0:0e:81) does not require the watchdog
+03-31 17:24:39.325 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =0
+03-31 17:24:39.325 D/ConnectivityService( 1474): event hold for obsolete network - aborting
+03-31 17:24:39.645 D/ConnectivityService( 1474): reportNetworkCondition(1, 100)
+03-31 17:24:39.645 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=100,mActiveDefaultNetwork=1
+03-31 17:24:39.645 D/ConnectivityService( 1474): starting a change hold
+03-31 17:24:40.145 D/ConnectivityService( 1474): Inet hold end, net=1, condition =100, published condition =0
+03-31 17:24:40.145 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:24:40.145 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:24:49.675 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:24:49.695 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=62}
+03-31 17:25:02.355 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:25:02.415 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:25:02.415 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=63}
+03-31 17:25:07.905 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:25:13.825 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:25:13.845 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=64}
+03-31 17:25:16.745 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:25:16.775 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:25:16.785 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=65}
+03-31 17:25:19.615 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:25:25.995 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:25:26.015 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=66}
+03-31 17:25:27.885 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:25:27.995 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:25:28.015 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=67}
+03-31 17:25:29.515 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:25:32.295 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:25:32.315 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=68}
+03-31 17:25:34.065 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:25:34.185 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:25:34.205 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=69}
+03-31 17:25:37.025 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:25:37.045 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=70}
+03-31 17:25:39.175 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:25:39.775 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:25:39.805 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:25:39.825 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=71}
+03-31 17:25:46.435 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:25:57.425 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:25:57.435 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=72}
+03-31 17:26:29.255 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:26:29.285 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:26:29.295 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=73}
+03-31 17:26:37.755 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:26:39.185 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:26:53.575 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:26:53.575 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=74}
+03-31 17:26:55.165 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:26:55.265 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:26:55.265 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=75}
+03-31 17:26:58.495 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:27:05.525 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:27:05.545 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=76}
+03-31 17:27:07.195 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:27:07.265 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:27:07.265 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=77}
+03-31 17:27:09.645 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:27:17.575 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:27:17.585 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=78}
+03-31 17:27:18.215 W/ActivityManager( 1474): Activity pause timeout for HistoryRecord{33d97630 com.android.camera/.VideoCamera}
+03-31 17:27:19.985 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:27:20.005 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:27:20.025 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=79}
+03-31 17:27:22.615 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:27:39.325 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:27:41.435 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:27:41.455 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=80}
+03-31 17:27:47.425 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:27:47.455 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:27:47.475 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=81}
+03-31 17:27:56.325 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:29:33.945 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:29:33.965 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=82}
+03-31 17:29:34.745 I/ActivityManager( 1474): No longer want com.android.deskclock (pid 13900): hidden #16
+03-31 17:29:36.015 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:29:36.015 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:29:38.135 I/TelephonyRegistry( 1474): notifyServiceState: 0 home CHN-UNICOM UNICOM 46001  GPRS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+03-31 17:29:38.155 I/TelephonyRegistry( 1474): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=1
+03-31 17:29:38.215 D/WifiService( 1474): acquireWifiLockLocked: WifiLock{NetworkLocationPassiveCollector type=2 binder=android.os.BinderProxy@341b33b0}
+03-31 17:29:39.765 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:29:50.295 D/WifiService( 1474): releaseWifiLockLocked: WifiLock{NetworkLocationPassiveCollector type=2 binder=android.os.BinderProxy@341b33b0}
+03-31 17:31:40.530 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:31:41.830 I/TelephonyRegistry( 1474): notifyServiceState: 0 home CHN-UNICOM UNICOM 46001  UMTS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+03-31 17:31:41.850 I/TelephonyRegistry( 1474): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=3
+03-31 17:31:42.480 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@342b7710
+03-31 17:31:43.430 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:31:43.450 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:31:43.470 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=83}
+03-31 17:31:45.280 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:31:59.670 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:31:59.690 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=84}
+03-31 17:32:33.540 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.DIAL flg=0x10200000 cmp=com.android.contacts/.DialtactsActivity } from pid 2327
+03-31 17:32:38.740 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.CALL_PRIVILEGED dat=tel:xxx-xxx-xxxx flg=0x10000000 cmp=com.android.phone/.PrivilegedOutgoingCallBroadcaster } from pid 2335
+03-31 17:32:38.800 I/ActivityManager( 1474): Starting: Intent { act=android.phone.extra.NEW_CALL_INTENT dat=tel:xxx-xxx-xxxx flg=0x10000000 cmp=com.android.phone/.SipCallOptionHandler (has extras) } from pid 1693
+03-31 17:32:38.800 W/ActivityManager( 1474): Duplicate finish request for HistoryRecord{33e01830 com.android.phone/.PrivilegedOutgoingCallBroadcaster}
+03-31 17:32:38.840 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@34379090
+03-31 17:32:38.860 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.CALL dat=tel:xxx-xxx-xxxx flg=0x10000000 cmp=com.android.phone/.InCallScreen (has extras) } from pid 1693
+03-31 17:32:40.430 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:32:41.750 I/ActivityManager( 1474): moveTaskToBack: 73
+03-31 17:33:32.840 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:33:32.870 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:33:32.890 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=85}
+03-31 17:33:54.580 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:33:54.600 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=86}
+03-31 17:34:55.130 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:34:55.130 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:35:46.228 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:35:48.008 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@341b92e0
+03-31 17:35:55.868 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:35:55.908 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:35:55.928 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=87}
+03-31 17:36:00.758 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:36:46.158 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:37:27.518 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.STILL_IMAGE_CAMERA flg=0x6000000 cmp=com.android.camera/.Camera } from pid 15283
+03-31 17:37:35.528 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:37:35.548 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=88}
+03-31 17:37:37.878 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:37:37.888 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:37:37.908 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=89}
+03-31 17:37:46.338 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:37:58.938 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:37:58.958 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=90}
+03-31 17:38:59.518 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:38:59.528 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:39:58.885 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:40:00.905 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 0
+03-31 17:40:01.165 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:40:01.205 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:40:01.245 I/ActivityManager( 1474): Start proc com.innopath.activecare for broadcast com.innopath.activecare/.update.PhoneChargerListener: pid=18728 uid=1000 gids={3002, 3001, 3003, 1007, 1015, 1006}
+03-31 17:40:01.665 W/Vold    ( 1249): Ignoring unknown switch 'usb_connected'
+03-31 17:40:01.665 D/Vold    ( 1249): USB connected
+03-31 17:40:01.665 D/Vold    ( 1249): Share method ums now available
+03-31 17:40:01.665 I/MountService( 1474): onEvent:: raw= 620 Share method ums now available cooked =  620 Share method ums now available
+03-31 17:40:01.665 D/MountService( 1474): onUsbMassStorageConnectionChanged called to notify connection updates method ums avail
+03-31 17:40:11.285 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:40:11.285 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:40:21.265 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:40:23.115 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@33f73880
+03-31 17:40:23.695 I/ActivityManager( 1474): No longer want com.ting.mp3.android (pid 12435): hidden #16
+03-31 17:40:23.705 I/WindowManager( 1474): WIN DEATH: Window{33e92a50 com.ting.mp3.android/com.ting.mp3.android.activity.MainTabActivity paused=false}
+03-31 17:40:23.705 W/ActivityManager( 1474): Scheduling restart of crashed service com.ting.mp3.android/.service.MusicPlayService in 5000ms
+03-31 17:40:23.705 W/ActivityManager( 1474): Scheduling restart of crashed service com.ting.mp3.android/.download.DownloadServiceC in 15000ms
+03-31 17:40:24.125 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:40:24.155 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:40:24.165 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=91}
+03-31 17:40:28.235 I/ActivityManager( 1474): Starting: Intent { act=android.media.action.VIDEO_CAMERA flg=0x6000000 cmp=com.android.camera/.VideoCamera } from pid 15283
+03-31 17:40:28.725 I/ActivityManager( 1474): Start proc com.ting.mp3.android for service com.ting.mp3.android/.service.MusicPlayService: pid=18813 uid=10084 gids={3003, 1015}
+03-31 17:42:51.435 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.orange.homescreen/com.orange.homescreen3x.MainActivity } from pid 1474
+03-31 17:42:51.765 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:42:51.785 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=92}
+03-31 17:43:15.735 W/ActivityManager( 1474): finishReceiver called but no pending broadcasts
+03-31 17:43:15.895 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:43:15.925 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:43:15.925 D/ConnectivityService( 1474): starting a change hold
+03-31 17:43:18.925 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =100
+03-31 17:43:18.935 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 17:43:18.935 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 17:43:51.545 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:43:51.545 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:44:17.225 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:44:17.235 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:44:17.235 D/ConnectivityService( 1474): starting a change hold
+03-31 17:44:20.245 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =0
+03-31 17:44:20.245 D/ConnectivityService( 1474): no change in condition - aborting
+03-31 17:45:00.385 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:45:01.255 D/WifiService( 1474): acquireWifiLockLocked: WifiLock{com.doubleTwist.podcast.PodcastUpdateService type=1 binder=android.os.BinderProxy@33ea5320}
+03-31 17:45:39.525 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:45:39.525 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:45:39.525 D/ConnectivityService( 1474): starting a change hold
+03-31 17:45:41.485 D/WifiService( 1474): releaseWifiLockLocked: WifiLock{com.doubleTwist.podcast.PodcastUpdateService type=1 binder=android.os.BinderProxy@33ea5320}
+03-31 17:45:42.535 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =0
+03-31 17:45:42.535 D/ConnectivityService( 1474): no change in condition - aborting
+03-31 17:47:02.255 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:47:43.775 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:47:43.775 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:47:43.775 D/ConnectivityService( 1474): starting a change hold
+03-31 17:47:46.785 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =0
+03-31 17:47:46.785 D/ConnectivityService( 1474): no change in condition - aborting
+03-31 17:49:02.615 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:50:02.785 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:50:31.695 I/ActivityManager( 1474): No longer want com.android.settings (pid 14316): hidden #16
+03-31 17:51:12.035 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:51:12.035 D/ConnectivityService( 1474): starting a change hold
+03-31 17:51:12.035 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:51:15.035 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =0
+03-31 17:51:15.035 D/ConnectivityService( 1474): no change in condition - aborting
+03-31 17:52:03.095 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:53:03.265 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:55:03.575 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:55:40.825 I/ActivityManager( 1474): No longer want com.orange.phonebackup (pid 13655): hidden #16
+03-31 17:55:40.825 I/ActivityManager( 1474): No longer want com.orange.phonebackup:voxphonebackupservice (pid 16147): hidden #17
+03-31 17:55:40.865 W/ActivityManager( 1474): Scheduling restart of crashed service com.orange.phonebackup/com.voxmobili.app.service.BackupService in 5000ms
+03-31 17:55:40.925 D/WifiService( 1474): acquireWifiLockLocked: WifiLock{NetworkLocationPassiveCollector type=2 binder=android.os.BinderProxy@3427f530}
+03-31 17:55:41.005 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:55:45.865 I/ActivityManager( 1474): Start proc com.orange.phonebackup:voxphonebackupservice for service com.orange.phonebackup/com.voxmobili.app.service.BackupService: pid=18956 uid=10027 gids={3003}
+03-31 17:55:46.015 I/ActivityManager( 1474): Start proc com.orange.phonebackup for content provider com.orange.phonebackup/com.voxmobili.phonebackup.provider.PhoneBackupCoreDatabaseProvider: pid=18963 uid=10027 gids={3003}
+03-31 17:55:46.305 I/ActivityManager( 1474): No longer want com.google.android.apps.maps:NetworkLocationService (pid 16231): hidden #16
+03-31 17:55:46.315 D/WifiService( 1474): releaseWifiLockLocked: WifiLock{NetworkLocationPassiveCollector type=2 binder=android.os.BinderProxy@3427f530}
+03-31 17:55:46.315 W/ActivityManager( 1474): Scheduling restart of crashed service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService in 5000ms
+03-31 17:55:49.115 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:55:49.125 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:55:51.345 I/ActivityManager( 1474): Start proc com.google.android.apps.maps:NetworkLocationService for service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService: pid=18991 uid=10044 gids={3003, 1015}
+03-31 17:55:51.955 D/WifiService( 1474): acquireWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@33f51760}
+03-31 17:55:53.565 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 17:55:55.205 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@342f36b0
+03-31 17:55:55.785 I/ActivityManager( 1474): No longer want com.google.android.apps.uploader (pid 11621): hidden #16
+03-31 17:55:56.285 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera } from pid 2327
+03-31 17:55:56.305 I/WindowManager( 1474): Setting rotation to 1, animFlags=1
+03-31 17:55:56.325 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=268435491 uiMode=17 seq=93}
+03-31 17:55:56.985 D/WifiService( 1474): releaseWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@33f51760}
+03-31 17:56:03.745 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+--------- beginning of /dev/log/main
+03-31 17:56:34.915 D/AudioPlayer( 1254): START: AudioSink flush in seekTo
+03-31 17:56:34.915 D/AudioTrack( 1254): enter flush
+03-31 17:56:34.915 D/AudioTrack( 1254): leave flush
+03-31 17:56:34.915 D/AudioPlayer( 1254): FINISH: AudioSink flush in seekTo
+03-31 17:56:34.915 D/AwesomePlayer( 1254): Leave seekTo(), st = 0
+03-31 17:56:34.915 D/AwesomePlayer( 1254): Enter play()
+03-31 17:56:34.915 D/AudioPlayer( 1254): START: AudioSink start in resume
+03-31 17:56:34.915 V/AudioPolicyManagerBase( 1254): startOutput() in. output 1, stream 7, session 658, mAvailableOutputDevices:0x3. mPhoneState:0.
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): startOutput. stream: 7, output: 1. Mute media stream now for output: 1.
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): setStrategyMute() strategy 0, mute 1, output 1, delayMs 0.
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): setStreamMute() stream 1, mute 1, output 1, mCanBeMuted 1, mMuteCount 0
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 1, output: 1, index:0, device: 0x2. delayMs:0, force: 0.
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): setStreamVolume() for output 1 stream 1, volume 0.000000, delay 0
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): setStreamMute() stream 3, mute 1, output 1, mCanBeMuted 1, mMuteCount 0
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 3, output: 1, index:0, device: 0x2. delayMs:0, force: 0.
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): setStreamVolume() for output 1 stream 3, volume 0.000000, delay 0
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): setStreamMute() stream 9, mute 1, output 1, mCanBeMuted 1, mMuteCount 0
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 9, output: 1, index:0, device: 0x2. delayMs:0, force: 0.
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): setStreamVolume() for output 1 stream 9, volume 0.000000, delay 0
+03-31 17:56:34.915 V/AudioPolicyManagerBase( 1254): changeRefCount() stream 7, count 1
+03-31 17:56:34.915 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 2
+03-31 17:56:34.915 V/AudioPolicyManagerBase( 1254): setOutputDevice() output 1 device 2 delayMs 0
+03-31 17:56:34.915 V/AudioPolicyManagerBase( 1254): setOutputDevice() setting same device 2 or null device for output 1
+03-31 17:56:34.915 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 7, output: 1, index:7, device: 0x2. delayMs:0, force: 0.
+03-31 17:56:34.915 V/AudioPolicyManagerBase( 1254): startOutput() out.
+03-31 17:56:34.915 D/AudioPlayer( 1254): FINISH: AudioSink start in resume
+03-31 17:56:34.915 D/AwesomePlayer( 1254): Leave play(), status = 0
+03-31 17:56:34.915 D/CameraHardware( 1254): virtual void android::CameraHardware::stopRecording() :
+03-31 17:56:34.915 D/IntelBufferSharing( 1254): [BufferShareStatus android::BufferShareRegistry::transitToState(android::BufferShareState): transition request] src state = BS_LOADED, dst state = BS_INVALID
+03-31 17:56:34.915 D/IntelBufferSharing( 1254): [void android::BufferShareRegistry::onStateTransitionCompleted(android::BufferShareState): transition complete] src state = BS_LOADED, dst state = BS_INVALID
+03-31 17:56:34.915 D/MPEG4Writer( 1254): 0 chunks are written in the last batch
+03-31 17:56:34.915 V/componentbase( 1254): command process workqueue stopped
+03-31 17:56:34.925 I/cmodule ( 1254): module libOMXVideoEncoderAVC.so successfully unloaded
+03-31 17:56:34.925 I/wrs-omxil-core( 1254): free handle of component OMX.Intel.VideoEncoder.AVC successfully
+03-31 17:56:34.925 I/OMXCodec( 1254): [OMX.Intel.VideoEncoder.AVC] setState 0, mAsyncCompletion signal
+03-31 17:56:34.935 V/componentbase( 1254): command process workqueue stopped
+03-31 17:56:34.935 I/cmodule ( 1254): module libomx_ipp_aacenc.so successfully unloaded
+03-31 17:56:34.935 I/wrs-omxil-core( 1254): free handle of component OMX.Intel.IPP.AACENC successfully
+03-31 17:56:34.935 I/OMXCodec( 1254): [OMX.Intel.IPP.AACENC] setState 0, mAsyncCompletion signal
+03-31 17:56:34.935 V/videocamera(15283): Setting current video filename: /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp
+03-31 17:56:34.945 V/MediaProvider( 7136): [VIDEO_MEDIA]insertInternal(). duration: 0, path: /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp
+03-31 17:56:34.975 V/MediaProvider( 7136): Extract thumbnail for: /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp, there are 0 tasks left in queue
+03-31 17:56:34.975 I/DrmSource( 1254): Enter SVC_drm_openSession()
+03-31 17:56:34.975 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1417)In
+03-31 17:56:34.975 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1451)Got the mime type is 255
+03-31 17:56:34.975 I/DrmSource( 1254): Leave SVC_drm_openSession(), mDrmSessionID = -4
+03-31 17:56:34.985 W/DrmSource( 1254): WARNING: new drm source fail or initcheck fail, /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp is not a drm file
+03-31 17:56:34.995 V/videocamera(15283): Current video URI: content://media/external/video/media/39
+03-31 17:56:34.995 V/videocamera(15283): Releasing media recorder.
+03-31 17:56:34.995 V/AudioPolicyManagerBase( 1254): releaseInput() 660
+03-31 17:56:34.995 D/AudioHardwareALSA( 1254): closeInputStream
+03-31 17:56:35.005 D/AudioHardwareALSA( 1254): StreamInAlsa close.
+03-31 17:56:35.005 V/AudioPolicyManagerBase( 1254): releaseInput() exit
+03-31 17:56:35.035 D/dalvikvm( 7136): GC_EXPLICIT freed 12K, 64% free 3352K/9287K, external 2196K/6292K, paused 18ms
+03-31 17:56:35.045 I/DrmSource( 1254): Enter SVC_drm_openSession()
+03-31 17:56:35.045 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1417)In
+03-31 17:56:35.045 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1451)Got the mime type is 255
+03-31 17:56:35.045 I/DrmSource( 1254): Leave SVC_drm_openSession(), mDrmSessionID = -4
+03-31 17:56:35.045 W/DrmSource( 1254): WARNING: new drm source fail or initcheck fail, /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp is not a drm file
+03-31 17:56:35.045 W/VAVideoDecoder( 1254): Decoder will output raw data.
+03-31 17:56:35.045 W/VideoDecoder( 1254): Output is raw data.
+03-31 17:56:35.045 I/MixVBP  ( 1254): SPS header is parsed.
+03-31 17:56:35.045 I/MixVBP  ( 1254): PPS header is parsed.
+03-31 17:56:35.045 I/VideoDecoder( 1254): maxDPBSize = 5, num_ref_frame = 1
+03-31 17:56:35.045 I/VideoDecoder( 1254): updateFormatInfo: current size: 1920 x 1080, new size: 1920 x 1088
+03-31 17:56:35.045 I/VideoDecoder( 1254): Video size is changed.
+03-31 17:56:35.045 I/VideoDecoder( 1254): New sequence is received. Assuming video size is changed.
+03-31 17:56:35.045 I/VideoDecoder( 1254): Cropping: left = 0, top = 0, right = 0, bottom = 8
+03-31 17:56:35.065 D/pvr_drv_video( 1254): psb__open_log.
+03-31 17:56:35.085 W/VAVideoDecoder( 1254): Decoder will output raw data.
+03-31 17:56:35.085 W/VideoDecoder( 1254): Output is raw data.
+03-31 17:56:35.085 I/MixVBP  ( 1254): SPS header is parsed.
+03-31 17:56:35.085 I/MixVBP  ( 1254): PPS header is parsed.
+03-31 17:56:35.085 I/VideoDecoder( 1254): maxDPBSize = 5, num_ref_frame = 1
+03-31 17:56:35.085 I/VideoDecoder( 1254): updateFormatInfo: current size: 1920 x 1080, new size: 1920 x 1088
+03-31 17:56:35.085 I/VideoDecoder( 1254): Video size is changed.
+03-31 17:56:35.085 I/VideoDecoder( 1254): New sequence is received. Assuming video size is changed.
+03-31 17:56:35.085 I/VideoDecoder( 1254): Cropping: left = 0, top = 0, right = 0, bottom = 8
+03-31 17:56:35.085 D/pvr_drv_video( 1254): psb__open_log.
+03-31 17:56:35.105 E/MixVBP  ( 1254): Invalid NAL_length parsed.
+03-31 17:56:35.105 W/MixVBP  ( 1254): Elementary stream is not aligned (172902).
+03-31 17:56:35.105 W/MixVBP  ( 1254): Stream was supposed to be length prefixed, but actually is start-code prefixed.
+03-31 17:56:35.105 W/VAVideoDecoder( 1254): Format changed.
+03-31 17:56:35.105 E/MixVBP  ( 1254): Invalid NAL_length parsed.
+03-31 17:56:35.105 W/MixVBP  ( 1254): Elementary stream is not aligned (172902).
+03-31 17:56:35.105 W/MixVBP  ( 1254): Stream was supposed to be length prefixed, but actually is start-code prefixed.
+03-31 17:56:35.105 W/VAVideoDecoder( 1254): Format changed.
+03-31 17:56:35.155 I/DrmSource( 1254): Enter SVC_drm_openSession()
+03-31 17:56:35.155 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1417)In
+03-31 17:56:35.155 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1451)Got the mime type is 255
+03-31 17:56:35.155 I/DrmSource( 1254): Leave SVC_drm_openSession(), mDrmSessionID = -4
+03-31 17:56:35.155 W/DrmSource( 1254): WARNING: new drm source fail or initcheck fail, /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp is not a drm file
+03-31 17:56:35.165 D/UploadsManager( 2435): FsId changed! -1
+03-31 17:56:35.175 D/UploadsManager( 2435): fsid not changed
+03-31 17:56:35.195 D/AwesomePlayer( 1254): Enter onStreamDone
+03-31 17:56:35.195 D/AudioPlayer( 1254): START: AudioSink stop in pause
+03-31 17:56:35.195 D/AudioTrack( 1254): enter stop 0x8a06cc0
+03-31 17:56:35.195 D/AudioFlinger( 1254): enter stop(4097), calling thread 1254
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): stopOutput() in. output 1, stream 7, session 658, mAvailableOutputDevices:0x3. mPhoneState:0.
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): changeRefCount() stream 7, count 0
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 0
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 0
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): stopOutput. new device is HDMI or WIDI: 0, previous device is: 0x0, new devices is: 0x2 . Sleep for some time to avoid outputing sonification sound via HDMI or WIDI if possible.
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 0
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): setOutputDevice() output 1 device 0 delayMs 0
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): setOutputDevice() setting same device 0 or null device for output 1
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): stopOutput. stream: 7, output: 1. Unmute media stream now for output: 1. its latency: 93.
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): setStrategyMute() strategy 0, mute 0, output 1, delayMs 186.
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): setStreamMute() stream 1, mute 0, output 1, mCanBeMuted 1, mMuteCount 1
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 1, output: 1, index:7, device: 0x2. delayMs:186, force: 0.
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): setStreamVolume() for output 1 stream 1, volume 1.000000, delay 186
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): setStreamMute() stream 3, mute 0, output 1, mCanBeMuted 1, mMuteCount 1
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 3, output: 1, index:8, device: 0x2. delayMs:186, force: 0.
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): setStreamVolume() for output 1 stream 3, volume 0.316228, delay 186
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): setStreamMute() stream 9, mute 0, output 1, mCanBeMuted 1, mMuteCount 1
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 9, output: 1, index:8, device: 0x2. delayMs:186, force: 0.
+03-31 17:56:35.195 D/AudioPolicyManagerBase( 1254): setStreamVolume() for output 1 stream 9, volume 0.066834, delay 186
+03-31 17:56:35.195 V/AudioPolicyManagerBase( 1254): stopOutput() out.
+03-31 17:56:35.195 D/AudioFlinger( 1254): leave AudioFlinger::Track::stop()
+03-31 17:56:35.195 D/AudioTrack( 1254): leave stop 0x8a06cc0
+03-31 17:56:35.195 D/AudioPlayer( 1254): FINISH: AudioSink stop in pause
+03-31 17:56:35.195 D/AwesomePlayer( 1254): Leave onStreamDone
+03-31 17:56:35.375 E/ia_watchdog( 1257): Timer interrupt
+03-31 17:56:35.375 E/ia_watchdog( 1257): waiting for a timer interrupt
+03-31 17:56:36.455 I/VideoDecoder( 1254): Deleting decoder for video/avc
+03-31 17:56:36.465 D/MediaMetadataRetrieverJNI(15283): Create a rotation matrix: 90 degrees
+03-31 17:56:36.495 D/dalvikvm(15283): GC_EXTERNAL_ALLOC freed 670K, 74% free 3398K/12807K, external 2516K/6169K, paused 17ms
+03-31 17:56:36.575 I/VideoDecoder( 1254): Deleting decoder for video/avc
+03-31 17:56:36.595 D/MediaMetadataRetrieverJNI( 7136): Create a rotation matrix: 90 degrees
+03-31 17:56:36.815 V/GLRootView(15283): layout content pane 1024x600
+03-31 17:56:36.975 D/pvr_drv_video( 7136): psb__open_log.
+03-31 17:56:37.245 D/dalvikvm( 7136): GC_EXTERNAL_ALLOC freed 32K, 64% free 3361K/9287K, external 6278K/6292K, paused 7ms
+03-31 17:56:37.245 D/pvr_drv_video( 7136): psb__open_log.
+03-31 17:56:37.285 V/MediaProvider( 7136): Extract thumbnail for: /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp finished, now there are 1 tasks left in queue
+03-31 17:56:37.285 V/MediaProvider( 7136): Extract thumbnail for: /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp, there are 0 tasks left in queue
+03-31 17:56:37.295 I/DrmSource( 1254): Enter SVC_drm_openSession()
+03-31 17:56:37.295 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1417)In
+03-31 17:56:37.295 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1451)Got the mime type is 255
+03-31 17:56:37.295 I/DrmSource( 1254): Leave SVC_drm_openSession(), mDrmSessionID = -4
+03-31 17:56:37.295 W/DrmSource( 1254): WARNING: new drm source fail or initcheck fail, /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp is not a drm file
+03-31 17:56:37.305 W/VAVideoDecoder( 1254): Decoder will output raw data.
+03-31 17:56:37.305 W/VideoDecoder( 1254): Output is raw data.
+03-31 17:56:37.305 I/MixVBP  ( 1254): SPS header is parsed.
+03-31 17:56:37.305 I/MixVBP  ( 1254): PPS header is parsed.
+03-31 17:56:37.305 I/VideoDecoder( 1254): maxDPBSize = 5, num_ref_frame = 1
+03-31 17:56:37.305 I/VideoDecoder( 1254): updateFormatInfo: current size: 1920 x 1080, new size: 1920 x 1088
+03-31 17:56:37.305 I/VideoDecoder( 1254): Video size is changed.
+03-31 17:56:37.305 I/VideoDecoder( 1254): New sequence is received. Assuming video size is changed.
+03-31 17:56:37.305 I/VideoDecoder( 1254): Cropping: left = 0, top = 0, right = 0, bottom = 8
+03-31 17:56:37.305 D/pvr_drv_video( 1254): psb__open_log.
+03-31 17:56:37.325 E/MixVBP  ( 1254): Invalid NAL_length parsed.
+03-31 17:56:37.325 W/MixVBP  ( 1254): Elementary stream is not aligned (172902).
+03-31 17:56:37.325 W/MixVBP  ( 1254): Stream was supposed to be length prefixed, but actually is start-code prefixed.
+03-31 17:56:37.325 W/VAVideoDecoder( 1254): Format changed.
+03-31 17:56:37.465 V/GLRootView(15283): layout content pane 1024x600
+03-31 17:56:38.305 D/AudioHardwareALSA( 1254): standby
+03-31 17:56:38.305 D/AudioHardwareALSA( 1254): standby
+03-31 17:56:38.395 D/ALSAModuleCDK( 1254): standby handle->curMode=0 direction=0
+03-31 17:56:38.395 D/ALSAModuleCDK( 1254): S_STANDBY
+03-31 17:56:38.565 I/VideoDecoder( 1254): Deleting decoder for video/avc
+03-31 17:56:38.575 D/MediaMetadataRetrieverJNI( 7136): Create a rotation matrix: 90 degrees
+03-31 17:56:38.775 D/pvr_drv_video( 7136): psb__open_log.
+03-31 17:56:39.015 D/dalvikvm( 7136): GC_EXTERNAL_ALLOC freed 42K, 64% free 3349K/9287K, external 6296K/6310K, paused 5ms
+03-31 17:56:39.015 D/pvr_drv_video( 7136): psb__open_log.
+03-31 17:56:39.045 V/MediaProvider( 7136): Extract thumbnail for: /mnt/sdcard/DCIM/100ANDRO/VID_0041.3gp finished, now there are 0 tasks left in queue
+03-31 17:56:45.625 D/dalvikvm( 2335): GC_EXPLICIT freed 573K, 69% free 4234K/13383K, external 8584K/12680K, paused 30ms
+03-31 17:56:47.865 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status
+03-31 17:56:47.865 I/GTalkService( 1798): [GTalkConnection.1] setInternalNetworkState: type=1, state=CONNECTED
+03-31 17:56:47.865 D/GTalkService/c( 1798): [GTalkConnection.1] connect: acquire wakelock, async connect...
+03-31 17:56:47.865 I/GTalkService( 1798): [GTalkConnection.1] acquireAsyncWakeLock: WakeLock{3400f500 held=true, refCount=0}
+03-31 17:56:47.965 I/!!!!!!!!!( 2327): ##############!!!!!!!!!!!!!!!!!!!!!
+03-31 17:56:47.975 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status - done, took 115 ms
+03-31 17:56:47.985 I/GTalkService( 1798): doConnect: start...
+03-31 17:56:48.075 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 17:56:48.125 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 53 fc:75:16:99:29:8e]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 54 00:3a:98:75:62:f0]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 55 5c:63:bf:f2:14:65]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 56 5c:63:bf:a8:d8:08]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 57 00:1e:e5:a2:43:ee]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 58 00:16:47:74:ab:50]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 59 00:3a:98:75:62:f1]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 60 00:25:4b:05:37:63]
+03-31 17:56:59.385 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-REMOVED 61 00:16:47:74:ab:51]
+03-31 17:56:59.995 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.TIME_TICK
+03-31 17:57:00.005 I/System.out(11218):  *********** Orange Clock ACTION_TIME_TICK Intent *********** 
+03-31 17:57:00.025 I/System.out(11218):  *********** Orange Clock Receiver *********** com.orange.clockalarm.time_tick
+03-31 17:57:03.885 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 90
+03-31 17:57:03.885 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 350
+03-31 17:57:03.895 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.BATTERY_CHANGED
+03-31 17:57:03.905 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:57:03.915 D/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood
+03-31 17:57:03.915 W/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood no current sync or not previously suspended
+03-31 17:57:03.915 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 90
+03-31 17:57:03.915 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 350
+03-31 17:57:11.235 D/dalvikvm( 2327): GC_EXPLICIT freed 2842K, 67% free 4061K/12295K, external 12299K/16278K, paused 51ms
+03-31 17:57:16.205 D/dalvikvm( 7136): GC_EXPLICIT freed 21K, 64% free 3346K/9287K, external 2214K/6310K, paused 12ms
+03-31 17:57:28.145 W/GTalkService( 1798): [GTalkConnection.27] doConnect: caught Could not connect to mtalk.google.com:5228.: (404)
+03-31 17:57:28.145 W/GTalkService( 1798):   -- caused by: java.net.UnknownHostException: mtalk.google.com
+03-31 17:57:28.145 I/GTalkService( 1798): handleDoConnectError: error=3, XmppError=null
+03-31 17:57:28.145 I/GTalkService( 1798): [GTalkConnection.27] connectionClosed: connId=0, error=UNKNOWN HOST
+03-31 17:57:28.145 D/ConnectivityService( 1474): reportNetworkCondition(1, 0)
+03-31 17:57:28.155 I/GTalkService( 1798): [GTalkConnection.27] handleDoConnectError: release wakelock
+03-31 17:57:28.155 I/GTalkService( 1798): [GTalkConnection.27] releaseAsyncWakeLock: clear timer: WakeLock{3400f500 held=false, refCount=0}
+03-31 17:57:28.155 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status
+03-31 17:57:28.155 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=0,mActiveDefaultNetwork=1
+03-31 17:57:28.155 D/ConnectivityService( 1474): starting a change hold
+03-31 17:57:28.255 I/!!!!!!!!!( 2327): ##############!!!!!!!!!!!!!!!!!!!!!
+03-31 17:57:28.265 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status - done, took 113 ms
+03-31 17:57:28.325 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 17:57:28.395 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 17:57:29.115 D/dalvikvm(14491): GC_EXPLICIT freed 60K, 52% free 3877K/8007K, external 1625K/4116K, paused 17ms
+03-31 17:57:31.155 D/ConnectivityService( 1474): Inet hold end, net=1, condition =0, published condition =0
+03-31 17:57:31.155 D/ConnectivityService( 1474): no change in condition - aborting
+03-31 17:57:47.025 D/dalvikvm( 6142): GC_EXPLICIT freed 20K, 60% free 3010K/7363K, external 1625K/4116K, paused 7ms
+03-31 17:57:58.015 D/Vibrator_Alsa( 1474): vibrator_off : Vibrator request OFF ....................
+03-31 17:57:58.015 D/Vibrator_Alsa( 1474): vibrator_on : Vibrator request ON for 10 ms ....................
+03-31 17:57:58.015 W/KeyCharacterMap(15283): No keyboard for id 0
+03-31 17:57:58.015 W/KeyCharacterMap(15283): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+03-31 17:57:58.015 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator starts(10ms)
+03-31 17:57:58.025 D/Vibrator_Alsa( 1474): vibrator_alsa: One timeout-thread starts for 10 ms
+03-31 17:57:58.025 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread sleeps
+03-31 17:57:58.035 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread turns off the vibrator
+03-31 17:57:58.035 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator ends
+03-31 17:57:58.055 D/Vibrator_Alsa( 1474): vibrator_on : Vibrator request ON for 30 ms ....................
+03-31 17:57:58.055 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator starts(24ms)
+03-31 17:57:58.055 D/Vibrator_Alsa( 1474): vibrator_alsa: One timeout-thread starts for 24 ms
+03-31 17:57:58.055 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread sleeps
+03-31 17:57:58.085 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread turns off the vibrator
+03-31 17:57:58.085 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator ends
+03-31 17:57:58.215 V/videocamera(15283): stopVideoRecording
+03-31 17:57:58.215 V/videocamera(15283): Releasing media recorder.
+03-31 17:57:58.215 V/videocamera(15283): closeCamera
+03-31 17:57:58.215 D/CameraHardware( 1254): virtual void android::CameraHardware::stopPreview(): start
+03-31 17:57:58.215 D/CameraHardware( 1254): bool android::CameraHardware::stopPreviewThread() :
+03-31 17:57:58.215 I/CameraHardware( 1254): int android::CameraHardware::aeAfAwbThread(): previewaeafawb is waiting
+03-31 17:57:58.215 D/CameraHardware( 1254): Stopped the 3A now
+03-31 17:57:58.235 I/CameraHardware( 1254): int android::CameraHardware::previewThreadWrapper(): preview is waiting
+03-31 17:57:58.235 D/CameraHardware( 1254): preview has stopped
+03-31 17:57:58.285 D/SurfaceFlinger( 1474): ~TextureStreamSource destruct
+03-31 17:57:58.295 D/SurfaceFlinger( 1474): Delete Sync in destruct
+03-31 17:57:58.295 D/CameraHardware( 1254): virtual void android::CameraHardware::stopPreview(): start
+03-31 17:57:58.295 D/CameraHardware( 1254): bool android::CameraHardware::stopPreviewThread() :
+03-31 17:57:58.295 D/CameraHardware( 1254): virtual void android::CameraHardware::release() start:
+03-31 17:57:58.295 D/CameraHardware( 1254): virtual void android::CameraHardware::release() waiting 3A thread to exit:
+03-31 17:57:58.295 I/CameraHardware( 1254): int android::CameraHardware::aeAfAwbThread(): previewaeafawb return from wait
+03-31 17:57:58.295 D/CameraHardware( 1254): int android::CameraHardware::aeAfAwbThread() Exiting the 3A thread
+03-31 17:57:58.295 D/CameraHardware( 1254): virtual void android::CameraHardware::release() deleted the 3A thread:
+03-31 17:57:58.295 I/CameraHardware( 1254): int android::CameraHardware::previewThreadWrapper(): preview return from wait
+03-31 17:57:58.295 I/CameraHardware( 1254): int android::CameraHardware::previewThreadWrapper(): preview exiting
+03-31 17:57:58.295 D/CameraHardware( 1254): virtual void android::CameraHardware::release() deleted the preview thread:
+03-31 17:57:58.295 D/CameraHardware( 1254): virtual void android::CameraHardware::release() deleted the picture thread:
+03-31 17:57:58.295 D/CameraHardware( 1254): BC, line:3844, deleted the compress thread:
+03-31 17:57:58.295 I/CameraHardware( 1254): virtual android::CameraHardware::~CameraHardware(): Delete the CameraHardware
+03-31 17:57:58.405 D/        ( 1254): [Ola_BufferService_DeInitialize] Ola_BufferService_DeInitialize fn
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): START: Audio Source stop in reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): FINISH: Audio Source stop in reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AudioPlayer( 1254): START: AudioSink stop & close in reset
+03-31 17:57:58.405 D/AudioTrack( 1254): enter stop 0x8a06cc0
+03-31 17:57:58.405 D/AudioTrack( 1254): leave stop 0x8a06cc0
+03-31 17:57:58.405 D/AudioTrack( 1254): enter stop 0x8a06cc0
+03-31 17:57:58.405 D/AudioTrack( 1254): leave stop 0x8a06cc0
+03-31 17:57:58.405 V/AudioPolicyManagerBase( 1254): releaseOutput() 1
+03-31 17:57:58.405 D/AudioPlayer( 1254): FINISH: AudioSink stop & close in reset
+03-31 17:57:58.405 D/AudioPlayer( 1254): reset: stop the media source
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): START: Audio Source stop in reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): FINISH: Audio Source stop in reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.405 D/AwesomePlayer( 1254): reset_l
+03-31 17:57:58.445 I/WindowManager( 1474): Setting rotation to 0, animFlags=1
+03-31 17:57:58.465 D/PhoneApp( 1693): updateProximitySensorMode: state = IDLE
+03-31 17:57:58.465 D/PhoneApp( 1693): proximitySensorModeEnable()...
+03-31 17:57:58.465 D/PhoneApp( 1693): updateProximitySensorMode: lock already released.
+03-31 17:57:58.465 I/ActivityManager( 1474): Config changed: { scale=1.0 imsi=460/1 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=268435491 uiMode=17 seq=94}
+03-31 17:57:58.575 D/MainActivity( 2327): startTrackingApplications(): monitor(com.orange.homescreen.pil.defaultimpl.application.ApplicationMonitor@33f13420)
+03-31 17:57:58.585 D/MainActivity( 2327): startTrackingApplications(): sdmon(com.orange.homescreen.pil.android22impl.application.SDCardAppsMonitor@33e9d420)
+03-31 17:57:58.585 D/SDCardAppsMonitor( 2327): addListener(): listener(com.orange.homescreen3x.MainActivity$8@33e7b2f0)
+03-31 17:57:58.605 D/TimeSyncTask( 2327): startTimeTickThread(): mTickThread(null)
+03-31 17:57:58.605 D/TimeSyncTask( 2327): startTimeTickThread(): mTickThread(Thread[Thread-338,5,main])
+03-31 17:57:58.605 D/Workspace( 2327): onRequestFocusInDescendants(): direction(130), previouslyFocusedRect(null)
+03-31 17:57:58.615 D/TimeTickThread( 2327): doInBackground(): time(05:57:58), sleep(2 sec)
+03-31 17:57:58.735 W/IInputConnectionWrapper(15283): showStatusIcon on inactive InputConnection
+03-31 17:57:58.755 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 17:57:58.945 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 17:57:59.995 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.TIME_TICK
+03-31 17:58:00.005 I/System.out(11218):  *********** Orange Clock ACTION_TIME_TICK Intent *********** 
+03-31 17:58:00.035 I/System.out(11218):  *********** Orange Clock Receiver *********** com.orange.clockalarm.time_tick
+03-31 17:58:00.625 D/TimeTickThread( 2327): doInBackground(): time(05:58:00), sleep(60 sec)
+03-31 17:58:00.675 D/dalvikvm( 1474): GC_EXPLICIT freed 2393K, 58% free 7312K/17095K, external 4470K/8566K, paused 100ms
+03-31 17:58:00.715 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 17:58:04.115 D/SntpClient( 1474): request time failed: java.net.SocketTimeoutException: Try again
+03-31 17:58:05.075 D/dalvikvm(15283): GC_EXPLICIT freed 329K, 74% free 3369K/12807K, external 6153K/10218K, paused 17ms
+03-31 17:58:10.075 D/dalvikvm(11218): GC_EXPLICIT freed 51K, 61% free 2917K/7431K, external 1625K/4116K, paused 6ms
+03-31 17:58:15.085 D/dalvikvm( 2355): GC_EXPLICIT freed 1716K, 72% free 3047K/10759K, external 1625K/4116K, paused 17ms
+03-31 17:58:20.105 D/dalvikvm( 2335): GC_EXPLICIT freed 279K, 70% free 4123K/13383K, external 8584K/12680K, paused 25ms
+03-31 17:58:58.735 I/power   ( 1474): *** set_screen_state 0
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): track screen lock during mtbf issue:
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): java.lang.RuntimeException
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): 	at com.android.internal.policy.impl.KeyguardViewMediator.onScreenTurnedOff(KeyguardViewMediator.java:313)
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): 	at com.android.internal.policy.impl.PhoneWindowManager.screenTurnedOff(PhoneWindowManager.java:2176)
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): 	at com.android.server.PowerManagerService$4.run(PowerManagerService.java:1515)
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): 	at android.os.Handler.handleCallback(Handler.java:587)
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): 	at android.os.Looper.loop(Looper.java:130)
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+03-31 17:58:58.735 D/KeyguardViewMediator( 1474): onScreenTurnedOff(3)
+03-31 17:58:58.745 D/MainActivity( 2327): saveState(): mFolderInfo(null)
+03-31 17:58:58.745 D/MainActivity( 2327): saveState(): mFolderInfo.orangeWidget(null)
+03-31 17:58:58.745 D/MainActivity( 2327): saveState(): outState(Bundle[{launcher.current_screen=2}])
+03-31 17:58:58.745 D/TimeSyncTask( 2327): stopTimeTickThread(): mTickThread(Thread[Thread-338,5,main])
+03-31 17:58:58.745 D/Carousel( 2327): snapToScreen(): mStartScreen(1, curr: 1) -> mNextScreen(1)
+03-31 17:58:58.765 D/Carousel( 2327): snapToScreen(): oldX(600), newX(600), deltaX(0)
+03-31 17:58:58.775 D/Vibrator_Alsa( 1474): vibrator_off : Vibrator request OFF ....................
+03-31 17:58:58.795 D/WifiService( 1474): ACTION_SCREEN_OFF
+03-31 17:58:58.805 D/PHONEBACKUP_SRV(18956): ScreenSaverManager - onReceive Intent { act=android.intent.action.SCREEN_OFF flg=0x40000000 }
+03-31 17:58:58.805 D/WifiService( 1474): setting ACTION_DEVICE_IDLE timer for 900000ms
+03-31 17:58:59.995 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.TIME_TICK
+03-31 17:59:00.005 I/System.out(11218):  *********** Orange Clock ACTION_TIME_TICK Intent *********** 
+03-31 17:59:00.025 I/System.out(11218):  *********** Orange Clock Receiver *********** com.orange.clockalarm.time_tick
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): track screen lock during mtbf issue:
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): java.lang.RuntimeException
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at com.android.internal.policy.impl.KeyguardViewMediator.doKeyguard(KeyguardViewMediator.java:527)
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at com.android.internal.policy.impl.KeyguardViewMediator.access$200(KeyguardViewMediator.java:94)
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at com.android.internal.policy.impl.KeyguardViewMediator$1.onReceive(KeyguardViewMediator.java:716)
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:709)
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at android.os.Handler.handleCallback(Handler.java:587)
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at android.os.Looper.loop(Looper.java:130)
+03-31 17:59:03.745 D/KeyguardViewMediator( 1474): 	at com.android.server.ServerThread.run(SystemServer.java:594)
+03-31 17:59:03.745 V/LockscreenManager( 1474): getLockscreen. 
+03-31 17:59:03.745 V/LockscreenService( 1474): LockscreenService. create
+03-31 17:59:03.745 V/LockscreenService( 1474): getLockscreenView. this= com.orange.lockscreen.server.LockscreenService@3426faf0
+03-31 17:59:03.745 W/Settings( 1474): Setting lock_pattern_autolock has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+03-31 17:59:03.745 D/LockscreenView( 1474): onCreate, widthPixels=600
+03-31 17:59:03.745 I/LockscreenView( 1474): onCreate. Lockscreen startup.
+03-31 17:59:03.755 D/WidgetSlat( 1474): mLock=android.widget.ImageView@33d97930
+03-31 17:59:03.755 D/WidgetSlat( 1474): mLock=android.widget.ImageView@33dc2590
+03-31 17:59:03.755 D/WidgetSlat( 1474): mLock=android.widget.ImageView@33ddcd80
+03-31 17:59:03.755 D/WidgetSlat( 1474): mLock=android.widget.ImageView@33de8b90
+03-31 17:59:03.795 D/AwesomePlayer( 1254): reset_l
+03-31 17:59:03.795 D/AwesomePlayer( 1254): Enter setDataSource(), fd = 41, offset = 2897, length = 6926
+03-31 17:59:03.795 D/AwesomePlayer( 1254): reset_l
+03-31 17:59:03.795 D/DrmSource( 1254): Enter  createDrmSource(int fd, int64_t offset, int64_t length)
+03-31 17:59:03.795 I/DrmSource( 1254): Enter SVC_drm_openSession()
+03-31 17:59:03.795 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1417)In
+03-31 17:59:03.795 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1451)Got the mime type is 255
+03-31 17:59:03.795 I/DrmSource( 1254): Leave SVC_drm_openSession(), mDrmSessionID = -4
+03-31 17:59:03.795 W/DrmSource( 1254): WARNING: new drm source fail or initcheck fail
+03-31 17:59:03.805 D/MPEG4Extractor( 1254): This file have udta component ,size = 2606
+03-31 17:59:03.805 D/MPEG4Extractor( 1254): chunk_size = 2606
+03-31 17:59:03.805 D/AwesomePlayer( 1254): LEAVE setDataSource(), status = 0
+03-31 17:59:03.805 D/AwesomePlayer( 1254): add preparing flag
+03-31 17:59:03.805 I/cmodule ( 1254): module libomx_ipp_aacdec.so successfully loaded
+03-31 17:59:03.805 V/componentbase( 1254): command process workqueue started
+03-31 17:59:03.805 I/componentbase( 1254): OMX.Intel.IPP.AACDEC: set working role audio_decoder.aac:
+03-31 17:59:03.805 I/wrs-omxil-core( 1254): get handle of component OMX.Intel.IPP.AACDEC successfully
+03-31 17:59:03.805 I/componentbase( 1254): OMX.Intel.IPP.AACDEC: set working role audio_decoder.aac:
+03-31 17:59:03.805 W/OMXCodec( 1254): Codec outputs a different number of channels than the input stream contains (contains 1 channels, codec outputs 2 channels).
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] init: send CmdStateSet to Idle before allocation
+03-31 17:59:03.805 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: handling OMX_CommandStateSet command
+03-31 17:59:03.805 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: try to transit state from OMX_StateLoaded to OMX_StateIdle
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 2, mAsyncCompletion signal
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] allocating 5 buffers of size 4096 on input port
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] allocating 5 buffers of size 16384 on output port
+03-31 17:59:03.805 D/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transition from OMX_StateLoaded to OMX_StateIdle completed
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] init: AsyncCompletion wait until exe or error
+03-31 17:59:03.805 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: command OMX_CommandStateSet handling done
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 0, data1 0, data2 2
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onStateChange: send cmdStateSet to Exe
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 3, mAsyncCompletion signal
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] init: AsyncCompletion wait until exe or error
+03-31 17:59:03.805 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: handling OMX_CommandStateSet command
+03-31 17:59:03.805 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: try to transit state from OMX_StateIdle to OMX_StateExecuting
+03-31 17:59:03.805 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: buffer process work started with executing state
+03-31 17:59:03.805 D/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transition from OMX_StateIdle to OMX_StateExecuting completed
+03-31 17:59:03.805 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: command OMX_CommandStateSet handling done
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 0, data1 0, data2 3
+03-31 17:59:03.805 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 4, mAsyncCompletion signal
+03-31 17:59:03.805 D/AwesomePlayer( 1254): finishAsyncPrepare_l PreparedCondition broadcast
+03-31 17:59:03.805 I/LockscreenView( 1474): onCreate. Lockscreen startup. mPluggedIn=false
+03-31 17:59:03.805 V/LockscreenService( 1474): startLSWidgetService. 
+03-31 17:59:03.805 V/LockscreenService( 1474): connectLSWidgetService. 
+03-31 17:59:03.805 V/LockscreenService( 1474): connectLSWidgetService. success
+03-31 17:59:03.805 V/LockscreenManager( 1474): getLockscreen. return ExtLockScreen.
+03-31 17:59:03.805 V/LockscreenService( 1474): onServiceConnected. ILSWidgetService
+03-31 17:59:03.805 D/LockscreenService( 1474): checkServiceReady, isReady=true
+03-31 17:59:03.835 V/LockscreenView( 1474): onAttachedToWindow. this=com.orange.lockscreen.server.LockscreenView@33dc1470
+03-31 17:59:03.835 D/LockscreenView( 1474): ##################### battery Change: level : 90,scale: 100
+03-31 17:59:03.835 V/TimeDateView( 1474): plugged=true, level=90
+03-31 17:59:03.845 D/***************( 2327): close dialogs
+03-31 17:59:03.845 D/TimeDateView( 1474): ### mNextAlarm == null ? false, mNextAlarm: 
+03-31 17:59:03.855 D/TimeDateView( 1474): ################### nextAlarmTempString == null ? false,nextAlarmTempString: 
+03-31 17:59:03.855 D/TimeDateView( 1474): updateAlarmView. mNextAlarm: ,nextAlarmTempString : 
+03-31 17:59:03.855 D/LockscreenView( 1474): onCreate. mPluggedIn=true
+03-31 17:59:03.855 D/LockscreenService( 1474): HANDLE_READY
+03-31 17:59:03.855 V/LockscreenService( 1474): loadLSWidgetList. 
+03-31 17:59:03.855 D/LockscreenView( 1474): ## battery Init: level : 90 ,scale: 100 ,mPluggedIn: true
+03-31 17:59:03.855 D/LockscreenView( 1474): $$$$$$$$$$$$$$$$$$$$$$$$$$$$mReceiver, null != mTimeDateViewCallback true,mBatteryLevel90,null != mTimeDateViewCallback true
+03-31 17:59:03.855 V/LockscreenService( 1474): startListeningLSWidgetService. 
+03-31 17:59:03.875 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=true,child count: 4
+03-31 17:59:03.875 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 17:59:03.875 V/WidgetSlat( 1474): onLayout. rowIndex=1
+03-31 17:59:03.875 V/WidgetSlat( 1474): onLayout. rowIndex=2
+03-31 17:59:03.875 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 17:59:03.875 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 17:59:03.875 V/WidgetSlat( 1474): onLayout. rowIndex=3
+03-31 17:59:03.875 D/lock    ( 1474): newConfig.orientation1
+03-31 17:59:03.875 D/lock    ( 1474): %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% l is: 0,t is: 738r is: 600,b is: 986
+03-31 17:59:03.875 D/lock    ( 1474): onLayout() isUnlockPromptEnabled true ; mLock left: 270,top: 76,right: 330,bottom: 136
+03-31 17:59:03.875 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.slider.SliderSlatPanel changed=true,child count: 1
+03-31 17:59:03.875 V/SliderSlat( 1474): onLayout. rowIndex=2 changed=true
+03-31 17:59:03.875 V/TimeDateView( 1474): plugged=true, level=90
+03-31 17:59:03.875 V/LockscreenService( 1474): addLSWidgetView. 
+03-31 17:59:03.875 D/TimeDateView( 1474): ################### nextAlarmTempString == null ? false,nextAlarmTempString: 
+03-31 17:59:03.875 D/TimeDateView( 1474): updateAlarmView. mNextAlarm: ,nextAlarmTempString : 
+03-31 17:59:03.885 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 17:59:03.885 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 17:59:03.885 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 17:59:03.885 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 17:59:03.925 V/LockscreenService( 1474): run. LockscreenViewList.size()=2
+03-31 17:59:03.925 V/LSWidgetHostView( 1474): LSWidgetHostView create [type=0x102]
+03-31 17:59:03.935 V/LockscreenService( 1474): run. add WidgetView[type=0x102] into LS slat
+03-31 17:59:03.935 V/LSWidgetHostView( 1474): LSWidgetHostView create [type=0x101]
+03-31 17:59:03.935 V/LockscreenService( 1474): run. add WidgetView[type=0x101] into LS slat
+03-31 17:59:03.945 I/AudioService( 1474):   Remote Control   registerMediaButtonEventReceiver() for ComponentInfo{com.android.music/com.android.music.MediaButtonIntentReceiver}
+03-31 17:59:03.945 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 17:59:03.955 V/WidgetSlat( 1474): onLayout. rowIndex=1
+03-31 17:59:03.955 V/WidgetSlat( 1474): onLayout. rowIndex=2
+03-31 17:59:03.955 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 17:59:03.955 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 17:59:03.975 D/LockscreenService( 1474): ***************** updateLSWidget(),RemoteView id: android.widget.RemoteViews@34281650
+03-31 17:59:03.975 D/LockscreenService( 1474): ***************** updateLSWidget(),RemoteView id: android.widget.RemoteViews@34287ce0
+03-31 17:59:03.975 V/LockscreenService( 1474): updateLSWidgetView. update LSWidget View, viewType=[0x101]
+03-31 17:59:03.975 V/LockscreenService( 1474): updateLSWidgetView. update LSWidget View, viewType=[0x101]
+03-31 17:59:03.975 D/LockscreenService( 1474): ************************* updateLSWidgetView,RemoteView id: android.widget.RemoteViews@34287ce0
+03-31 17:59:03.975 D/LockscreenService( 1474): ************************* updateLSWidgetView,RemoteView id: android.widget.RemoteViews@34287ce0
+03-31 17:59:03.985 D/LockscreenService( 1474): ***************** updateLSWidget(),RemoteView id: android.widget.RemoteViews@341cdae0
+03-31 17:59:03.985 V/LockscreenService( 1474): updateLSWidgetView. update LSWidget View, viewType=[0x101]
+03-31 17:59:03.985 D/LockscreenService( 1474): ************************* updateLSWidgetView,RemoteView id: android.widget.RemoteViews@341cdae0
+03-31 17:59:04.205 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 91
+03-31 17:59:04.205 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 360
+03-31 17:59:04.205 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.BATTERY_CHANGED
+03-31 17:59:04.215 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 17:59:04.225 D/LockscreenView( 1474): ##################### battery Change: level : 91,scale: 100
+03-31 17:59:04.225 D/LockscreenView( 1474): mReceiver, null != mTimeDateViewCallback true ,mBatteryLevel91,null != mTimeDateViewCallback true
+03-31 17:59:04.225 V/TimeDateView( 1474): plugged=true, level=91
+03-31 17:59:04.225 D/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood
+03-31 17:59:04.225 W/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood no current sync or not previously suspended
+03-31 17:59:04.225 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 91
+03-31 17:59:04.235 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 360
+03-31 17:59:04.235 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 17:59:04.235 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 17:59:04.255 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 17:59:04.255 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 17:59:05.065 D/LockscreenView( 1474): enter run, widthPixels=600, was=600
+03-31 17:59:05.065 D/LockscreenView( 1474): unlock icon, width=60, height=60
+03-31 17:59:09.305 D/dalvikvm(18956): GC_EXPLICIT freed 408K, 57% free 3179K/7363K, external 1625K/4116K, paused 12ms
+03-31 17:59:14.335 D/dalvikvm(18991): GC_EXPLICIT freed 1681K, 56% free 4216K/9415K, external 1625K/4116K, paused 29ms
+03-31 17:59:19.315 D/dalvikvm( 7136): GC_EXPLICIT freed 2K, 64% free 3346K/9287K, external 2196K/6292K, paused 11ms
+03-31 17:59:59.995 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.TIME_TICK
+03-31 18:00:00.015 I/System.out(11218):  *********** Orange Clock ACTION_TIME_TICK Intent *********** 
+03-31 18:00:00.025 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 18:00:00.025 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 18:00:00.025 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 18:00:00.025 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 18:00:00.045 I/System.out(11218):  *********** Orange Clock Receiver *********** com.orange.clockalarm.time_tick
+03-31 18:00:05.085 D/dalvikvm(11218): GC_EXPLICIT freed 24K, 61% free 2917K/7431K, external 1625K/4116K, paused 6ms
+03-31 18:00:59.995 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.TIME_TICK
+03-31 18:01:00.015 I/System.out(11218):  *********** Orange Clock ACTION_TIME_TICK Intent *********** 
+03-31 18:01:00.025 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 18:01:00.025 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 18:01:00.025 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 18:01:00.025 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 18:01:00.045 I/System.out(11218):  *********** Orange Clock Receiver *********** com.orange.clockalarm.time_tick
+03-31 18:01:04.525 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 92
+03-31 18:01:04.525 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 350
+03-31 18:01:04.535 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.BATTERY_CHANGED
+03-31 18:01:04.545 D/LockscreenView( 1474): ##################### battery Change: level : 92,scale: 100
+03-31 18:01:04.545 D/LockscreenView( 1474): mReceiver, null != mTimeDateViewCallback true ,mBatteryLevel92,null != mTimeDateViewCallback true
+03-31 18:01:04.545 V/TimeDateView( 1474): plugged=true, level=92
+03-31 18:01:04.545 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 18:01:04.555 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 92
+03-31 18:01:04.555 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 350
+03-31 18:01:04.555 D/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood
+03-31 18:01:04.555 W/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood no current sync or not previously suspended
+03-31 18:01:04.565 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 18:01:04.565 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 18:01:04.565 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 18:01:04.565 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 18:01:09.645 D/dalvikvm( 2355): GC_EXPLICIT freed 369K, 73% free 3007K/10759K, external 1625K/4116K, paused 10ms
+03-31 18:01:59.995 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.TIME_TICK
+03-31 18:02:00.015 I/System.out(11218):  *********** Orange Clock ACTION_TIME_TICK Intent *********** 
+03-31 18:02:00.015 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 18:02:00.015 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 18:02:00.015 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 18:02:00.025 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 18:02:00.055 I/System.out(11218):  *********** Orange Clock Receiver *********** com.orange.clockalarm.time_tick
+03-31 18:02:03.955 D/KeyguardViewMediator( 1474): wakeWhenReadyLocked(26)
+03-31 18:02:03.955 I/power   ( 1474): *** set_screen_state 1
+03-31 18:02:03.965 D/MainActivity( 2327): startTrackingApplications(): monitor(com.orange.homescreen.pil.defaultimpl.application.ApplicationMonitor@33f13420)
+03-31 18:02:03.965 D/MainActivity( 2327): startTrackingApplications(): sdmon(com.orange.homescreen.pil.android22impl.application.SDCardAppsMonitor@33e9d420)
+03-31 18:02:03.965 D/SDCardAppsMonitor( 2327): addListener(): listener(com.orange.homescreen3x.MainActivity$8@33e7b2f0)
+03-31 18:02:03.975 D/TimeSyncTask( 2327): startTimeTickThread(): mTickThread(null)
+03-31 18:02:03.975 D/TimeSyncTask( 2327): startTimeTickThread(): mTickThread(Thread[Thread-339,5,main])
+03-31 18:02:03.995 D/TimeTickThread( 2327): doInBackground(): time(06:02:03), sleep(57 sec)
+03-31 18:02:04.035 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 18:02:04.075 D/LockscreenService( 1474): ***************** updateLSWidget(),RemoteView id: android.widget.RemoteViews@33f828a0
+03-31 18:02:04.075 V/LockscreenService( 1474): updateLSWidgetView. update LSWidget View, viewType=[0x102]
+03-31 18:02:04.075 D/LockscreenService( 1474): ************************* updateLSWidgetView,RemoteView id: android.widget.RemoteViews@33f828a0
+03-31 18:02:04.075 D/hand    ( 1474): ************************* updateLSWidgetView,RemoteView id: android.widget.RemoteViews@33f828a0 ,data.hasContent: false
+03-31 18:02:04.085 D/PHONEBACKUP_SRV(18956): ScreenSaverManager - onReceive Intent { act=android.intent.action.SCREEN_ON flg=0x40000000 }
+03-31 18:02:04.085 D/WifiService( 1474): ACTION_SCREEN_ON
+03-31 18:02:04.095 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 18:02:04.095 V/WidgetSlat( 1474): onLayout. rowIndex=1
+03-31 18:02:04.095 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 18:02:04.095 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 18:02:04.285 D/CPDD_MRW( 1263): 1748262541:cpdModemInitForCP() = 1
+03-31 18:02:04.685 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 93
+03-31 18:02:04.685 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 350
+03-31 18:02:04.685 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.BATTERY_CHANGED
+03-31 18:02:04.695 D/LockscreenView( 1474): ##################### battery Change: level : 93,scale: 100
+03-31 18:02:04.695 D/LockscreenView( 1474): mReceiver, null != mTimeDateViewCallback true ,mBatteryLevel93,null != mTimeDateViewCallback true
+03-31 18:02:04.695 D/WifiService( 1474): ACTION_BATTERY_CHANGED pluggedType: 2
+03-31 18:02:04.705 D/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood
+03-31 18:02:04.705 W/PHONEBACKUP_SRV(18956): SyncManager - batteryLevelGood no current sync or not previously suspended
+03-31 18:02:04.705 V/TimeDateView( 1474): plugged=true, level=93
+03-31 18:02:04.705 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/capacity value is: 93
+03-31 18:02:04.705 D/BatteryService( 1474): /sys/class/power_supply/max17042_battery/temp value is: 350
+03-31 18:02:04.715 V/GridLayout( 1474): onLayout. who=com.orange.lockscreen.layers.widget.WidgetSlatPanel changed=false,child count: 4
+03-31 18:02:04.715 V/WidgetSlat( 1474): onLayout. rowIndex=0
+03-31 18:02:04.715 V/LockPar ( 1474): unlock;childLeft: 0,childTop: 738,childRight: 600,childBottom: 986
+03-31 18:02:04.715 V/LockPar ( 1474): ^^^^^^^^^^^^^SlatHashMap.getScreenWidth(): 600
+03-31 18:02:05.305 D/LockscreenView( 1474): handleMessage. message.what: 0x1005
+03-31 18:02:05.335 D/LockscreenView( 1474): handleMessage. message.what: 0x1007
+03-31 18:02:05.335 D/LockscreenView( 1474): handleMessage. message.what: 0x1006
+03-31 18:02:05.505 D/LockscreenView( 1474): handleMessage. message.what: 0x1005
+03-31 18:02:05.595 D/LockscreenView( 1474): handleMessage. message.what: 0x1008
+03-31 18:02:05.595 D/LockscreenView( 1474): handleMessage. message.what: 0x1006
+03-31 18:02:06.005 D/AwesomePlayer( 1254): Enter play()
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 3, data1 1, data2 0
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 7, mAsyncCompletion signal
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] disablePortAsync: send cmdPortDisable for port 1
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: handling OMX_CommandPortDisable command
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transit ports state to OMX_PortDisabled (from index 1 to 1)
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transit ports state to OMX_PortDisabled completed
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: command OMX_CommandPortDisable handling done
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 0, data1 2, data2 1
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] enablePortAsync: send cmdPortEnable for port 1
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] allocating 5 buffers of size 16384 on output port
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: handling OMX_CommandPortEnable command
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transit ports state to OMX_PortEnabled (from index 1 to 1)
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 0, data1 3, data2 1
+03-31 18:02:06.025 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 4, mAsyncCompletion signal
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transit ports state to OMX_PortEnabled completed
+03-31 18:02:06.025 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: command OMX_CommandPortEnable handling done
+03-31 18:02:06.025 D/AudioPlayer( 1254): source read ready
+03-31 18:02:06.025 D/AudioPlayer( 1254): START: AudioSink open & start
+03-31 18:02:06.025 D/AudioFlinger( 1254): Memory status before allocate memory:
+03-31 18:02:06.025 D/MemoryDealer( 1254):   AudioTrack (0x8a90660, size=1048576)
+03-31 18:02:06.025 D/MemoryDealer( 1254):     0: 08a90680 | 0x00000000 | 0x00100000 | F 
+03-31 18:02:06.025 D/MemoryDealer( 1254):   size allocated: 0 (0 KB)
+03-31 18:02:06.025 D/AudioFlinger( 1254): Memory status after allocate memory succeeded:
+03-31 18:02:06.025 D/MemoryDealer( 1254):   AudioTrack (0x8a90660, size=1048576)
+03-31 18:02:06.025 D/MemoryDealer( 1254):     0: 08a90680 | 0x00000000 | 0x00002040 | A 
+03-31 18:02:06.025 D/MemoryDealer( 1254):     1: 08a906c0 | 0x00002040 | 0x000FDFC0 | F 
+03-31 18:02:06.025 D/MemoryDealer( 1254):   size allocated: 8256 (8 KB)
+03-31 18:02:06.025 V/AudioPolicyManagerBase( 1254): startOutput() in. output 1, stream 3, session 662, mAvailableOutputDevices:0x3. mPhoneState:0.
+03-31 18:02:06.025 V/AudioPolicyManagerBase( 1254): changeRefCount() stream 3, count 1
+03-31 18:02:06.025 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 2
+03-31 18:02:06.025 V/AudioPolicyManagerBase( 1254): setOutputDevice() output 1 device 2 delayMs 0
+03-31 18:02:06.025 V/AudioPolicyManagerBase( 1254): setOutputDevice() setting same device 2 or null device for output 1
+03-31 18:02:06.025 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 3, output: 1, index:8, device: 0x2. delayMs:0, force: 0.
+03-31 18:02:06.025 V/AudioPolicyManagerBase( 1254): startOutput() out.
+03-31 18:02:06.025 D/AudioPlayer( 1254): FINISH: AudioSink open & start
+03-31 18:02:06.025 D/AwesomePlayer( 1254): AudioPlayer start ready
+03-31 18:02:06.025 D/AwesomePlayer( 1254): seekAudioIfNec
+03-31 18:02:06.025 D/AwesomePlayer( 1254): Leave play(), status = 0
+03-31 18:02:06.025 D/ALSAModuleCDK( 1254): open called for devices 00000002 in mode 0...
+03-31 18:02:06.025 D/ALSAModuleCDK( 1254): returning deviceName = AndroidPlayback_Speaker_normal
+03-31 18:02:06.025 D/ALSAModuleCDK( 1254): open called for devices AndroidPlayback_Speaker_normal
+03-31 18:02:06.035 V/ALSAModuleCDK( 1254): Set PLAYBACK PCM format to S16_LE (Signed 16 bit Little Endian)
+03-31 18:02:06.035 V/ALSAModuleCDK( 1254): Using 2 channels for PLAYBACK.
+03-31 18:02:06.035 V/ALSAModuleCDK( 1254): Set PLAYBACK sample rate to 44100 HZ
+03-31 18:02:06.035 V/ALSAModuleCDK( 1254): Buffer size: 4096
+03-31 18:02:06.035 V/ALSAModuleCDK( 1254): Latency: 92879
+03-31 18:02:06.035 V/ALSAModuleCDK( 1254): periodTime: 23219
+03-31 18:02:06.105 I/ALSAModuleCDK( 1254): Initialized ALSA PLAYBACK device AndroidPlayback_Speaker_normal
+03-31 18:02:06.105 D/AudioHardwareALSA( 1254): ALSAStreamOps::open
+03-31 18:02:06.265 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 4, data1 1, data2 1
+03-31 18:02:06.365 D/AwesomePlayer( 1254): Enter onStreamDone
+03-31 18:02:06.365 D/AudioPlayer( 1254): START: AudioSink stop in pause
+03-31 18:02:06.365 D/AudioTrack( 1254): enter stop 0x8a03e50
+03-31 18:02:06.365 D/AudioFlinger( 1254): enter stop(4097), calling thread 1254
+03-31 18:02:06.365 V/AudioPolicyManagerBase( 1254): stopOutput() in. output 1, stream 3, session 662, mAvailableOutputDevices:0x3. mPhoneState:0.
+03-31 18:02:06.365 V/AudioPolicyManagerBase( 1254): changeRefCount() stream 3, count 0
+03-31 18:02:06.365 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 0
+03-31 18:02:06.365 V/AudioPolicyManagerBase( 1254): setOutputDevice() output 1 device 0 delayMs 0
+03-31 18:02:06.365 V/AudioPolicyManagerBase( 1254): setOutputDevice() setting same device 0 or null device for output 1
+03-31 18:02:06.365 V/AudioPolicyManagerBase( 1254): stopOutput() out.
+03-31 18:02:06.365 D/AudioFlinger( 1254): leave AudioFlinger::Track::stop()
+03-31 18:02:06.365 D/AudioTrack( 1254): leave stop 0x8a03e50
+03-31 18:02:06.365 D/AudioPlayer( 1254): FINISH: AudioSink stop in pause
+03-31 18:02:06.365 D/AwesomePlayer( 1254): Leave onStreamDone
+03-31 18:02:06.365 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:06.365 I/StagefrightPlayer( 1254): setDataSource('/system/media/audio/ui/Unlock.ogg')
+03-31 18:02:06.365 D/AwesomePlayer( 1254): Enter setDataSource(), uri = /system/media/audio/ui/Unlock.ogg
+03-31 18:02:06.365 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:06.365 D/AwesomePlayer( 1254): Leave setDataSource(), status = 0
+03-31 18:02:06.365 D/AwesomePlayer( 1254): add preparing flag
+03-31 18:02:06.365 I/DrmSource( 1254): Enter SVC_drm_openSession()
+03-31 18:02:06.365 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1417)In
+03-31 18:02:06.365 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1451)Got the mime type is 255
+03-31 18:02:06.365 I/DrmSource( 1254): Leave SVC_drm_openSession(), mDrmSessionID = -4
+03-31 18:02:06.365 W/DrmSource( 1254): WARNING: new drm source fail or initcheck fail, /system/media/audio/ui/Unlock.ogg is not a drm file
+03-31 18:02:06.365 D/MovExtractor( 1254): libmovextractor don't support this format now
+03-31 18:02:06.375 D/AwesomePlayer( 1254): finishAsyncPrepare_l PreparedCondition broadcast
+03-31 18:02:06.375 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:06.375 I/StagefrightPlayer( 1254): setDataSource('/system/media/audio/ui/Unlock.ogg')
+03-31 18:02:06.375 D/AwesomePlayer( 1254): Enter setDataSource(), uri = /system/media/audio/ui/Unlock.ogg
+03-31 18:02:06.375 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:06.375 D/AwesomePlayer( 1254): Leave setDataSource(), status = 0
+03-31 18:02:06.375 D/AwesomePlayer( 1254): add preparing flag
+03-31 18:02:06.375 I/DrmSource( 1254): Enter SVC_drm_openSession()
+03-31 18:02:06.375 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1417)In
+03-31 18:02:06.375 E/        ( 1254): (frameworks/base/media/libdrm/mobile1/src/objmng/drm_api.c:SVC_drm_openSession:1451)Got the mime type is 255
+03-31 18:02:06.375 I/DrmSource( 1254): Leave SVC_drm_openSession(), mDrmSessionID = -4
+03-31 18:02:06.375 W/DrmSource( 1254): WARNING: new drm source fail or initcheck fail, /system/media/audio/ui/Unlock.ogg is not a drm file
+03-31 18:02:06.375 D/MovExtractor( 1254): libmovextractor don't support this format now
+03-31 18:02:06.385 D/AwesomePlayer( 1254): finishAsyncPrepare_l PreparedCondition broadcast
+03-31 18:02:06.385 D/AwesomePlayer( 1254): Enter play()
+03-31 18:02:06.385 D/AudioPlayer( 1254): source read ready
+03-31 18:02:06.385 D/AudioPlayer( 1254): START: AudioSink open & start
+03-31 18:02:06.385 D/AudioFlinger( 1254): Memory status before allocate memory:
+03-31 18:02:06.385 D/MemoryDealer( 1254):   AudioTrack (0x8a90660, size=1048576)
+03-31 18:02:06.385 D/MemoryDealer( 1254):     0: 08a90680 | 0x00000000 | 0x00002040 | A 
+03-31 18:02:06.385 D/MemoryDealer( 1254):     1: 08a906c0 | 0x00002040 | 0x000FDFC0 | F 
+03-31 18:02:06.385 D/MemoryDealer( 1254):   size allocated: 8256 (8 KB)
+03-31 18:02:06.385 D/AudioFlinger( 1254): Memory status after allocate memory succeeded:
+03-31 18:02:06.385 D/MemoryDealer( 1254):   AudioTrack (0x8a90660, size=1048576)
+03-31 18:02:06.385 D/MemoryDealer( 1254):     0: 08a90680 | 0x00000000 | 0x00002040 | A 
+03-31 18:02:06.385 D/MemoryDealer( 1254):     1: 08a906c0 | 0x00002040 | 0x00002040 | A 
+03-31 18:02:06.385 D/MemoryDealer( 1254):     2: 08a90d60 | 0x00004080 | 0x000FBF80 | F 
+03-31 18:02:06.385 D/MemoryDealer( 1254):   size allocated: 16512 (16 KB)
+03-31 18:02:06.385 V/AudioPolicyManagerBase( 1254): startOutput() in. output 1, stream 1, session 665, mAvailableOutputDevices:0x3. mPhoneState:0.
+03-31 18:02:06.385 V/AudioPolicyManagerBase( 1254): changeRefCount() stream 1, count 1
+03-31 18:02:06.385 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 2
+03-31 18:02:06.385 V/AudioPolicyManagerBase( 1254): setOutputDevice() output 1 device 2 delayMs 0
+03-31 18:02:06.385 V/AudioPolicyManagerBase( 1254): setOutputDevice() setting same device 2 or null device for output 1
+03-31 18:02:06.385 D/AudioPolicyManagerBase( 1254): checkAndSetVolume in. stream: 1, output: 1, index:7, device: 0x2. delayMs:0, force: 0.
+03-31 18:02:06.385 V/AudioPolicyManagerBase( 1254): startOutput() out.
+03-31 18:02:06.385 D/AudioPlayer( 1254): FINISH: AudioSink open & start
+03-31 18:02:06.385 D/AwesomePlayer( 1254): AudioPlayer start ready
+03-31 18:02:06.385 D/AwesomePlayer( 1254): seekAudioIfNec
+03-31 18:02:06.385 D/AwesomePlayer( 1254): Leave play(), status = 0
+03-31 18:02:06.405 D/AwesomePlayer( 1254): Enter onStreamDone
+03-31 18:02:06.405 D/AudioPlayer( 1254): START: AudioSink stop in pause
+03-31 18:02:06.405 D/AudioTrack( 1254): enter stop 0x8a89600
+03-31 18:02:06.405 D/AudioFlinger( 1254): enter stop(4098), calling thread 1254
+03-31 18:02:06.405 V/AudioPolicyManagerBase( 1254): stopOutput() in. output 1, stream 1, session 665, mAvailableOutputDevices:0x3. mPhoneState:0.
+03-31 18:02:06.405 V/AudioPolicyManagerBase( 1254): changeRefCount() stream 1, count 0
+03-31 18:02:06.405 V/AudioPolicyManagerBase( 1254): getNewDevice() selected device 0
+03-31 18:02:06.405 V/AudioPolicyManagerBase( 1254): setOutputDevice() output 1 device 0 delayMs 0
+03-31 18:02:06.405 V/AudioPolicyManagerBase( 1254): setOutputDevice() setting same device 0 or null device for output 1
+03-31 18:02:06.405 V/AudioPolicyManagerBase( 1254): stopOutput() out.
+03-31 18:02:06.405 D/AudioFlinger( 1254): leave AudioFlinger::Track::stop()
+03-31 18:02:06.405 D/AudioTrack( 1254): leave stop 0x8a89600
+03-31 18:02:06.405 D/AudioPlayer( 1254): FINISH: AudioSink stop in pause
+03-31 18:02:06.405 D/AwesomePlayer( 1254): Leave onStreamDone
+03-31 18:02:06.445 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@33f58740
+03-31 18:02:06.505 D/TimeDateView( 1474): ################### nextAlarmTempString == null ? false,nextAlarmTempString: 
+03-31 18:02:06.505 D/TimeDateView( 1474): updateAlarmView. mNextAlarm: ,nextAlarmTempString : 
+03-31 18:02:06.885 V/LockscreenView( 1474): cleanUp. 
+03-31 18:02:06.885 V/LockscreenService( 1474): stopListeningLSWidgetService. 
+03-31 18:02:06.885 V/LockscreenService( 1474): disconnectLSWidgetService. 
+03-31 18:02:06.885 V/LockscreenView( 1474): cleanUp. Lock screen destory.
+03-31 18:02:06.975 D/dalvikvm( 1474): GC_EXPLICIT freed 2407K, 58% free 7265K/17095K, external 7311K/8566K, paused 88ms
+03-31 18:02:06.975 V/LockscreenView( 1474): onDetachedFromWindow. this=com.orange.lockscreen.server.LockscreenView@33dc1470
+03-31 18:02:06.985 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:06.985 D/AudioPlayer( 1254): START: AudioSink stop & close in reset
+03-31 18:02:06.985 D/AudioTrack( 1254): enter stop 0x8a03e50
+03-31 18:02:06.985 D/AudioTrack( 1254): leave stop 0x8a03e50
+03-31 18:02:06.985 D/AudioTrack( 1254): enter stop 0x8a03e50
+03-31 18:02:06.985 D/AudioTrack( 1254): leave stop 0x8a03e50
+03-31 18:02:06.985 V/AudioPolicyManagerBase( 1254): releaseOutput() 1
+03-31 18:02:06.985 D/AudioPlayer( 1254): FINISH: AudioSink stop & close in reset
+03-31 18:02:06.985 D/AudioPlayer( 1254): reset: stop the media source
+03-31 18:02:06.985 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] stop: mState=4
+03-31 18:02:06.985 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 5, mAsyncCompletion signal
+03-31 18:02:06.985 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] stop: OMX_CmdStateSet from OMX_StateExe to OMX_StateIdle
+03-31 18:02:06.985 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] stop: AsyncCompletion wait until loaded or error
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: handling OMX_CommandStateSet command
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: try to transit state from OMX_StateExecuting to OMX_StateIdle
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: flush ports (from index 0 to 1)
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: flush ports done
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: flushed all ports
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: discarded all scheduled buffer process work
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: buffer process work stopped
+03-31 18:02:06.985 D/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transition from OMX_StateExecuting to OMX_StateIdle completed
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: command OMX_CommandStateSet handling done
+03-31 18:02:06.985 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 0, data1 0, data2 2
+03-31 18:02:06.985 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onStateChange: send cmdStateSet to Loaded
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: handling OMX_CommandStateSet command
+03-31 18:02:06.985 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: try to transit state from OMX_StateIdle to OMX_StateLoaded
+03-31 18:02:06.995 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 6, mAsyncCompletion signal
+03-31 18:02:06.995 I/AudioService( 1474):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@33d9c490com.android.music.MediaPlaybackService$3@33d95160
+03-31 18:02:06.995 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] stop: AsyncCompletion wait until loaded or error
+03-31 18:02:06.995 D/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: transition from OMX_StateIdle to OMX_StateLoaded completed
+03-31 18:02:06.995 V/componentbase( 1254): OMX.Intel.IPP.AACDEC:audio_decoder.aac: command OMX_CommandStateSet handling done
+03-31 18:02:06.995 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] onEvent event 0, data1 0, data2 1
+03-31 18:02:06.995 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 1, mAsyncCompletion signal
+03-31 18:02:06.995 V/componentbase( 1254): command process workqueue stopped
+03-31 18:02:06.995 I/cmodule ( 1254): module libomx_ipp_aacdec.so successfully unloaded
+03-31 18:02:06.995 I/wrs-omxil-core( 1254): free handle of component OMX.Intel.IPP.AACDEC successfully
+03-31 18:02:06.995 I/OMXCodec( 1254): [OMX.Intel.IPP.AACDEC] setState 0, mAsyncCompletion signal
+03-31 18:02:06.995 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:06.995 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:07.005 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:07.005 D/AudioPlayer( 1254): START: AudioSink stop & close in reset
+03-31 18:02:07.005 D/AudioTrack( 1254): enter stop 0x8a89600
+03-31 18:02:07.005 D/AudioTrack( 1254): leave stop 0x8a89600
+03-31 18:02:07.005 D/AudioTrack( 1254): enter stop 0x8a89600
+03-31 18:02:07.005 D/AudioTrack( 1254): leave stop 0x8a89600
+03-31 18:02:07.005 V/AudioPolicyManagerBase( 1254): releaseOutput() 1
+03-31 18:02:07.005 D/AudioPlayer( 1254): FINISH: AudioSink stop & close in reset
+03-31 18:02:07.005 D/AudioPlayer( 1254): reset: stop the media source
+03-31 18:02:07.005 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:07.005 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:07.005 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:07.005 D/AwesomePlayer( 1254): START: Audio Source stop in reset_l
+03-31 18:02:07.005 D/AwesomePlayer( 1254): FINISH: Audio Source stop in reset_l
+03-31 18:02:07.005 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:07.005 D/AwesomePlayer( 1254): reset_l
+03-31 18:02:08.225 D/Vibrator_Alsa( 1474): vibrator_off : Vibrator request OFF ....................
+03-31 18:02:08.235 D/Vibrator_Alsa( 1474): vibrator_on : Vibrator request ON for 10 ms ....................
+03-31 18:02:08.235 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator starts(10ms)
+03-31 18:02:08.235 D/Vibrator_Alsa( 1474): vibrator_alsa: One timeout-thread starts for 10 ms
+03-31 18:02:08.245 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread sleeps
+03-31 18:02:08.255 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread turns off the vibrator
+03-31 18:02:08.265 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator ends
+03-31 18:02:08.265 D/Vibrator_Alsa( 1474): vibrator_on : Vibrator request ON for 30 ms ....................
+03-31 18:02:08.275 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator starts(24ms)
+03-31 18:02:08.275 D/Vibrator_Alsa( 1474): vibrator_alsa: One timeout-thread starts for 24 ms
+03-31 18:02:08.275 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread sleeps
+03-31 18:02:08.295 W/KeyCharacterMap( 2327): No keyboard for id 0
+03-31 18:02:08.295 W/KeyCharacterMap( 2327): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+03-31 18:02:08.295 D/Vibrator_Alsa( 1474): thread_mux_to_pwm: Timeout-thread turns off the vibrator
+03-31 18:02:08.295 D/Vibrator_Alsa( 1474): vibrator_alsa: The vibrator ends
+03-31 18:02:09.525 D/AudioHardwareALSA( 1254): standby
+03-31 18:02:09.525 D/AudioHardwareALSA( 1254): standby
+03-31 18:02:09.615 D/ALSAModuleCDK( 1254): standby handle->curMode=0 direction=0
+03-31 18:02:09.615 D/ALSAModuleCDK( 1254): S_STANDBY
+03-31 18:02:09.725 I/ActivityManager( 1474): Starting: Intent { act=android.settings.SETTINGS flg=0x10200000 cmp=com.android.settings/.Settings } from pid 2327
+03-31 18:02:09.765 D/MainActivity( 2327): saveState(): mFolderInfo(null)
+03-31 18:02:09.765 D/MainActivity( 2327): saveState(): mFolderInfo.orangeWidget(null)
+03-31 18:02:09.775 D/MainActivity( 2327): saveState(): outState(Bundle[{launcher.current_screen=2}])
+03-31 18:02:09.775 D/TimeSyncTask( 2327): stopTimeTickThread(): mTickThread(Thread[Thread-339,5,main])
+03-31 18:02:09.775 D/Carousel( 2327): snapToScreen(): mStartScreen(1, curr: 1) -> mNextScreen(1)
+03-31 18:02:09.785 D/Carousel( 2327): snapToScreen(): oldX(600), newX(600), deltaX(0)
+03-31 18:02:09.795 I/ActivityManager( 1474): Start proc com.android.settings for activity com.android.settings/.Settings: pid=19163 uid=1000 gids={3002, 3001, 3003, 1007, 1015, 1006}
+03-31 18:02:09.835 I/dalvikvm(19163): no jit_config.list under /data/app
+03-31 18:02:09.845 W/InputManagerService( 1474): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@340ea650
+03-31 18:02:10.135 I/dalvikvm(19163): codeCache = 0xb0a7b000 stream = 0xb0a7b000 before initJIT
+03-31 18:02:10.145 I/dalvikvm(19163): stream = 0xb0a7b515 after initJIT
+03-31 18:02:10.195 I/ActivityManager( 1474): Displayed com.android.settings/.Settings: +404ms
+03-31 18:02:10.955 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cmp=com.android.settings/.WirelessSettings } from pid 19163
+03-31 18:02:11.055 D/BluetoothEnabler(19163):  mOriginalSummary is Turn on Bluetooth
+03-31 18:02:11.415 I/ActivityManager( 1474): Displayed com.android.settings/.WirelessSettings: +458ms
+03-31 18:02:13.185 I/ActivityManager( 1474): Starting: Intent { act=android.intent.action.MAIN cmp=com.android.settings/.wifi.WifiSettings } from pid 19163
+03-31 18:02:13.605 I/ActivityManager( 1474): Displayed com.android.settings/.wifi.WifiSettings: +408ms
+03-31 18:02:13.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 62 00:3a:98:75:62:f0]
+03-31 18:02:13.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 63 00:90:4c:91:00:01]
+03-31 18:02:13.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 64 00:1e:e5:a2:43:ee]
+03-31 18:02:13.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 65 5c:63:bf:a8:d8:08]
+03-31 18:02:13.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 66 5c:63:bf:f2:14:65]
+03-31 18:02:13.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 67 00:3a:98:75:62:f1]
+03-31 18:02:13.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 68 00:25:4b:05:37:63]
+03-31 18:02:15.335 D/dalvikvm(19163): GC_EXTERNAL_ALLOC freed 354K, 55% free 3343K/7363K, external 4113K/4116K, paused 14ms
+03-31 18:02:23.775 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 69 00:1d:0f:80:73:fe]
+03-31 18:02:23.775 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 70 00:16:47:74:ab:50]
+03-31 18:02:23.775 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 71 fc:75:16:99:29:8e]
+03-31 18:02:23.775 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 72 00:16:47:74:ab:51]
+03-31 18:02:33.685 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 73 70:ca:9b:9a:da:5b]
+03-31 18:02:48.465 D/dalvikvm( 2327): GC_CONCURRENT freed 3956K, 67% free 4111K/12295K, external 12706K/16278K, paused 2ms+3ms
+03-31 18:02:53.725 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 74 00:19:e0:9a:fa:22]
+03-31 18:02:53.725 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 75 e0:46:9a:6a:e5:a2]
+03-31 18:02:53.725 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 76 00:14:a9:3c:fe:b1]
+03-31 18:02:53.735 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-77	[WPS][ESS]	
+03-31 18:02:53.745 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-77	[WPS][ESS]	
+03-31 18:02:53.755 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-77	[WPS][ESS]	
+03-31 18:02:53.845 V/WifiMonitor( 1474): Event [CTRL-EVENT-DISCONNECTED bssid=00:1d:7e:a0:0e:81 reason=4 WLAN_REASON_DISASSOC_DUE_TO_INACTIVITY]
+03-31 18:02:53.845 V/WifiStateTracker( 1474): New network state is DISCONNECTED
+03-31 18:02:53.875 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=0 BSSID=00:00:00:00:00:00]
+03-31 18:02:53.875 V/WifiStateTracker( 1474): Changing supplicant state: COMPLETED ==> DISCONNECTED
+03-31 18:02:53.945 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=3 BSSID=00:00:00:00:00:00]
+03-31 18:02:53.945 V/WifiStateTracker( 1474): Changing supplicant state: DISCONNECTED ==> SCANNING
+03-31 18:02:54.325 V/WifiMonitor( 1474): Event [CTRL-EVENT-BSS-ADDED 77 00:1e:e5:f6:02:55]
+03-31 18:02:54.345 V/WifiMonitor( 1474): Event [WPS-AP-AVAILABLE ]
+03-31 18:02:54.345 V/WifiMonitor( 1474): Event [SME: Trying to authenticate with 00:1e:e5:f6:02:55 (SSID='wifi.borqs.com' freq=2422 MHz)]
+03-31 18:02:54.345 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=00:1e:e5:f6:02:55]
+03-31 18:02:54.345 V/WifiStateTracker( 1474): Changing supplicant state: SCANNING ==> AUTHENTICATING
+03-31 18:02:54.355 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-78	[WPS][ESS]	
+03-31 18:02:54.365 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-78	[WPS][ESS]	
+03-31 18:02:54.405 V/WifiMonitor( 1474): Event [Trying to associate with 00:1e:e5:f6:02:55 (SSID='wifi.borqs.com' freq=2422 MHz)]
+03-31 18:02:54.405 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:1e:e5:f6:02:55]
+03-31 18:02:54.415 V/WifiStateTracker( 1474): Changing supplicant state: AUTHENTICATING ==> ASSOCIATING
+03-31 18:02:54.435 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-78	[WPS][ESS]	
+03-31 18:02:54.535 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:1e:e5:f6:02:55]
+03-31 18:02:54.535 V/WifiMonitor( 1474): Event [Associated with 00:1e:e5:f6:02:55]
+03-31 18:02:54.535 V/WifiStateTracker( 1474): Changing supplicant state: ASSOCIATING ==> ASSOCIATED
+03-31 18:02:54.535 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=00:00:00:00:00:00]
+03-31 18:02:54.535 V/WifiStateTracker( 1474): Changing supplicant state: ASSOCIATED ==> FOUR_WAY_HANDSHAKE
+03-31 18:02:54.545 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=8 BSSID=00:00:00:00:00:00]
+03-31 18:02:54.545 V/WifiStateTracker( 1474): Changing supplicant state: FOUR_WAY_HANDSHAKE ==> GROUP_HANDSHAKE
+03-31 18:02:54.545 V/WifiMonitor( 1474): Event [WPA: Key negotiation completed with 00:1e:e5:f6:02:55 [PTK=CCMP GTK=CCMP]]
+03-31 18:02:54.555 V/WifiMonitor( 1474): Event [CTRL-EVENT-CONNECTED - Connection to 00:1e:e5:f6:02:55 completed (reauth) [id=0 id_str=]]
+03-31 18:02:54.575 V/WifiMonitor( 1474): Event [CTRL-EVENT-STATE-CHANGE id=0 state=9 BSSID=00:00:00:00:00:00]
+03-31 18:02:54.575 V/WifiStateTracker( 1474): New network state is CONNECTED
+03-31 18:02:54.595 D/WifiStateTracker( 1474): Reset connections and stopping DHCP
+03-31 18:02:54.625 D/dhcpcd  (16686): received SIGTERM, stopping
+03-31 18:02:54.625 D/dhcpcd  (16686): deleting route 0.0.0.0/0 via 192.168.12.1
+03-31 18:02:54.625 D/dhcpcd  (16686): deleting IP address 192.168.13.20/22
+03-31 18:02:54.625 D/dhcpcd  (16686): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason STOP
+03-31 18:02:54.835 D/NetworkStateTracker( 1474): setDetailed state, old =CONNECTED and new state=DISCONNECTED
+03-31 18:02:54.835 D/NetworkStateTracker( 1474): setDetailed state, old =CONNECTED and new state=OBTAINING_IPADDR
+03-31 18:02:54.835 V/WifiStateTracker( 1474): Changing supplicant state: GROUP_HANDSHAKE ==> COMPLETED
+03-31 18:02:54.835 D/WifiStateTracker( 1474): DHCP request started
+03-31 18:02:54.835 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/OBTAINING_IPADDR
+03-31 18:02:54.835 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTING/OBTAINING_IPADDR
+03-31 18:02:54.835 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTING/OBTAINING_IPADDR
+03-31 18:02:54.835 D/ConnectivityService( 1474): Dropping ConnectivityChange for WIFI: CONNECTING/OBTAINING_IPADDR
+03-31 18:02:54.875 D/dhcpcd  (19189): dhcpcd 4.0.15 starting
+03-31 18:02:54.875 D/dhcpcd  (19189): hardware address = 08:00:28:a5:62:ce
+03-31 18:02:54.875 D/dhcpcd  (19189): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason PREINIT
+03-31 18:02:54.965 D/dhcpcd  (19189): host does not support a monotonic clock - timing can skew
+03-31 18:02:54.965 D/dhcpcd  (19189): broadcasting for a lease
+03-31 18:02:54.965 D/dhcpcd  (19189): sending DHCP_DISCOVER with xid 0x32b2c1c7, next in 3.57 seconds
+03-31 18:02:55.485 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-78	[WPS][ESS]	
+03-31 18:02:55.505 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-78	[WPS][ESS]	
+03-31 18:02:55.505 W/WifiService( 1474): misformatted scan result for: e0:46:9a:6a:e5:a2	2412	-78	[WPS][ESS]	
+03-31 18:02:58.535 D/dhcpcd  (19189): sending DHCP_DISCOVER with xid 0x32b2c1c7, next in 7.94 seconds
+03-31 18:02:58.555 D/dhcpcd  (19189): offered 192.168.13.20 from 192.168.1.60
+03-31 18:02:58.555 D/dhcpcd  (19189): sending DHCP_REQUEST with xid 0x32b2c1c7, next in 3.75 seconds
+03-31 18:02:58.565 D/dhcpcd  (19189): acknowledged 192.168.13.20 from 192.168.1.60
+03-31 18:02:58.605 D/dhcpcd  (19189): leased 192.168.13.20 for 86400 seconds
+03-31 18:02:58.605 D/dhcpcd  (19189): adding IP address 192.168.13.20/22
+03-31 18:02:58.605 D/dhcpcd  (19189): adding route to 0.0.0.0/0 via 192.168.12.1
+03-31 18:02:58.605 D/dhcpcd  (19189): executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason BOUND
+03-31 18:02:58.665 D/dhcpcd  (19189): renew in 43200 seconds
+03-31 18:02:58.745 D/WifiStateTracker( 1474): DHCP succeeded with lease: 86400
+03-31 18:02:58.745 D/NetworkStateTracker( 1474): setDetailed state, old =OBTAINING_IPADDR and new state=CONNECTED
+03-31 18:02:58.755 V/WifiStateTracker( 1474): IP configuration: ipaddr 192.168.13.20 gateway 192.168.12.1 netmask 255.255.252.0 dns1 192.168.1.60 dns2 202.106.0.20 DHCP server 192.168.1.60 lease 86400 seconds
+03-31 18:02:58.755 V/NetworkStateTracker( 1474): Setting TCP values: [4095,87380,110208,4096,16384,110208] which comes from [net.tcp.buffersize.wifi]
+03-31 18:02:58.755 D/ConnectivityService( 1474): ConnectivityChange for WIFI/default: CONNECTED/CONNECTED
+03-31 18:02:58.755 D/ConnectivityService( 1474): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+03-31 18:02:58.755 D/ConnectivityService( 1474): handleConnect(), info=NetworkInfo: type: 1|WIFI[], state: CONNECTED/CONNECTED, aptype: default, ifname: (unspecified), reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-31 18:02:58.765 I/ConnectivityService( 1474): handleDnsConfigurationChange netType :1
+03-31 18:02:58.765 D/ConnectivityService( 1474): adding dns 192.168.1.60 for WIFI
+03-31 18:02:58.765 D/ConnectivityService( 1474): adding dns 202.106.0.20 for WIFI
+03-31 18:02:58.765 D/NetworkStateTracker( 1474): addDefaultRoute, ENTER
+03-31 18:02:58.765 D/Tethering( 1474): net.dns1 = 192.168.1.60 net.dns2 = 202.106.0.20
+03-31 18:02:58.765 D/WifiWatchdogService( 1474): (android.server.ServerThread) wifi.borqs.com (00:1e:e5:f6:02:55) does not require the watchdog
+03-31 18:02:58.765 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 18:02:58.765 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
+03-31 18:02:58.775 D/GTalkService( 1798): ##### Network broadcast (connected=true) type=WIFI, state=CONNECTED
+03-31 18:02:58.775 D/Tethering( 1474): MasterInitialState.processMessage what=3
+03-31 18:02:58.775 I/GTalkService( 1798): [GTalkConnection.1] setInternalNetworkState: type=1, state=CONNECTED
+03-31 18:02:58.775 D/GTalkService/c( 1798): [GTalkConnection.1] connect: acquire wakelock, async connect...
+03-31 18:02:58.775 D/PHONEBACKUP_SRV(18956): NetworkManager - onReceive Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000000 (has extras) }
+03-31 18:02:58.775 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status
+03-31 18:02:58.785 I/GTalkService( 1798): [GTalkConnection.1] acquireAsyncWakeLock: WakeLock{3400f500 held=true, refCount=0}
+03-31 18:02:58.785 D/PHONEBACKUP_SRV(18956): NetworkManager - onReceive ConnectivityManager.CONNECTIVITY_ACTION
+03-31 18:02:58.785 D/PHONEBACKUP_SRV(18956): NetworkManager - onReceive ConnectivityManager.CONNECTIVITY_ACTION iNetworkInfoType1
+03-31 18:02:58.785 W/PHONEBACKUP_SRV(18956): NetworkManager - onReceive oNetworkInfo Connected()
+03-31 18:02:58.785 V/PHONEBACKUP_SRV(18956): SyncManager - networkConnected
+03-31 18:02:58.795 D/MediaRendererManager( 5751): Network activity was null now /192.168.13.20
+03-31 18:02:58.795 D/WifiWhitelist( 5751): onReceive: android.net.conn.CONNECTIVITY_CHANGE
+03-31 18:02:58.805 D/PHONEBACKUP_SRV(18956): SyncManager - syncWhileRoaming = false
+03-31 18:02:58.805 V/PHONEBACKUP_SRV(18956): SyncManager - networkConnected
+03-31 18:02:58.835 D/PHONEBACKUP_SRV(18956): SyncManager - syncWhileRoaming = false
+03-31 18:02:58.865 D/PicasaSyncManager( 2435): active network: NetworkInfo: type: 1|WIFI[], state: CONNECTED/CONNECTED, aptype: default, ifname: (unspecified), reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+03-31 18:02:58.865 I/ActivityManager( 1474): Start proc com.google.android.apps.uploader for broadcast com.google.android.apps.uploader/.ConnectivityBroadcastReceiver: pid=19217 uid=10041 gids={3003}
+03-31 18:02:58.895 D/PicasaSyncManager( 2435): background data: true
+03-31 18:02:58.895 I/dalvikvm(19217): no jit_config.list under /data/app
+03-31 18:02:58.915 E/ia_watchdog( 1257): Timer interrupt
+03-31 18:02:58.915 E/ia_watchdog( 1257): waiting for a timer interrupt
+03-31 18:02:58.945 I/ActivityThread(19217): Pub com.google.android.apps.uploader: com.google.android.apps.uploader.UploadsContentProvider
+03-31 18:02:58.945 I/ActivityThread(19217): Pub com.google.photos.provider.Album: com.google.android.apps.uploader.clients.picasa.AlbumProvider
+03-31 18:02:58.955 D/MediaUploader(19217): UploaderApplication.onCreate
+03-31 18:02:58.975 D/MediaUploader(19217): nonWifiLimit=20971520, default=20971520
+03-31 18:02:58.975 I/MediaUploader(19217): No need to wake up
+03-31 18:02:58.975 I/ActivityManager( 1474): No longer want com.google.android.gm (pid 11633): hidden #16
+03-31 18:02:58.995 I/ActivityManager( 1474): Start proc com.google.android.gm for broadcast com.google.android.gm/.downloadprovider.DownloadReceiver: pid=19226 uid=10054 gids={3003, 1015}
+03-31 18:02:59.005 I/dalvikvm(19226): no jit_config.list under /data/app
+03-31 18:02:59.005 I/!!!!!!!!!( 2327): ##############!!!!!!!!!!!!!!!!!!!!!
+03-31 18:02:59.005 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status - done, took 229 ms
+03-31 18:02:59.005 I/GTalkService( 1798): doConnect: start...
+03-31 18:02:59.045 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 18:02:59.095 I/ActivityThread(19226): Pub gmail-ls: com.google.android.gm.provider.MailProvider
+03-31 18:02:59.095 I/ActivityThread(19226): Pub com.google.android.gm.attachmentspreviews: com.google.android.gm.AttachmentPreviewProvider
+03-31 18:02:59.105 I/ActivityThread(19226): Pub com.google.android.gmail.SuggestionProvider: com.google.android.gm.SuggestionsProvider
+03-31 18:02:59.105 I/ActivityThread(19226): Pub gmail-downloads: com.google.android.gm.downloadprovider.DownloadProvider
+03-31 18:02:59.125 I/dalvikvm(19226): codeCache = 0xb0bbb000 stream = 0xb0bbb000 before initJIT
+03-31 18:02:59.135 I/dalvikvm(19226): stream = 0xb0bbb515 after initJIT
+03-31 18:02:59.195 I/Database(19226): sqlite returned: error code = 0, msg = Recovered 5 frames from WAL file /data/data/com.google.android.gm/databases/downloads.db-wal
+03-31 18:02:59.235 I/ActivityManager( 1474): No longer want com.innopath.activecare (pid 18728): hidden #16
+03-31 18:02:59.835 I/GTalkService( 1798): connectionEstablished
+03-31 18:02:59.875 D/GTalkService( 1798): [RosterListenerImpl] removeTalkPresence for account=1, deleted=19
+03-31 18:02:59.915 I/!!!!!!!!!( 2327): ##############!!!!!!!!!!!!!!!!!!!!!
+03-31 18:02:59.915 D/GTalkService( 1798): [ContactPresence] removeAllContactsPresence: account=1, set null presence for 21
+03-31 18:02:59.975 D/dalvikvm( 2759): GC_EXPLICIT freed 329K, 59% free 3048K/7431K, external 4060K/7995K, paused 12ms
+03-31 18:02:59.985 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 18:02:59.995 D/KeyguardUpdateMonitor( 1474): received broadcast android.intent.action.TIME_TICK
+03-31 18:03:00.035 I/System.out(11218):  *********** Orange Clock ACTION_TIME_TICK Intent *********** 
+03-31 18:03:00.045 I/System.out(11218):  *********** Orange Clock Receiver *********** com.orange.clockalarm.time_tick
+03-31 18:03:00.045 I/GTalkService( 1798): [GTalkConnection.27] connectionEstablished: release wakelock
+03-31 18:03:00.045 I/GTalkService( 1798): [GTalkConnection.27] releaseAsyncWakeLock: clear timer: WakeLock{3400f500 held=false, refCount=0}
+03-31 18:03:00.045 D/ConnectivityService( 1474): reportNetworkCondition(1, 100)
+03-31 18:03:00.055 D/ConnectivityService( 1474): Inet connectivity change, net=1, condition=100,mActiveDefaultNetwork=1
+03-31 18:03:00.055 D/ConnectivityService( 1474): starting a change hold
+03-31 18:03:00.065 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status
+03-31 18:03:00.145 I/!!!!!!!!!( 2327): ##############!!!!!!!!!!!!!!!!!!!!!
+03-31 18:03:00.155 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status - done, took 85 ms
+03-31 18:03:00.155 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status
+03-31 18:03:00.175 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 18:03:00.245 I/!!!!!!!!!( 2327): ##############!!!!!!!!!!!!!!!!!!!!!
+03-31 18:03:00.255 I/GTalkService( 1798): [GTalkConnection.27] (WORKER THREAD) update account status - done, took 101 ms
+03-31 18:03:00.255 D/GTalkService( 1798): [RosterMgr] roster not modified
+03-31 18:03:00.275 D/dalvikvm( 1693): GC_EXPLICIT freed 403K, 62% free 3976K/10311K, external 6151K/10247K, paused 13ms
+03-31 18:03:00.275 D/MessageDetailSpinner( 2327): onLayout(): mSuppressOnLayout(false)
+03-31 18:03:00.305 E/TalkProvider( 1798): replaceContactWithContactId: contactId==0!!! riverlh711@gmail.com, acct=1
+03-31 18:03:00.305 E/TalkProvider( 1798): insert presence failed for account=1 username=riverlh711@gmail.com client_type=0 status=野蛮咆哮 cap=15 priority=0 mode=3
+03-31 18:03:00.335 D/GTalkService( 1798): [OtrMgr] OTR not modified
+03-31 18:03:00.555 D/ConnectivityService( 1474): Inet hold end, net=1, condition =100, published condition =0
+03-31 18:03:00.555 D/ConnectivityService( 1474): >>>>(Delay)Sending CONNECTED bcast for WIFI/default
+03-31 18:03:00.555 D/ConnectivityService( 1474): >>>>Sending CONNECTED bcast
