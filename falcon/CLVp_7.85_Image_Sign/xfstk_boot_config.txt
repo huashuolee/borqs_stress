@@ -1,4 +1,0 @@
-'----- Output Settings -----
-PlatformType = MFDD0
-ImageType = OSUSB
-ImageName = ./boot.bin

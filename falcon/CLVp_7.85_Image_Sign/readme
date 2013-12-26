@@ -1,6 +1,0 @@
-1. Please add build link into conf/build.conf
-2. Please add unsigned files links into conf/unsigned_file.conf
-### Please make sure that above files are refer to one build ###
-
-3. Please use Terminal to run makesignedbuild.sh directly
-./Desktop/CLVp_7.85_Image_Sign/makesignedbuild.sh 
