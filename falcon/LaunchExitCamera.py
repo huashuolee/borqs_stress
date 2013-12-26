@@ -16,12 +16,15 @@ sleep(2)
 # sets the name of the component to start
 runComponent = package + '/' + activity
 
-# Runs the component
-device.startActivity(component=runComponent)
-for i in range(0, int(raw_input('please input times:\n'))):
-    device.press('KEYCODE_CAMERA')
+
+sleep(5)
+
+for i in range(0, int(raw_input('please input times:'))):
+    # Runs the component
+    device.startActivity(component=runComponent)
+    sleep()
+    device.press('KEYCODE_BACK')
     sleep(2)
 
-device.press('KEYCODE_BACK')
 print 'work done'
 
