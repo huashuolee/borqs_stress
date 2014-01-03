@@ -23,6 +23,7 @@ sleep(5)
 for i in range(0, int(raw_input('please input times:'))):
     device.press('KEYCODE_CAMERA')
     sleep(2)
+    print 'NO.%s'%i
 
 print 'work done'
 device.press('KEYCODE_BACK')

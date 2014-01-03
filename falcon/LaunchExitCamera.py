@@ -22,9 +22,10 @@ sleep(5)
 for i in range(0, int(raw_input('please input times:'))):
     # Runs the component
     device.startActivity(component=runComponent)
-    sleep()
+    sleep(2)
     device.press('KEYCODE_BACK')
     sleep(2)
+    print 'No.%s' %i
 
 print 'work done'
 
