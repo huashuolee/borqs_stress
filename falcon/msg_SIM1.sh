@@ -1,8 +1,8 @@
 #!/bin/bash
 move()
 {
-	adb -s $sa shell input motionevent $1 $2 down
-	adb -s $sa shell input motionevent $1 $2 up
+	adb -s $sa shell input tap $1 $2 
+	
 }
 
 
@@ -23,24 +23,21 @@ mms()
 		doom=0
 		echo "`date`:Start to send MMS to $num"
 		echo "`date`:Looping *****************************************************No.$n"
-		adb -s $sa shell am start -a android.intent.action.SENDTO -d sms:$num -n com.borqs.mms/.ui.ComposeMessageActivity -W
+		adb -s $sa shell am start -a android.intent.action.SENDTO -d sms:$num -n com.android.mms/.ui.ComposeMessageActivity -W
 		sleep 2
 		adb -s $sa shell input text testABC$n
 		sleep 2
 		#add attachments(audio).
-		adb -s $sa shell input keyevent 82
+		move 500 65
 		sleep 2
-		move 120 310			
+		move 350 600			
 		sleep 2
-		move 180 400
+                move 350 200
+                sleep 2
+		move 350 900
 		sleep 2
-		move 100 100
-		sleep 2
-		move 280 454
-		sleep 2
-		move 190 460
-		sleep 2
-		move 230 340
+                move 468 928
+		
 		
 	#	only subject	 
 	#	move 160 355
@@ -60,7 +57,7 @@ mms()
 		echo "wait incoming MMS………………………………………………………………………………………………………………………………………………………………"
 		while  [ $dur -le 900 ]; do
 			sleep 1
-			r="`adb -s $sb shell logcat -d -b events | grep "com.borqs.mms" | grep "Notification"`"
+			r="`adb -s $sb shell logcat -d -b events | grep "com.android.mms" | grep "Notification"`"
 			if [ -n "$r"  ];then
 				echo "`date`: MMS recieved!"
 				result "m1"
@@ -84,13 +81,13 @@ mms()
 
 loger()
 {
-	adb -s $sa pull /data/logs/ ./"$n"_logs/A/
+	adb -s $sa pull /logs/ ./"$n"_logs/A/
 	adb -s $sa pull /data/anr/ ./"$n"_logs/A/
 	adb -s $sa pull /sdcard/iplogs/ ./"$n"_logs/A/
-	adb -s $sa pull /sdcard/data/logs/ ./"$n"_logs/A/
-	adb -s $sb pull /sdcard/data/logs/ ./"$n"_logs/B/
+	adb -s $sa pull /sdcard/logs/ ./"$n"_logs/A/
+	adb -s $sb pull /sdcard/logs/ ./"$n"_logs/B/
 	adb -s $sb pull /sdcard/iplogs/ ./"$n"_logs/B/
-	adb -s $sb pull /data/logs/ ./"$n"_logs/B/
+	adb -s $sb pull /logs/ ./"$n"_logs/B/
 	adb -s $sb pull /data/anr/ ./"$n"_logs/B/
 	adb -s $sa pull /data/system/dropbox/ ./"$n"_logs/A/
 	adb -s $sb pull /data/system/dropbox/ ./"$n"_logs/B/
@@ -137,13 +134,13 @@ sms()
 		doom=0
 		echo "`date`: `date`: Start to send SMS to $num"
 		echo "`date`: Looping ***********************************************************************No.$n"
-		adb -s $sa shell am start -a android.intent.action.SENDTO -d sms:$num -n com.borqs.mms/.ui.ComposeMessageActivity -W
+		adb -s $sa shell am start -a android.intent.action.SENDTO -d sms:$num -n com.android.mms/.ui.ComposeMessageActivity -W
 		sleep 1
 		adb -s $sa shell input text testABC$n
 		sleep 1
-		move 60 201
+		move 468 928
 		sleep 2
-		move 230 340
+		#move 230 340
 		#adb -s $sa shell input keyevent 22
 		#sleep 2
 		#adb -s $sa shell input keyevent 66
@@ -170,7 +167,7 @@ sms()
 			sleep 1
 			
 		
-			r="`adb -s $sb shell logcat -d -b events | grep "com.borqs.mms" | grep "Receive"`"
+			r="`adb -s $sb shell logcat -d -b events | grep "com.android.mms" | grep "Receive"`"
 			if [ -n "$r"  ];then  #-n STRING 如果STRING的长度非零则为真
 				echo ""	
 				echo "`date`: Msg recieved!"
