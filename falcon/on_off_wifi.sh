@@ -9,7 +9,7 @@ adb $ss shell input tap 388 200
 sleep 5
 adb $ss shell input tap 388 200
 sleep 5
-$adb $ss shell input keyevent 4
+#adb $ss shell input keyevent 4
 sleep 2
 echo "$i"
 done
