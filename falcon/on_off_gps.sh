@@ -7,7 +7,7 @@ adb $ss shell input tap 412 200
 sleep 2
 adb $ss shell input tap 400 640
 sleep 2
-adb $ss shell input 412 200
+adb $ss shell input tap 412 200
 sleep 2
 echo "$i"
 done
