@@ -1,0 +1,11 @@
+Process: com.android.contacts
+Flags: 0x88be45
+Package: com.android.contacts v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 106534
+Instance-Count: 2
+
+android.os.StrictMode$InstanceCountViolation: class com.android.contacts.activities.ContactDetailActivity; instances=2; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

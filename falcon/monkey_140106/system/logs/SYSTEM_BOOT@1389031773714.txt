@@ -1,0 +1,7 @@
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+Hardware: clovertrail
+Revision: 0
+Bootloader: unknown
+Radio: unknown
+Kernel: Linux version 3.4.34-gc095934 (svnadmin@nataku03) (gcc version 4.6 20120106 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Jan 6 01:17:14 CST 2014
+

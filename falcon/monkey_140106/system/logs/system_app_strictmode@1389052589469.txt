@@ -1,0 +1,39 @@
+Process: com.android.gallery3d
+Flags: 0x98bc45
+Package: com.android.gallery3d v40001 (1.1.40001)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 350113
+Loop-Violation-Number: 1
+Animations-Running: 1
+Duration-Millis: 338
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.getInt(SharedPreferencesImpl.java:239)
+	at com.android.camera.CameraSettings.upgradeLocalPreferences(CameraSettings.java:341)
+	at com.android.camera.PhotoModule.switchCamera(PhotoModule.java:2435)
+	at com.android.camera.PhotoModule.access$2300(PhotoModule.java:87)
+	at com.android.camera.PhotoModule$MainHandler.handleMessage(PhotoModule.java:390)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.google.android.gsf.login
+Flags: 0x88be45
+Package: com.google.android.gsf.login v17 (4.2.2-721232)
+Package: com.google.android.gms v3159130 (3.1.59 (736673-30))
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 350979
+Instance-Count: 11
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.gsf.login.AccountIntroActivity; instances=11; limit=8
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

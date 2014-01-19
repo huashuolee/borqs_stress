@@ -1,0 +1,319 @@
+:Monkey: seed=105728624 count=50000
+:AllowPackage: com.android.vending
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 30.0%
+//   1: 8.235294%
+//   2: 1.6470588%
+//   3: 12.3529415%
+//   4: -0.0%
+//   5: 20.588236%
+//   6: 12.3529415%
+//   7: 1.6470588%
+//   8: 1.6470588%
+//   9: 0.8235294%
+//   10: 10.705882%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(234.0,666.0)
+:Sending Touch (ACTION_UP): 0:(202.08556,667.4621)
+:Sending Touch (ACTION_DOWN): 0:(328.0,463.0)
+:Sending Touch (ACTION_UP): 0:(332.9496,469.24255)
+    // Rejecting start of Intent { cmp=com.google.android.gsf.login/.AccountIntroActivity } in package com.google.android.gsf.login
+    // activityResuming(com.android.launcher)
+    // Rejecting resume of package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(305.0,170.0)
+:Sending Touch (ACTION_UP): 0:(305.4757,166.77611)
+:Sending Touch (ACTION_DOWN): 0:(258.0,674.0)
+:Sending Touch (ACTION_UP): 0:(263.7451,685.0538)
+:Sending Touch (ACTION_DOWN): 0:(537.0,622.0)
+:Sending Touch (ACTION_UP): 0:(491.8379,580.95966)
+:Sending Touch (ACTION_DOWN): 0:(305.0,759.0)
+:Sending Touch (ACTION_UP): 0:(297.7114,757.5273)
+    // Rejecting start of Intent { cmp=android/.accounts.ChooseTypeAndAccountActivity } in package android
+:Sending Touch (ACTION_DOWN): 0:(339.0,487.0)
+:Sending Touch (ACTION_UP): 0:(324.62302,483.2202)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(337.0,844.0)
+:Sending Touch (ACTION_UP): 0:(334.8795,843.36847)
+:Sending Touch (ACTION_DOWN): 0:(38.0,820.0)
+:Sending Touch (ACTION_UP): 0:(38.825165,832.3472)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(162.0,452.0)
+:Sending Touch (ACTION_UP): 0:(166.47208,454.80206)
+:Sending Touch (ACTION_DOWN): 0:(151.0,438.0)
+:Sending Touch (ACTION_UP): 0:(164.77087,463.31604)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=android/com.android.internal.app.ResolverActivity } in package android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+    //[calendar_time:2014-01-06 23:51:46.272  system_uptime:77305]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(452.0,1.0)
+:Sending Touch (ACTION_UP): 0:(450.8562,0.0)
+:Sending Touch (ACTION_DOWN): 0:(520.0,576.0)
+:Sending Touch (ACTION_UP): 0:(537.7713,583.09686)
+:Sending Touch (ACTION_DOWN): 0:(276.0,157.0)
+:Sending Touch (ACTION_UP): 0:(277.22403,171.1377)
+    // activityResuming(com.android.launcher)
+    // Rejecting resume of package com.android.launcher
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(419.0,773.0)
+:Sending Touch (ACTION_UP): 0:(418.91724,772.76904)
+    // Rejecting start of Intent { cmp=android/.accounts.ChooseTypeAndAccountActivity } in package android
+:Sending Touch (ACTION_DOWN): 0:(431.0,310.0)
+:Sending Touch (ACTION_UP): 0:(448.31494,293.74265)
+:Sending Touch (ACTION_DOWN): 0:(203.0,1.0)
+:Sending Touch (ACTION_UP): 0:(203.73787,0.0)
+:Sending Touch (ACTION_DOWN): 0:(200.0,613.0)
+:Sending Touch (ACTION_UP): 0:(190.2938,612.1843)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+    // Rejecting start of Intent { cmp=android/.accounts.ChooseTypeAndAccountActivity } in package android
+:Sending Touch (ACTION_DOWN): 0:(197.0,288.0)
+:Sending Touch (ACTION_UP): 0:(196.326,284.97617)
+:Sending Touch (ACTION_DOWN): 0:(432.0,395.0)
+:Sending Touch (ACTION_UP): 0:(421.68573,405.74432)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(132.0,685.0)
+:Sending Touch (ACTION_UP): 0:(96.06792,681.8943)
+    //[calendar_time:2014-01-06 23:51:50.273  system_uptime:81273]
+    // Sending event #200
+    //[calendar_time:2014-01-06 23:51:50.374  system_uptime:81374]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(300.0,217.0)
+:Sending Touch (ACTION_UP): 0:(300.88763,212.1318)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(174.0,476.0)
+:Sending Touch (ACTION_UP): 0:(172.57973,467.4757)
+:Sending Touch (ACTION_DOWN): 0:(135.0,667.0)
+:Sending Touch (ACTION_UP): 0:(146.67145,667.3411)
+:Sending Touch (ACTION_DOWN): 0:(5.0,779.0)
+:Sending Touch (ACTION_UP): 0:(0.0,795.42444)
+:Sending Touch (ACTION_DOWN): 0:(324.0,333.0)
+:Sending Touch (ACTION_UP): 0:(313.18546,318.3061)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(471.0,66.0)
+:Sending Touch (ACTION_UP): 0:(462.19064,79.3724)
+    // Rejecting start of Intent { act=android.speech.action.RECOGNIZE_SPEECH cmp=com.google.android.googlequicksearchbox/com.google.android.voicesearch.intentapi.IntentApiActivity } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(362.0,51.0)
+:Sending Touch (ACTION_UP): 0:(378.8706,57.303417)
+:Sending Touch (ACTION_DOWN): 0:(500.0,455.0)
+:Sending Touch (ACTION_UP): 0:(506.7041,436.72382)
+:Sending Touch (ACTION_DOWN): 0:(4.0,258.0)
+:Sending Touch (ACTION_UP): 0:(20.530766,258.24057)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(375.0,370.0)
+:Sending Touch (ACTION_UP): 0:(400.08713,423.89395)
+:Sending Touch (ACTION_DOWN): 0:(434.0,466.0)
+:Sending Touch (ACTION_UP): 0:(411.75464,421.7246)
+:Sending Touch (ACTION_DOWN): 0:(127.0,516.0)
+:Sending Touch (ACTION_UP): 0:(139.35231,494.3592)
+:Sending Touch (ACTION_DOWN): 0:(39.0,920.0)
+:Sending Touch (ACTION_UP): 0:(29.599272,920.46185)
+:Sending Touch (ACTION_DOWN): 0:(365.0,142.0)
+:Sending Touch (ACTION_UP): 0:(362.66116,140.21341)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    //[calendar_time:2014-01-06 23:51:52.222  system_uptime:83223]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(523.0,825.0)
+:Sending Touch (ACTION_UP): 0:(508.82242,810.73376)
+:Sending Touch (ACTION_DOWN): 0:(259.0,455.0)
+:Sending Touch (ACTION_UP): 0:(197.92763,488.7698)
+:Sending Touch (ACTION_DOWN): 0:(60.0,364.0)
+:Sending Touch (ACTION_UP): 0:(62.3328,363.0659)
+:Sending Touch (ACTION_DOWN): 0:(262.0,861.0)
+:Sending Touch (ACTION_UP): 0:(268.53732,879.2135)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(45.0,615.0)
+:Sending Touch (ACTION_UP): 0:(52.102737,597.9808)
+:Sending Touch (ACTION_DOWN): 0:(267.0,915.0)
+:Sending Touch (ACTION_UP): 0:(221.17044,896.8418)
+:Sending Touch (ACTION_DOWN): 0:(517.0,79.0)
+:Sending Touch (ACTION_UP): 0:(518.10333,80.66112)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(400.0,389.0)
+    //[calendar_time:2014-01-06 23:51:55.752  system_uptime:86752]
+    // Sending event #400
+:Sending Touch (ACTION_UP): 0:(460.97266,425.01553)
+:Sending Touch (ACTION_DOWN): 0:(257.0,237.0)
+:Sending Touch (ACTION_UP): 0:(261.58398,230.91165)
+:Sending Touch (ACTION_DOWN): 0:(72.0,627.0)
+:Sending Touch (ACTION_UP): 0:(70.54354,633.22516)
+:Sending Touch (ACTION_DOWN): 0:(357.0,383.0)
+:Sending Touch (ACTION_UP): 0:(308.4553,355.7768)
+:Sending Touch (ACTION_DOWN): 0:(532.0,338.0)
+:Sending Touch (ACTION_UP): 0:(537.2014,347.95282)
+:Sending Touch (ACTION_DOWN): 0:(539.0,957.0)
+:Sending Touch (ACTION_UP): 0:(540.0,960.0)
+:Sending Touch (ACTION_DOWN): 0:(505.0,12.0)
+:Sending Touch (ACTION_UP): 0:(495.11075,4.36852)
+:Sending Touch (ACTION_DOWN): 0:(366.0,492.0)
+:Sending Touch (ACTION_UP): 0:(335.64862,441.0745)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(76.0,519.0)
+:Sending Touch (ACTION_UP): 0:(83.90095,522.49603)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(167.0,115.0)
+:Sending Touch (ACTION_UP): 0:(167.26285,122.11444)
+:Sending Touch (ACTION_DOWN): 0:(387.0,464.0)
+:Sending Touch (ACTION_UP): 0:(374.13785,464.39337)
+:Sending Touch (ACTION_DOWN): 0:(354.0,116.0)
+:Sending Touch (ACTION_UP): 0:(347.69736,114.61913)
+:Sending Touch (ACTION_DOWN): 0:(482.0,536.0)
+:Sending Touch (ACTION_UP): 0:(483.65115,526.3388)
+:Sending Touch (ACTION_DOWN): 0:(17.0,202.0)
+:Sending Touch (ACTION_UP): 0:(22.170303,193.70778)
+:Sending Touch (ACTION_DOWN): 0:(445.0,611.0)
+:Sending Touch (ACTION_UP): 0:(444.84012,611.16846)
+    //[calendar_time:2014-01-06 23:51:59.628  system_uptime:90629]
+    // Sending event #500
+    //[calendar_time:2014-01-06 23:51:59.729  system_uptime:90730]
+    // Sending event #500
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(369.0,435.0)
+:Sending Touch (ACTION_UP): 0:(370.08768,441.6433)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(48.0,912.0)
+:Sending Touch (ACTION_UP): 0:(49.335804,911.5017)
+:Sending Touch (ACTION_DOWN): 0:(208.0,40.0)
+:Sending Touch (ACTION_UP): 0:(202.6563,18.367071)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Rejecting start of Intent { act=android.speech.action.RECOGNIZE_SPEECH cmp=com.google.android.googlequicksearchbox/com.google.android.voicesearch.intentapi.IntentApiActivity } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(61.0,862.0)
+:Sending Touch (ACTION_UP): 0:(47.98243,842.888)
+:Sending Touch (ACTION_DOWN): 0:(269.0,955.0)
+:Sending Touch (ACTION_UP): 0:(287.81613,956.12067)
+:Sending Touch (ACTION_DOWN): 0:(391.0,878.0)
+:Sending Touch (ACTION_UP): 0:(371.32852,883.2173)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(77.0,918.0)
+:Sending Touch (ACTION_UP): 0:(94.736374,918.7236)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(83.0,160.0)
+:Sending Touch (ACTION_UP): 0:(84.7274,153.75938)
+:Sending Touch (ACTION_DOWN): 0:(476.0,601.0)
+:Sending Touch (ACTION_UP): 0:(467.37903,607.58203)
+:Sending Touch (ACTION_DOWN): 0:(493.0,133.0)
+:Sending Touch (ACTION_UP): 0:(501.36206,144.74329)
+:Sending Touch (ACTION_DOWN): 0:(169.0,306.0)
+:Sending Touch (ACTION_UP): 0:(162.49507,313.4105)
+:Sending Touch (ACTION_DOWN): 0:(303.0,33.0)
+    //[calendar_time:2014-01-06 23:52:02.852  system_uptime:93853]
+    // Sending event #600
+:Sending Touch (ACTION_UP): 0:(308.5441,100.92172)
+:Sending Touch (ACTION_DOWN): 0:(173.0,663.0)
+:Sending Touch (ACTION_UP): 0:(234.55687,584.13446)
+:Sending Touch (ACTION_DOWN): 0:(25.0,66.0)
+:Sending Touch (ACTION_UP): 0:(16.529905,64.0491)
+:Sending Touch (ACTION_DOWN): 0:(504.0,607.0)
+:Sending Touch (ACTION_UP): 0:(507.00467,589.7044)
+:Sending Touch (ACTION_DOWN): 0:(181.0,854.0)
+:Sending Touch (ACTION_UP): 0:(135.04099,770.7507)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(424.0,153.0)
+:Sending Touch (ACTION_UP): 0:(415.33896,156.65103)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://support.google.com/androidmarket/ cmp=android/com.android.internal.app.ResolverActivity } in package android
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(465.0,336.0)
+:Sending Touch (ACTION_UP): 0:(460.41623,338.71042)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(441.0,925.0)
+:Sending Touch (ACTION_UP): 0:(449.7846,925.5956)
+:Sending Touch (ACTION_DOWN): 0:(331.0,537.0)
+:Sending Touch (ACTION_UP): 0:(326.867,531.81805)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+    //[calendar_time:2014-01-06 23:52:05.726  system_uptime:96727]
+    // Sending event #700
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(362.0,499.0)
+:Sending Touch (ACTION_UP): 0:(343.12057,513.9694)
+:Sending Touch (ACTION_DOWN): 0:(488.0,550.0)
+:Sending Touch (ACTION_UP): 0:(501.56564,546.0469)
+:Sending Touch (ACTION_DOWN): 0:(167.0,957.0)
+:Sending Touch (ACTION_UP): 0:(162.843,956.76184)
+:Sending Touch (ACTION_DOWN): 0:(382.0,124.0)
+:Sending Touch (ACTION_UP): 0:(381.49677,120.57205)
+:Sending Touch (ACTION_DOWN): 0:(41.0,29.0)
+:Sending Touch (ACTION_UP): 0:(43.83227,35.07014)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(9.0,111.0)
+:Sending Touch (ACTION_UP): 0:(10.579272,102.03152)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(493.0,159.0)
+:Sending Touch (ACTION_UP): 0:(490.75284,159.3949)
+:Sending Touch (ACTION_DOWN): 0:(269.0,638.0)
+:Sending Touch (ACTION_UP): 0:(237.59831,581.2732)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.vending/.AssetBrowserActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(348.0,927.0)
+:Sending Touch (ACTION_UP): 0:(346.87982,927.8478)
+:Sending Touch (ACTION_DOWN): 0:(287.0,365.0)
+:Sending Touch (ACTION_UP): 0:(276.8383,368.26828)
+:Sending Touch (ACTION_DOWN): 0:(272.0,523.0)
+:Sending Touch (ACTION_UP): 0:(274.97455,523.405)
+:Sending Touch (ACTION_DOWN): 0:(514.0,959.0)
+:Sending Touch (ACTION_UP): 0:(510.93433,949.12537)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(113.0,585.0)
+:Sending Touch (ACTION_UP): 0:(108.613686,582.2503)
+:Sending Touch (ACTION_DOWN): 0:(294.0,897.0)
+:Sending Touch (ACTION_UP): 0:(295.67557,903.47534)
+:Sending Touch (ACTION_DOWN): 0:(219.0,255.0)
+:Sending Touch (ACTION_UP): 0:(228.06203,266.926)
+:Sending Touch (ACTION_DOWN): 0:(211.0,709.0)
+    //[calendar_time:2014-01-06 23:52:08.707  system_uptime:99708]
+    // Sending event #800
+:Sending Touch (ACTION_UP): 0:(159.78366,769.4463)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+// CRASH: com.android.vending (pid 1490)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException
+// Build Label: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+// Build Changelist: eng.svnadmin.20140106.003504
+// Build Time: 1388939726000
+// java.lang.NullPointerException
+// 	at com.google.android.finsky.activities.mywishlist.MyWishlistFragment.getLibraryList(MyWishlistFragment.java:129)
+// 	at com.google.android.finsky.activities.mywishlist.MyWishlistFragment.requestData(MyWishlistFragment.java:122)
+// 	at com.google.android.finsky.activities.mywishlist.MyWishlistFragment.onActivityCreated(MyWishlistFragment.java:96)
+// 	at android.support.v4.app.Fragment.performActivityCreated(Fragment.java:1468)
+// 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:931)
+// 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1088)
+// 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:682)
+// 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1444)
+// 	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:429)
+// 	at android.os.Handler.handleCallback(Handler.java:725)
+// 	at android.os.Handler.dispatchMessage(Handler.java:92)
+// 	at android.os.Looper.loop(Looper.java:152)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5132)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:511)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+** Monkey aborted due to error.
+Events injected: 815
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=26482ms (0ms mobile, 26482ms wifi, 0ms not connected)
+** System appears to have crashed at event 815 of 50000 using seed 105728624

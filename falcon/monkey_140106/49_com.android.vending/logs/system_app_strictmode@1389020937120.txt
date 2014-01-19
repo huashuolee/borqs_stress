@@ -1,0 +1,64 @@
+Process: com.android.settings
+Flags: 0xc8be45
+Package: com.android.settings v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1006095
+Loop-Violation-Number: 1
+Duration-Millis: 11
+
+android.os.StrictMode$StrictModeDiskWriteViolation: policy=903 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1081)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1036)
+	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:772)
+	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+	at com.android.providers.settings.SettingsProvider.insertForUser(SettingsProvider.java:882)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:602)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:256)
+	at android.provider.Settings$NameValueCache.putStringForUser(Settings.java:777)
+	at android.provider.Settings$Global.putStringForUser(Settings.java:5421)
+	at android.provider.Settings$Global.putString(Settings.java:5411)
+	at android.provider.Settings$Global.putInt(Settings.java:5499)
+	at com.android.server.BluetoothManagerService.persistBluetoothSetting(BluetoothManagerService.java:324)
+	at com.android.server.BluetoothManagerService.disable(BluetoothManagerService.java:526)
+	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:116)
+	at android.os.Binder.execTransact(Binder.java:351)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1656)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1407)
+	at android.os.Parcel.readException(Parcel.java:1376)
+	at android.bluetooth.IBluetoothManager$Stub$Proxy.disable(IBluetoothManager.java:278)
+	at android.bluetooth.BluetoothAdapter.disable(BluetoothAdapter.java:544)
+	at com.android.settings.bluetooth.LocalBluetoothAdapter.setBluetoothEnabled(LocalBluetoothAdapter.java:199)
+	at com.android.settings.bluetooth.BluetoothEnabler.onCheckedChanged(BluetoothEnabler.java:118)
+	at android.widget.CompoundButton.setChecked(CompoundButton.java:126)
+	at android.widget.Switch.setChecked(Switch.java:666)
+	at android.widget.CompoundButton.toggle(CompoundButton.java:87)
+	at android.widget.CompoundButton.performClick(CompoundButton.java:99)
+	at android.view.View$PerformClick.run(View.java:17355)
+	at android.os.Handler.handleCallback(Handler.java:725)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.android.settings
+Flags: 0xc8be45
+Package: com.android.settings v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1008031
+Instance-Count: 20
+
+android.os.StrictMode$InstanceCountViolation: class com.android.settings.Settings$StorageUseActivity; instances=20; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

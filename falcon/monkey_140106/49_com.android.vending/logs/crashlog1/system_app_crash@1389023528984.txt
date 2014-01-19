@@ -1,0 +1,24 @@
+Process: com.android.vending
+Flags: 0x8abe45
+Package: com.android.vending v80210010 (4.1.10)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+
+java.lang.NullPointerException
+	at com.google.android.finsky.activities.mywishlist.MyWishlistFragment.getLibraryList(MyWishlistFragment.java:129)
+	at com.google.android.finsky.activities.mywishlist.MyWishlistFragment.requestData(MyWishlistFragment.java:122)
+	at com.google.android.finsky.activities.mywishlist.MyWishlistFragment.onActivityCreated(MyWishlistFragment.java:96)
+	at android.support.v4.app.Fragment.performActivityCreated(Fragment.java:1468)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:931)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1088)
+	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:682)
+	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1444)
+	at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:429)
+	at android.os.Handler.handleCallback(Handler.java:725)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)

@@ -1,0 +1,53 @@
+Process: com.android.gallery3d
+Flags: 0x98bc45
+Package: com.android.gallery3d v40001 (1.1.40001)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 385855
+Loop-Violation-Number: 1
+Duration-Millis: 6
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=903 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1034)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:835)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:143)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:133)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java:143)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:118)
+	at android.os.Binder.execTransact(Binder.java:351)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1656)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1407)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:134)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java:366)
+	at android.content.ContentResolver.query(ContentResolver.java:372)
+	at android.content.ContentResolver.query(ContentResolver.java:315)
+	at com.android.gallery3d.data.LocalAlbum.getItemCursor(LocalAlbum.java:227)
+	at com.android.gallery3d.data.LocalImage.<init>(LocalImage.java:116)
+	at com.android.gallery3d.data.LocalSource.createMediaObject(LocalSource.java:106)
+	at com.android.gallery3d.data.DataManager.getMediaObject(DataManager.java:180)
+	at com.android.gallery3d.data.LocalSource.getDefaultSetOf(LocalSource.java:183)
+	at com.android.gallery3d.data.DataManager.getDefaultSetOf(DataManager.java:281)
+	at com.android.gallery3d.app.PhotoPage.setCurrentPhotoByIntent(PhotoPage.java:1240)
+	at com.android.gallery3d.app.PhotoPage.onStateResult(PhotoPage.java:1271)
+	at com.android.gallery3d.app.StateManager.notifyActivityResult(StateManager.java:127)
+	at com.android.gallery3d.app.AbstractGalleryActivity.onActivityResult(AbstractGalleryActivity.java:246)
+	at android.app.Activity.dispatchActivityResult(Activity.java:5293)
+	at android.app.ActivityThread.deliverResults(ActivityThread.java:3398)
+	at android.app.ActivityThread.handleSendResult(ActivityThread.java:3445)
+	at android.app.ActivityThread.access$1100(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1365)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

@@ -1,0 +1,11 @@
+Process: com.google.android.calendar
+Flags: 0x89be45
+Package: com.google.android.calendar v201305280 (201305280)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1317211
+Instance-Count: 17
+
+android.os.StrictMode$InstanceCountViolation: class com.android.calendar.selectcalendars.SelectVisibleCalendarsActivity; instances=17; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

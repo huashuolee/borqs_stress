@@ -1,0 +1,101 @@
+#	PackageName	Result	monkeyCommand	Comments
+1	com.android.backupconfirm	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.backupconfirm -s 431492263 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+2	com.android.bluetooth	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.bluetooth -s 015235784 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+3	com.android.browser	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.browser -s 594888142 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+4	com.android.calculator2	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.calculator2 -s 591576892 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+5	com.android.cellbroadcastreceiver	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.cellbroadcastreceiver -s 719307925 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+6	com.android.certinstaller	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.certinstaller -s 162937580 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+7	com.android.chrome	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.chrome -s 702310215 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+8	com.android.contacts	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.contacts -s 850594923 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+9	com.android.defcontainer	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.defcontainer -s 679144838 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+10	com.android.dreams.basic	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.dreams.basic -s 289840810 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+11	com.android.dreams.phototable	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.dreams.phototable -s 822560539 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+12	com.android.email	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.email -s 413737214 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+13	com.android.exchange	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.exchange -s 116210925 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+14	com.android.facelock	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.facelock -s 754281502 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+15	com.android.galaxy4	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.galaxy4 -s 362657212 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+16	com.android.gallery3d	Fail	adb -s Clovertrail3E45E5BF shell monkey -p com.android.gallery3d -s 949784867 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	Please check logs.
+17	com.android.htmlviewer	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.htmlviewer -s 358036529 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+18	com.android.inputdevices	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.inputdevices -s 986145648 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+19	com.android.inputmethod.pinyin	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.inputmethod.pinyin -s 550353706 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+20	com.android.internal.telephony.CwsMMGRService	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.internal.telephony.CwsMMGRService -s 082972517 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+21	com.android.keychain	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.keychain -s 714149577 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+22	com.android.launcher	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.launcher -s 302147517 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+23	com.android.location.fused	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.location.fused -s 738744141 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+24	com.android.magicsmoke	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.magicsmoke -s 298303857 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+25	com.android.mms	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.mms -s 886733040 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+26	com.android.musicfx	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.musicfx -s 649866103 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+27	com.android.musicvis	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.musicvis -s 218619619 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+28	com.android.noisefield	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.noisefield -s 773409833 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+29	com.android.packageinstaller	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.packageinstaller -s 366609264 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+30	com.android.phasebeam	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.phasebeam -s 954797413 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+31	com.android.phone	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.phone -s 498138053 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+32	com.android.providers.applications	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.applications -s 097468327 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+33	com.android.providers.calendar	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.calendar -s 686301801 -v --pct-touch 30 --throttle 100 50000 -c android.intent.category.LAUNCHER --ignore-crashes --monitor-native-crashes	No activities.
+34	com.android.providers.contacts	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.contacts -s 246539932 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+35	com.android.providers.downloads	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.downloads -s 838645569 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+36	com.android.providers.downloads.ui	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.downloads.ui -s 394557628 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+37	com.android.providers.drm	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.drm -s 284313643 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+38	com.android.providers.media	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.media -s 862083547 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+39	com.android.providers.partnerbookmarks	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.partnerbookmarks -s 454604000 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+40	com.android.providers.settings	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.settings -s 098352830 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+41	com.android.providers.telephony	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.telephony -s 650832272 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+42	com.android.providers.userdictionary	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.providers.userdictionary -s 238148434 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+43	com.android.settings	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.settings -s 794782422 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+44	com.android.sharedstoragebackup	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.sharedstoragebackup -s 087872440 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+45	com.android.smspush	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.smspush -s 703195891 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+46	com.android.soundrecorder	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.android.soundrecorder -s 234904468 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+47	com.android.stk	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.stk -s 948326028 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+48	com.android.systemui	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.systemui -s 534354199 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+49	com.android.vending	Fail	adb -s Clovertrail3E45E5BF shell monkey -p com.android.vending -s 105728624 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	Please check logs.
+50	com.android.vpndialogs	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.vpndialogs -s 470702872 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+51	com.android.wallpaper	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.wallpaper -s 106734345 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+52	com.android.wallpaper.holospiral	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.wallpaper.holospiral -s 679112301 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+53	com.android.wallpaper.livepicker	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.android.wallpaper.livepicker -s 231255502 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+54	com.borqs.bugreporter	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.borqs.bugreporter -s 798192115 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+55	com.google.android.apps.books	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.apps.books -s 888149289 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+56	com.google.android.apps.genie.geniewidget	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.apps.genie.geniewidget -s 450965945 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+57	com.google.android.apps.magazines	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.apps.magazines -s 055200786 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+58	com.google.android.apps.maps	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.apps.maps -s 462767047 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+59	com.google.android.apps.plus	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.apps.plus -s 594300039 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+60	com.google.android.apps.uploader	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.apps.uploader -s 112397737 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+61	com.google.android.backup	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.backup -s 670698534 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+62	com.google.android.calendar	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.calendar -s 255103960 -v --pct-touch 30 --throttle 100 50000 -c android.intent.category.LAUNCHER --ignore-crashes --monitor-native-crashes
+63	com.google.android.configupdater	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.configupdater -s 691181254 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+64	com.google.android.deskclock	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.deskclock -s 295071700 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+65	com.google.android.feedback	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.feedback -s 152716491 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+66	com.google.android.gm	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.gm -s 742799822 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+67	com.google.android.gms	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.gms -s 254491920 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+68	com.google.android.googlequicksearchbox	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.googlequicksearchbox -s 923014688 -v --pct-touch 30 --throttle 100 50000 -c android.intent.category.LAUNCHER --ignore-crashes --monitor-native-crashes
+69	com.google.android.gsf	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.gsf -s 615736938 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+70	com.google.android.gsf.login	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.gsf.login -s 222073875 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+71	com.google.android.inputmethod.latin	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.inputmethod.latin -s 770806705 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+72	com.google.android.location	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.location -s 330880556 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+73	com.google.android.marvin.talkback	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.marvin.talkback -s 926211306 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+74	com.google.android.music	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.music -s 510432407 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+75	com.google.android.onetimeinitializer	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.onetimeinitializer -s 788918942 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+76	com.google.android.partnersetup	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.partnersetup -s 331054918 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+77	com.google.android.play.games	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.play.games -s 879820549 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+78	com.google.android.setupwizard	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.setupwizard -s 928903617 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+79	com.google.android.street	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.street -s 435440285 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+80	com.google.android.syncadapters.bookmarks	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.syncadapters.bookmarks -s 736620934 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+81	com.google.android.syncadapters.contacts	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.syncadapters.contacts -s 267719696 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+82	com.google.android.tag	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.tag -s 807733931 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+83	com.google.android.talk	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.talk -s 311532386 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+84	com.google.android.tts	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.tts -s 592719937 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+85	com.google.android.videoeditor	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.videoeditor -s 159189086 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+86	com.google.android.videos	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.videos -s 008933926 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+87	com.google.android.voicesearch	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.voicesearch -s 531833267 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+88	com.google.android.youtube	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.google.android.youtube -s 070826256 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+89	com.intel.amtl	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.intel.amtl -s 016875228 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+90	com.intel.android.nvmconfig	Pass	adb -s Clovertrail3E45E5BF shell monkey -p com.intel.android.nvmconfig -s 284916540 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes
+91	com.intel.atproxy	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.intel.atproxy -s 130492424 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+92	com.intel.security.service	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.intel.security.service -s 675047760 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+93	com.softwareupdate	Block	adb -s Clovertrail3E45E5BF shell monkey -p com.softwareupdate -s 175871151 -v --pct-touch 30 --throttle 100 50000  --ignore-crashes --monitor-native-crashes	No activities.
+System	System	Fail	adb -s Clovertrail3E45E5BF shell monkey -s 175871151 -v --pct-touch 30 --throttle 100 50000 --ignore-crashes --monitor-native-crashes	Please check logs.
+
+	Total	93
+	Pass	29
+	Fail	3
+	Block	62
+	

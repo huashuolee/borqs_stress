@@ -1,0 +1,29 @@
+Process: com.android.inputmethod.pinyin
+Flags: 0x88be45
+Package: com.android.inputmethod.pinyin v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1268647
+Loop-Violation-Number: 1
+Duration-Millis: 24
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at android.app.ContextImpl.openFileOutput(ContextImpl.java:702)
+	at android.content.ContextWrapper.openFileOutput(ContextWrapper.java:173)
+	at com.android.inputmethod.pinyin.PinyinDecoderService.onCreate(PinyinDecoderService.java:157)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2612)
+	at android.app.ActivityThread.access$1600(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1399)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

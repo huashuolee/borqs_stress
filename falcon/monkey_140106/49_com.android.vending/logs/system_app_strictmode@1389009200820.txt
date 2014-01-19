@@ -1,0 +1,22 @@
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 223794
+Instance-Count: 4
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.apps.chrome.preferences.PreferenceHeaders; instances=4; limit=3
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 224380
+Instance-Count: 3
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.apps.chrome.preferences.PreferenceHeaders; instances=3; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

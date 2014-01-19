@@ -1,0 +1,11 @@
+Process: com.google.android.videoeditor
+Flags: 0x98be45
+Package: com.google.android.videoeditor v11 (1.1)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 420210
+Instance-Count: 4
+
+android.os.StrictMode$InstanceCountViolation: class com.android.videoeditor.VideoEditorActivity; instances=4; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

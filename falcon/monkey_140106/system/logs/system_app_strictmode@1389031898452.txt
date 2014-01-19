@@ -1,0 +1,50 @@
+Process: com.google.android.calendar
+Flags: 0x89be45
+Package: com.google.android.calendar v201305280 (201305280)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 143440
+Instance-Count: 2
+
+android.os.StrictMode$InstanceCountViolation: class com.android.calendar.selectcalendars.SelectVisibleCalendarsActivity; instances=2; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.calendar
+Flags: 0x89be45
+Package: com.google.android.calendar v201305280 (201305280)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 143460
+
+java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.content.ContentResolver$CursorWrapperInner.<init>(ContentResolver.java:1855)
+	at android.content.ContentResolver.query(ContentResolver.java:394)
+	at android.content.CursorLoader.loadInBackground(CursorLoader.java:65)
+	at android.content.CursorLoader.loadInBackground(CursorLoader.java:43)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:301)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:68)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:56)
+	at android.os.AsyncTask$2.call(AsyncTask.java:287)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:856)
+
+Process: com.google.android.calendar
+Flags: 0x89be45
+Package: com.google.android.calendar v201305280 (201305280)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 143466
+
+java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.content.ContentResolver$CursorWrapperInner.<init>(ContentResolver.java:1855)
+	at android.content.ContentResolver.query(ContentResolver.java:394)
+	at android.content.ContentResolver.query(ContentResolver.java:315)
+	at android.content.AsyncQueryHandler$WorkerHandler.handleMessage(AsyncQueryHandler.java:79)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.os.HandlerThread.run(HandlerThread.java:60)
+

@@ -1,0 +1,56 @@
+Process: com.google.android.apps.genie.geniewidget
+Flags: 0x88be45
+Package: com.google.android.apps.genie.geniewidget v1311 (1.3.11)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 75575
+Loop-Violation-Number: 9
+Duration-Millis: 19
+
+android.os.StrictMode$StrictModeDiskWriteViolation: policy=647 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1081)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:71)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:597)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.google.android.apps.genie.geniewidget.GenieApplication$DefaultGenieContext.setLongPreference(GenieApplication.java:464)
+	at com.google.android.apps.genie.geniewidget.GenieApplication$DefaultGenieContext.scheduleModelUpdate(GenieApplication.java:661)
+	at com.google.android.apps.genie.geniewidget.activities.Preferences$7.onPreferenceChange(Preferences.java:239)
+	at android.preference.Preference.callChangeListener(Preference.java:895)
+	at android.preference.TwoStatePreference.onClick(TwoStatePreference.java:65)
+	at android.preference.Preference.performClick(Preference.java:949)
+	at android.preference.PreferenceScreen.onItemClick(PreferenceScreen.java:215)
+	at android.widget.AdapterView.performItemClick(AdapterView.java:298)
+	at android.widget.AbsListView.performItemClick(AbsListView.java:1100)
+	at android.widget.AbsListView.onKeyUp(AbsListView.java:2895)
+	at android.widget.ListView.commonKey(ListView.java:2258)
+	at android.widget.ListView.onKeyUp(ListView.java:2113)
+	at android.view.KeyEvent.dispatch(KeyEvent.java:2633)
+	at android.view.View.dispatchKeyEvent(View.java:7205)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1354)
+	at android.widget.ListView.dispatchKeyEvent(ListView.java:2088)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1359)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1359)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1359)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1359)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchKeyEvent(PhoneWindow.java:1929)
+	at com.android.internal.policy.impl.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1404)
+	at android.app.Dialog.dispatchKeyEvent(Dialog.java:706)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:1856)
+	at android.view.ViewRootImpl.deliverKeyEventPostIme(ViewRootImpl.java:3710)
+	at android.view.ViewRootImpl.handleImeFinishedEvent(ViewRootImpl.java:3660)
+	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:2827)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

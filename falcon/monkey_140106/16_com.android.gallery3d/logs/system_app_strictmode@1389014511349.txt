@@ -1,0 +1,59 @@
+Process: com.android.gallery3d
+Flags: 0x98bc45
+Package: com.android.gallery3d v40001 (1.1.40001)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 658324
+
+java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.os.ParcelFileDescriptor.<init>(ParcelFileDescriptor.java:412)
+	at android.os.Parcel.readFileDescriptor(Parcel.java:1496)
+	at android.os.ParcelFileDescriptor$1.createFromParcel(ParcelFileDescriptor.java:441)
+	at android.os.ParcelFileDescriptor$1.createFromParcel(ParcelFileDescriptor.java:438)
+	at android.content.res.AssetFileDescriptor.<init>(AssetFileDescriptor.java:322)
+	at android.content.res.AssetFileDescriptor$1.createFromParcel(AssetFileDescriptor.java:330)
+	at android.content.res.AssetFileDescriptor$1.createFromParcel(AssetFileDescriptor.java:328)
+	at android.content.ContentProviderProxy.openTypedAssetFile(ContentProviderNative.java:619)
+	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:717)
+	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:614)
+	at android.content.ContentResolver.openInputStream(ContentResolver.java:449)
+	at com.android.gallery3d.filtershow.tools.SaveCopyTask.loadMutableBitmap(SaveCopyTask.java:146)
+	at com.android.gallery3d.filtershow.tools.SaveCopyTask.doInBackground(SaveCopyTask.java:232)
+	at com.android.gallery3d.filtershow.tools.SaveCopyTask.doInBackground(SaveCopyTask.java:51)
+	at android.os.AsyncTask$2.call(AsyncTask.java:287)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:230)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:856)
+
+Process: com.android.gallery3d
+Flags: 0x98bc45
+Package: com.android.gallery3d v40001 (1.1.40001)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 658329
+
+java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.os.ParcelFileDescriptor.<init>(ParcelFileDescriptor.java:412)
+	at android.os.Parcel.readFileDescriptor(Parcel.java:1496)
+	at android.os.ParcelFileDescriptor$1.createFromParcel(ParcelFileDescriptor.java:441)
+	at android.os.ParcelFileDescriptor$1.createFromParcel(ParcelFileDescriptor.java:438)
+	at android.content.res.AssetFileDescriptor.<init>(AssetFileDescriptor.java:322)
+	at android.content.res.AssetFileDescriptor$1.createFromParcel(AssetFileDescriptor.java:330)
+	at android.content.res.AssetFileDescriptor$1.createFromParcel(AssetFileDescriptor.java:328)
+	at android.content.ContentProviderProxy.openTypedAssetFile(ContentProviderNative.java:619)
+	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:717)
+	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:614)
+	at android.content.ContentResolver.openInputStream(ContentResolver.java:449)
+	at com.android.gallery3d.filtershow.tools.SaveCopyTask.doInBackground(SaveCopyTask.java:245)
+	at com.android.gallery3d.filtershow.tools.SaveCopyTask.doInBackground(SaveCopyTask.java:51)
+	at android.os.AsyncTask$2.call(AsyncTask.java:287)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:230)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:856)
+

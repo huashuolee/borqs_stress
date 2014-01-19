@@ -1,0 +1,5 @@
+:Monkey: seed=736620934 count=50000
+:AllowPackage: com.google.android.syncadapters.bookmarks
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+** No activities found to run, monkey aborted.

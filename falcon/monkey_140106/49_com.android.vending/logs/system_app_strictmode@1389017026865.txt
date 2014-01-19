@@ -1,0 +1,49 @@
+Process: com.android.mms
+Flags: 0x88be65
+Package: com.android.mms v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 461801
+Loop-Violation-Number: 6
+Duration-Millis: 47
+
+android.os.StrictMode$StrictModeDiskWriteViolation: policy=903 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1081)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1036)
+	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:772)
+	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+	at com.android.providers.telephony.MmsProvider.insert(MmsProvider.java:464)
+	at android.content.ContentProvider$Transport.insert(ContentProvider.java:201)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:148)
+	at android.os.Binder.execTransact(Binder.java:351)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1656)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1407)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:134)
+	at android.content.ContentProviderProxy.insert(ContentProviderNative.java:420)
+	at android.content.ContentResolver.insert(ContentResolver.java:866)
+	at com.google.android.mms.util.SqliteWrapper.insert(SqliteWrapper.java:113)
+	at com.google.android.mms.pdu.PduPersister.persistPart(PduPersister.java:753)
+	at com.google.android.mms.pdu.PduPersister.updateParts(PduPersister.java:1209)
+	at com.android.mms.ui.SlideEditorActivity.onPause(SlideEditorActivity.java:221)
+	at android.app.Activity.performPause(Activity.java:5206)
+	at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1226)
+	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3085)
+	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:3054)
+	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1334)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

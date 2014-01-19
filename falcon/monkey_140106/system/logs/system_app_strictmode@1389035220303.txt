@@ -1,0 +1,26 @@
+Process: com.google.android.talk
+Flags: 0x89be45
+Package: com.google.android.talk v753199 (1.1.1.753199)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 25662
+Loop-Violation-Number: 1
+Duration-Millis: 23
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.google.android.videochat.Registration.register(SourceFile:151)
+	at com.google.android.videochat.VideoChat.initialize(SourceFile:99)
+	at com.google.android.apps.babel.hangout.bc.run(SourceFile:517)
+	at android.os.Handler.handleCallback(Handler.java:725)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

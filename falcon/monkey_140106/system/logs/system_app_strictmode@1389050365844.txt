@@ -1,0 +1,67 @@
+Process: com.intel.amtl
+Flags: 0x88be45
+Package: com.intel.amtl v1 (2.3.3)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1107795
+Loop-Violation-Number: 1
+Duration-Millis: 33
+
+android.os.StrictMode$StrictModeDiskWriteViolation: policy=647 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1081)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:692)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:677)
+	at java.io.RandomAccessFile.writeBytes(RandomAccessFile.java:757)
+	at com.intel.amtl.ModemConfiguration.read_write_modem(ModemConfiguration.java:89)
+	at com.intel.amtl.ModemConfiguration.setAdditionalTracesOn(ModemConfiguration.java:284)
+	at com.intel.amtl.AmtlCore.setAdditionalTraces(AmtlCore.java:457)
+	at com.intel.amtl.SettingsActivity$2.onCheckedChanged(SettingsActivity.java:655)
+	at android.widget.CompoundButton.setChecked(CompoundButton.java:126)
+	at android.widget.CompoundButton.toggle(CompoundButton.java:87)
+	at android.widget.CompoundButton.performClick(CompoundButton.java:99)
+	at android.view.View$PerformClick.run(View.java:17355)
+	at android.os.Handler.handleCallback(Handler.java:725)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.intel.amtl
+Flags: 0x88be45
+Package: com.intel.amtl v1 (2.3.3)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1107797
+Loop-Violation-Number: 2
+Duration-Millis: 31
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:432)
+	at java.io.RandomAccessFile.read(RandomAccessFile.java:290)
+	at java.io.RandomAccessFile.read(RandomAccessFile.java:272)
+	at com.intel.amtl.ModemConfiguration.read_write_modem(ModemConfiguration.java:92)
+	at com.intel.amtl.ModemConfiguration.setAdditionalTracesOn(ModemConfiguration.java:284)
+	at com.intel.amtl.AmtlCore.setAdditionalTraces(AmtlCore.java:457)
+	at com.intel.amtl.SettingsActivity$2.onCheckedChanged(SettingsActivity.java:655)
+	at android.widget.CompoundButton.setChecked(CompoundButton.java:126)
+	at android.widget.CompoundButton.toggle(CompoundButton.java:87)
+	at android.widget.CompoundButton.performClick(CompoundButton.java:99)
+	at android.view.View$PerformClick.run(View.java:17355)
+	at android.os.Handler.handleCallback(Handler.java:725)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

@@ -1,0 +1,11 @@
+Process: com.google.android.gms.ui
+Flags: 0x88be45
+Package: com.google.android.gms v3159130 (3.1.59 (736673-30))
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 481588
+Instance-Count: 3
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.location.settings.GoogleLocationSettingsActivity; instances=3; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

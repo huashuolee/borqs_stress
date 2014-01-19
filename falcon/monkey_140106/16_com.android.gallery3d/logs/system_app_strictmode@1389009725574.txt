@@ -1,0 +1,44 @@
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 748563
+Instance-Count: 7
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.apps.chrome.preferences.PreferenceHeaders; instances=7; limit=6
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 748619
+Instance-Count: 7
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.apps.chrome.preferences.PreferenceHeaders; instances=7; limit=5
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 748669
+Instance-Count: 7
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.apps.chrome.preferences.PreferenceHeaders; instances=7; limit=4
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 752246
+Instance-Count: 8
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.apps.chrome.preferences.PreferenceHeaders; instances=8; limit=4
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

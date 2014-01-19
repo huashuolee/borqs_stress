@@ -1,0 +1,34 @@
+Process: com.android.phone
+Flags: 0x88be4d
+Package: com.android.providers.telephony v17 (4.2.2-eng.svnadmin.20140106.003504)
+Package: com.android.phone v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 17856
+Loop-Violation-Number: 2
+Duration-Millis: 70
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at java.io.FileReader.<init>(FileReader.java:42)
+	at com.android.internal.telephony.gsm.SpnOverride.loadSpnOverrides(SpnOverride.java:61)
+	at com.android.internal.telephony.gsm.SpnOverride.<init>(SpnOverride.java:43)
+	at com.android.internal.telephony.gsm.SIMRecords.<init>(SIMRecords.java:185)
+	at com.android.internal.telephony.UiccCardApplication.createIccRecords(UiccCardApplication.java:167)
+	at com.android.internal.telephony.UiccCardApplication.<init>(UiccCardApplication.java:96)
+	at com.android.internal.telephony.UiccCard.update(UiccCard.java:131)
+	at com.android.internal.telephony.UiccCard.<init>(UiccCard.java:94)
+	at com.android.internal.telephony.uicc.UiccController.onGetIccCardStatusDone(UiccController.java:214)
+	at com.android.internal.telephony.uicc.UiccController.handleMessage(UiccController.java:185)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

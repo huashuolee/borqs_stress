@@ -1,0 +1,11 @@
+Process: com.android.mms
+Flags: 0x88be65
+Package: com.android.mms v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 178216
+Instance-Count: 2
+
+android.os.StrictMode$InstanceCountViolation: class com.android.mms.ui.ManageSimMessages; instances=2; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

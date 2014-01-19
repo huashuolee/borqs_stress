@@ -1,0 +1,41 @@
+Process: com.android.browser
+Flags: 0x89be45
+Package: com.android.browser v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 898421
+
+java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.database.CursorWindow.<init>(CursorWindow.java:107)
+	at android.database.AbstractWindowedCursor.clearOrCreateWindow(AbstractWindowedCursor.java:198)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:139)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:133)
+	at com.android.browser.provider.BrowserProvider2$SuggestionsCursor.getCount(BrowserProvider2.java:2154)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java:143)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:118)
+	at android.os.Binder.execTransact(Binder.java:351)
+	at dalvik.system.NativeStart.run(Native Method)
+
+Process: com.android.browser
+Flags: 0x89be45
+Package: com.android.browser v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 898432
+
+android.database.sqlite.DatabaseObjectNotClosedException: Application did not close the cursor or database object that was opened here
+	at android.database.sqlite.SQLiteCursor.<init>(SQLiteCursor.java:98)
+	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:50)
+	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1314)
+	at android.database.sqlite.SQLiteDatabase.queryWithFactory(SQLiteDatabase.java:1161)
+	at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1032)
+	at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1238)
+	at com.android.browser.provider.BrowserProvider2.doSuggestQuery(BrowserProvider2.java:1156)
+	at com.android.browser.provider.BrowserProvider2.query(BrowserProvider2.java:1026)
+	at android.content.ContentProvider.query(ContentProvider.java:652)
+	at android.content.ContentProvider$Transport.query(ContentProvider.java:189)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:113)
+	at android.os.Binder.execTransact(Binder.java:351)
+	at dalvik.system.NativeStart.run(Native Method)
+

@@ -1,0 +1,5 @@
+:Monkey: seed=738744141 count=50000
+:AllowPackage: com.android.location.fused
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+** No activities found to run, monkey aborted.

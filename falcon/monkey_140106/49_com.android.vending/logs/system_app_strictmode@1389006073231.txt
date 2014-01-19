@@ -1,0 +1,33 @@
+Process: com.android.calculator2
+Flags: 0x88be45
+Package: com.android.calculator2 v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 39206
+Loop-Violation-Number: 1
+Duration-Millis: 20
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.app.ContextImpl.openFileInput(ContextImpl.java:693)
+	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:167)
+	at com.android.calculator2.Persist.load(Persist.java:52)
+	at com.android.calculator2.Calculator.onCreate(Calculator.java:92)
+	at android.app.Activity.performCreate(Activity.java:5104)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1080)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2227)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$600(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1317)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

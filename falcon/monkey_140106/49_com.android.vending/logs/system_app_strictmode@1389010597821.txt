@@ -1,0 +1,40 @@
+Process: com.google.process.gapps
+Flags: 0x883e45
+Package: com.google.android.syncadapters.contacts v17 (4.2.2-721232)
+Package: com.google.android.gsf v17 (4.2.2-721232)
+Package: com.google.android.gms v3159130 (3.1.59 (736673-30))
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 37008
+Loop-Violation-Number: 1
+Duration-Millis: 3
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1034)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:835)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:143)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:133)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:245)
+	at android.database.CursorWrapper.moveToNext(CursorWrapper.java:166)
+	at android.content.ContentQueryMap.readCursorIntoCache(ContentQueryMap.java:152)
+	at android.content.ContentQueryMap.requery(ContentQueryMap.java:143)
+	at android.content.ContentQueryMap.getValues(ContentQueryMap.java:125)
+	at com.google.android.gsf.TalkContract$AccountSettings$QueryMap.getBoolean(TalkContract.java:2323)
+	at com.google.android.gsf.TalkContract$AccountSettings$QueryMap.getShowAwayOnIdle(TalkContract.java:2238)
+	at com.google.android.gsf.gtalkservice.AndroidEndpoint.getShowAwayOnIdle(AndroidEndpoint.java:264)
+	at com.google.android.gsf.gtalkservice.AndroidEndpoint.maybeSendSignals(AndroidEndpoint.java:693)
+	at com.google.android.gsf.gtalkservice.AndroidEndpoint.handleMCSDataMessage(AndroidEndpoint.java:671)
+	at com.google.android.gsf.gtalkservice.service.GTalkService$1.handleMessage(GTalkService.java:250)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

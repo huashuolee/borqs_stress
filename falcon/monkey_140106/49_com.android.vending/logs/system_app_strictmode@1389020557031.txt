@@ -1,0 +1,33 @@
+Process: com.android.settings
+Flags: 0xc8be45
+Package: com.android.settings v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 626019
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.android.settings.Settings$StorageUseActivity; instances=14; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.android.settings
+Flags: 0xc8be45
+Package: com.android.settings v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 627759
+Instance-Count: 45
+
+android.os.StrictMode$InstanceCountViolation: class com.android.settings.SubSettings; instances=45; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.android.settings
+Flags: 0xc8be45
+Package: com.android.settings v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 629768
+Instance-Count: 46
+
+android.os.StrictMode$InstanceCountViolation: class com.android.settings.SubSettings; instances=46; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

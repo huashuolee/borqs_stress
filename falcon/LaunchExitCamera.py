@@ -19,7 +19,7 @@ runComponent = package + '/' + activity
 
 sleep(5)
 
-for i in range(0, int(raw_input('please input times:'))):
+for i in range(0, 1000):
     # Runs the component
     device.startActivity(component=runComponent)
     sleep(2)

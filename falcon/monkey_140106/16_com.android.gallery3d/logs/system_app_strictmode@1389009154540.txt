@@ -1,0 +1,58 @@
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 177514
+
+java.lang.Throwable: Explicit termination method 'release' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.view.Surface.<init>(Surface.java:292)
+	at android.view.SurfaceView.<init>(SurfaceView.java:96)
+	at org.chromium.content.browser.ContentViewRenderView.createSurfaceView(Unknown Source)
+	at org.chromium.content.browser.ContentViewRenderView.<init>(Unknown Source)
+	at com.google.android.apps.chrome.EmbedContentViewActivity.onCreate(Unknown Source)
+	at android.app.Activity.performCreate(Activity.java:5104)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1080)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2227)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$600(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1317)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.android.chrome
+Flags: 0xc8be45
+Package: com.android.chrome v11500094 (28.0.1500.94)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 177517
+
+java.lang.Throwable: Explicit termination method 'release' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at android.view.Surface.<init>(Surface.java:292)
+	at android.view.SurfaceView.<init>(SurfaceView.java:97)
+	at org.chromium.content.browser.ContentViewRenderView.createSurfaceView(Unknown Source)
+	at org.chromium.content.browser.ContentViewRenderView.<init>(Unknown Source)
+	at com.google.android.apps.chrome.EmbedContentViewActivity.onCreate(Unknown Source)
+	at android.app.Activity.performCreate(Activity.java:5104)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1080)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2227)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$600(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1317)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

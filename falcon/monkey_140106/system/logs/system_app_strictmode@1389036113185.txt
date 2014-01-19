@@ -1,0 +1,11 @@
+Process: com.google.android.gm
+Flags: 0x8bbe45
+Package: com.google.android.gm v986 (4.5.2-714156)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 915171
+Instance-Count: 27
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.gm.AddAccountActivity; instances=27; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

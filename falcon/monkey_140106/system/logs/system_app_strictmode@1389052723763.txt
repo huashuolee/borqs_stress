@@ -1,0 +1,65 @@
+Process: com.android.settings
+Flags: 0xc8be45
+Package: com.android.settings v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 484688
+Loop-Violation-Number: 1
+Duration-Millis: 50
+
+android.os.StrictMode$StrictModeDiskWriteViolation: policy=903 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1081)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1036)
+	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:772)
+	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+	at com.android.providers.settings.SettingsProvider.insertForUser(SettingsProvider.java:882)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:602)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:256)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:256)
+	at android.os.Binder.execTransact(Binder.java:351)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1656)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1407)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:134)
+	at android.content.ContentProviderProxy.call(ContentProviderNative.java:574)
+	at android.provider.Settings$NameValueCache.putStringForUser(Settings.java:777)
+	at android.provider.Settings$Global.putStringForUser(Settings.java:5421)
+	at android.provider.Settings$Global.putString(Settings.java:5411)
+	at android.provider.Settings$Global.putInt(Settings.java:5499)
+	at com.android.settings.DevelopmentSettings.onResume(DevelopmentSettings.java:387)
+	at android.app.Fragment.performResume(Fragment.java:1738)
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:919)
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1057)
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1039)
+	at android.app.FragmentManagerImpl.dispatchResume(FragmentManager.java:1850)
+	at android.app.Activity.performResume(Activity.java:5192)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2815)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2854)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2318)
+	at android.app.ActivityThread.access$600(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1317)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.android.settings
+Flags: 0xc8be45
+Package: com.android.settings v17 (4.2.2-eng.svnadmin.20140106.003504)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 488892
+Instance-Count: 4
+
+android.os.StrictMode$InstanceCountViolation: class com.android.settings.Settings$DevelopmentSettingsActivity; instances=4; limit=3
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

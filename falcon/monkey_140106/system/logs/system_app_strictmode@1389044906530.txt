@@ -1,0 +1,30 @@
+Process: com.google.android.inputmethod.latin
+Flags: 0xc8be45
+Package: com.google.android.inputmethod.latin v1870 (1.0.1870.703320)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 280356
+Loop-Violation-Number: 1
+Duration-Millis: 158
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=647 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1107)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.getBoolean(SharedPreferencesImpl.java:260)
+	at com.android.inputmethod.latin.Settings.isInternal(Settings.java:321)
+	at com.android.inputmethod.latin.LatinImeLogger.getUsabilityStudyMode(LatinImeLogger.java:279)
+	at com.android.inputmethod.latin.LatinImeLogger.initInternal(LatinImeLogger.java:256)
+	at com.android.inputmethod.latin.LatinImeLogger.init(LatinImeLogger.java:658)
+	at com.android.inputmethod.latin.LatinIME.onCreate(LatinIME.java:432)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2612)
+	at android.app.ActivityThread.access$1600(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1399)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.app.ActivityThread.main(ActivityThread.java:5132)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+	at dalvik.system.NativeStart.main(Native Method)
+

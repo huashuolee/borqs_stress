@@ -1,0 +1,33 @@
+Process: com.google.android.gms.ui
+Flags: 0x88be45
+Package: com.google.android.gms v3159130 (3.1.59 (736673-30))
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1467530
+Instance-Count: 60
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.gms.ads.settings.AdsSettingsActivity; instances=60; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.gms.ui
+Flags: 0x88be45
+Package: com.google.android.gms v3159130 (3.1.59 (736673-30))
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1470411
+Instance-Count: 62
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.gms.ads.settings.AdsSettingsActivity; instances=62; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.gms.ui
+Flags: 0x88be45
+Package: com.google.android.gms v3159130 (3.1.59 (736673-30))
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1470996
+Instance-Count: 62
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.gms.ads.settings.AdsSettingsActivity; instances=62; limit=1
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

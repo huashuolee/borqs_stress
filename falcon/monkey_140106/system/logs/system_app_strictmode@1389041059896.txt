@@ -1,0 +1,77 @@
+Process: com.google.android.music:ui
+Flags: 0x88be65
+Package: com.google.android.music v1106 (5.1.1106K.749200)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1274884
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.music.ui.ArtistPageActivity; instances=14; limit=9
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.music:ui
+Flags: 0x88be65
+Package: com.google.android.music v1106 (5.1.1106K.749200)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1275295
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.music.ui.ArtistPageActivity; instances=14; limit=8
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.music:ui
+Flags: 0x88be65
+Package: com.google.android.music v1106 (5.1.1106K.749200)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1275705
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.music.ui.ArtistPageActivity; instances=14; limit=7
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.music:ui
+Flags: 0x88be65
+Package: com.google.android.music v1106 (5.1.1106K.749200)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1276112
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.music.ui.ArtistPageActivity; instances=14; limit=6
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.music:ui
+Flags: 0x88be65
+Package: com.google.android.music v1106 (5.1.1106K.749200)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1276512
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.music.ui.ArtistPageActivity; instances=14; limit=5
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.music:ui
+Flags: 0x88be65
+Package: com.google.android.music v1106 (5.1.1106K.749200)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1276907
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.music.ui.ArtistPageActivity; instances=14; limit=4
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.music:ui
+Flags: 0x88be65
+Package: com.google.android.music v1106 (5.1.1106K.749200)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 1278178
+Instance-Count: 14
+
+android.os.StrictMode$InstanceCountViolation: class com.google.android.music.ui.ArtistPageActivity; instances=14; limit=3
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

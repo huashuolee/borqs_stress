@@ -1,0 +1,25 @@
+Process: com.google.process.location
+Flags: 0x88be45
+Package: com.google.android.location v1110 (1.1.10)
+Package: com.google.android.gms v3159130 (3.1.59 (736673-30))
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 181861
+
+java.lang.Throwable: Explicit termination method 'end' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at java.util.zip.Inflater.<init>(Inflater.java:82)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:96)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+	at com.google.gmm.common.android.AndroidConfig$1.gunzip(Unknown Source)
+	at com.google.gmm.common.io.Gunzipper.gunzip(Unknown Source)
+	at com.google.masf.protocol.EncodedPayload.<init>(Unknown Source)
+	at com.google.masf.protocol.PlainResponse.<init>(Unknown Source)
+	at com.google.masf.protocol.ProtocolReader.getNextResponse(Unknown Source)
+	at com.google.masf.MobileServiceMux.handleMacroResponse(Unknown Source)
+	at com.google.masf.MobileServiceMux.access$1100(Unknown Source)
+	at com.google.masf.MobileServiceMux$4.run(Unknown Source)
+	at com.google.gmm.common.task.AbstractTask.runInternal(Unknown Source)
+	at com.google.gmm.common.task.TaskRunner.run(Unknown Source)
+	at com.google.gmm.common.lang.BaseThreadFactory$ThreadImpl.run(Unknown Source)
+

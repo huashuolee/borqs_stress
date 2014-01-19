@@ -1,0 +1,20 @@
+Process: com.borqs.bugreporter
+Flags: 0x808445
+Package: com.borqs.bugreporter v6 (6.0.0)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 106733
+
+java.lang.Throwable: Explicit termination method 'end' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+	at java.util.zip.Deflater.<init>(Deflater.java:192)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.<init>(ZipArchiveOutputStream.java:203)
+	at com.borqs.bugreporter.framework.Util$DataFile.zip(Util.java:686)
+	at com.borqs.bugreporter.framework.DBAnalyzer.crash(DBAnalyzer.java:276)
+	at com.borqs.bugreporter.framework.DBAnalyzer.analyse(DBAnalyzer.java:100)
+	at com.borqs.bugreporter.framework.ProcessorService.onHandleIntent(ProcessorService.java:50)
+	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.os.HandlerThread.run(HandlerThread.java:60)
+

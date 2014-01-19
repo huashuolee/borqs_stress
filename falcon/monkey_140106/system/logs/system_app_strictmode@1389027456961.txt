@@ -1,0 +1,33 @@
+Process: com.google.android.apps.magazines
+Flags: 0x983c45
+Package: com.google.android.apps.magazines v131402010 (2.0.0)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 444950
+Instance-Count: 50
+
+android.os.StrictMode$InstanceCountViolation: class com.google.apps.dots.android.dotslib.activity.AccountSelectionActivity; instances=50; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.apps.magazines
+Flags: 0x983c45
+Package: com.google.android.apps.magazines v131402010 (2.0.0)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 445822
+Instance-Count: 51
+
+android.os.StrictMode$InstanceCountViolation: class com.google.apps.dots.android.dotslib.activity.AccountSelectionActivity; instances=51; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+
+Process: com.google.android.apps.magazines
+Flags: 0x983c45
+Package: com.google.android.apps.magazines v131402010 (2.0.0)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+System-App: true
+Uptime-Millis: 449781
+Instance-Count: 52
+
+android.os.StrictMode$InstanceCountViolation: class com.google.apps.dots.android.dotslib.activity.AccountSelectionActivity; instances=52; limit=2
+	at android.os.StrictMode.setClassInstanceLimit(StrictMode.java:1)
+

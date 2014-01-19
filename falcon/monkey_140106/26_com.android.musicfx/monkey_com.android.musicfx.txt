@@ -1,0 +1,5 @@
+:Monkey: seed=649866103 count=50000
+:AllowPackage: com.android.musicfx
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+** No activities found to run, monkey aborted.

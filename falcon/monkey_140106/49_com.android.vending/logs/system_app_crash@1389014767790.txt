@@ -1,0 +1,11 @@
+Process: com.android.gallery3d
+Flags: 0x98bc45
+Package: com.android.gallery3d v40001 (1.1.40001)
+Build: intel/falcon/falcon:4.2.2/JDQ39/eng.svnadmin.20140106.003504:userdebug/test-keys
+
+java.lang.RuntimeException: startPreview failed
+	at android.hardware.Camera.startPreview(Native Method)
+	at com.android.camera.CameraManager$CameraHandler.handleMessage(CameraManager.java:172)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:152)
+	at android.os.HandlerThread.run(HandlerThread.java:60)
