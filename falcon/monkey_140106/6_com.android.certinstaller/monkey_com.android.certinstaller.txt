@@ -1,5 +1,0 @@
-:Monkey: seed=162937580 count=50000
-:AllowPackage: com.android.certinstaller
-:IncludeCategory: android.intent.category.LAUNCHER
-:IncludeCategory: android.intent.category.MONKEY
-** No activities found to run, monkey aborted.

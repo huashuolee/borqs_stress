@@ -1,5 +1,0 @@
-:Monkey: seed=15235784 count=50000
-:AllowPackage: com.android.bluetooth
-:IncludeCategory: android.intent.category.LAUNCHER
-:IncludeCategory: android.intent.category.MONKEY
-** No activities found to run, monkey aborted.
