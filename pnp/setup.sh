@@ -1,6 +1,6 @@
 #!/bin/bash
 ss=""
-[[ -n $1 ]] && ss="-s $1"
+[[ -n $1 ]] && ss="-s $1" # 判断变量是否有值
 
 adb $ss "wait-for-device" root
 adb $ss "wait-for-device" remount
