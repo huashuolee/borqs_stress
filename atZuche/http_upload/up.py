@@ -1,20 +1,20 @@
 #coding=utf-8
 # modifyDate: 20120808 ~ 20120810
-# Ô­×÷ÕßÎª£ºbones7456, http://li2z.cn/
-# ĞŞ¸ÄÕßÎª£ºdecli@qq.com
-# v1.2£¬changeLog£º
-# +: ÎÄ¼şÈÕÆÚ/Ê±¼ä/ÑÕÉ«ÏÔÊ¾¡¢¶àÏß³ÌÖ§³Ö¡¢Ö÷Ò³Ìø×ª
-# -: ½â¾ö²»Í¬ä¯ÀÀÆ÷ÏÂÉÏ´«ÎÄ¼şÃûÂÒÂëÎÊÌâ£º½öIE£¬ÆäËüä¯ÀÀÆ÷ÔİÊ±Ã»´¦Àí¡£
-# -: Ò»Ğ©Â·¾¶ÏÔÊ¾µÄbug£¬Ö÷ÒªÊÇ cgi.escape() ×ªÒåÎÊÌâ
-# ?: notepad++ ÏÂÖ±½Ó±àÒëµÄserverÂ·¾¶ÎÊÌâ
+# åŸä½œè€…ä¸ºï¼šbones7456, http://li2z.cn/
+# ä¿®æ”¹è€…ä¸ºï¼šdecli@qq.com
+# v1.2ï¼ŒchangeLogï¼š
+# +: æ–‡ä»¶æ—¥æœŸ/æ—¶é—´/é¢œè‰²æ˜¾ç¤ºã€å¤šçº¿ç¨‹æ”¯æŒã€ä¸»é¡µè·³è½¬
+# -: è§£å†³ä¸åŒæµè§ˆå™¨ä¸‹ä¸Šä¼ æ–‡ä»¶åä¹±ç é—®é¢˜ï¼šä»…IEï¼Œå…¶å®ƒæµè§ˆå™¨æš‚æ—¶æ²¡å¤„ç†ã€‚
+# -: ä¸€äº›è·¯å¾„æ˜¾ç¤ºçš„bugï¼Œä¸»è¦æ˜¯ cgi.escape() è½¬ä¹‰é—®é¢˜
+# ?: notepad++ ä¸‹ç›´æ¥ç¼–è¯‘çš„serverè·¯å¾„é—®é¢˜
   
 """
-  ¼ò½é£ºÕâÊÇÒ»¸ö python Ğ´µÄÇáÁ¿¼¶µÄÎÄ¼ş¹²Ïí·şÎñÆ÷£¨»ùÓÚÄÚÖÃµÄSimpleHTTPServerÄ£¿é£©£¬
-  Ö§³ÖÎÄ¼şÉÏ´«ÏÂÔØ£¬Ö»ÒªÄã°²×°ÁËpython£¨½¨Òé°æ±¾2.6~2.7£¬²»Ö§³Ö3.x£©£¬
-  È»ºóÈ¥µ½ÏëÒª¹²ÏíµÄÄ¿Â¼ÏÂ£¬Ö´ĞĞ£º
+  ç®€ä»‹ï¼šè¿™æ˜¯ä¸€ä¸ª python å†™çš„è½»é‡çº§çš„æ–‡ä»¶å…±äº«æœåŠ¡å™¨ï¼ˆåŸºäºå†…ç½®çš„SimpleHTTPServeræ¨¡å—ï¼‰ï¼Œ
+  æ”¯æŒæ–‡ä»¶ä¸Šä¼ ä¸‹è½½ï¼Œåªè¦ä½ å®‰è£…äº†pythonï¼ˆå»ºè®®ç‰ˆæœ¬2.6~2.7ï¼Œä¸æ”¯æŒ3.xï¼‰ï¼Œ
+  ç„¶åå»åˆ°æƒ³è¦å…±äº«çš„ç›®å½•ä¸‹ï¼Œæ‰§è¡Œï¼š
     python SimpleHTTPServerWithUpload.py 1234    
-  ÆäÖĞ1234ÎªÄãÖ¸¶¨µÄ¶Ë¿ÚºÅ£¬Èç²»Ğ´£¬Ä¬ÈÏÎª 8080
-  È»ºó·ÃÎÊ http://localhost:1234 ¼´¿É£¬localhost »òÕß 1234 Çë×ÃÇéÌæ»»¡£
+  å…¶ä¸­1234ä¸ºä½ æŒ‡å®šçš„ç«¯å£å·ï¼Œå¦‚ä¸å†™ï¼Œé»˜è®¤ä¸º 8080
+  ç„¶åè®¿é—® http://localhost:1234 å³å¯ï¼Œlocalhost æˆ–è€… 1234 è¯·é…Œæƒ…æ›¿æ¢ã€‚
 """
   
 """Simple HTTP Server With Upload.
@@ -60,7 +60,8 @@ def get_ip_address(ifname):
 class GetWanIp:
   def getip(self):
     try:
-      myip = self.visit("http://ip.taobao.com/service/getIpInfo.php?ip=myip")
+     # myip = self.visit("http://ip.taobao.com/service/getIpInfo.php?ip=myip")
+      myip="192.168.4.249"
     except:
       print "ip.taobao.com is Error"
       try:
@@ -201,7 +202,7 @@ class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
       else:
         fn = os.path.join(path, fn[0]) 
     except Exception, e:
-      return (False, "ÎÄ¼şÃûÇë²»ÒªÓÃÖĞÎÄ£¬»òÕßÊ¹ÓÃIEÉÏ´«ÖĞÎÄÃûµÄÎÄ¼ş¡£")
+      return (False, "æ–‡ä»¶åè¯·ä¸è¦ç”¨ä¸­æ–‡ï¼Œæˆ–è€…ä½¿ç”¨IEä¸Šä¼ ä¸­æ–‡åçš„æ–‡ä»¶ã€‚")
     while os.path.exists(fn):
       fn += "_"
     line = self.rfile.readline()
@@ -408,10 +409,10 @@ def test(HandlerClass = SimpleHTTPRequestHandler,
 if __name__ == '__main__':
   # test()
     
-  #µ¥Ïß³Ì
+  #å•çº¿ç¨‹
   # srvr = BaseHTTPServer.HTTPServer(serveraddr, SimpleHTTPRequestHandler)
     
-  #¶àÏß³Ì
+  #å¤šçº¿ç¨‹
   srvr = ThreadingServer(serveraddr, SimpleHTTPRequestHandler)
     
   srvr.serve_forever()
