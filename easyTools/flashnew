@@ -4,4 +4,3 @@ export ANDROID_PRODUCT_OUT=./
 echo $ANDROID_PRODUCT_OUT
 sleep 2
 fastboot flashall -w
-
