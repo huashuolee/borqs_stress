@@ -1,2 +1,3 @@
 # The files below will be ignored.
 *~
+*.swp
