@@ -1,0 +1,1 @@
+export ANDROID_SERIAL=$1

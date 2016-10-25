@@ -1,5 +1,8 @@
 #!/bin/bash
+ss=""
+[[ -n $1 ]] && ss="-s $1"
+adb devices
 
-adb shell /system/bin/screencap -p /sdcard/screenshot.png
+adb $ss shell /system/bin/screencap -p /sdcard/screenshot.png
 sleep 2
-adb pull /sdcard/screenshot.png ./
+adb $ss pull /sdcard/screenshot.png ./
