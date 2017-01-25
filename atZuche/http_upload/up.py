@@ -61,7 +61,7 @@ class GetWanIp:
   def getip(self):
     try:
      # myip = self.visit("http://ip.taobao.com/service/getIpInfo.php?ip=myip")
-      myip="192.168.4.243"
+      myip="192.168.4.252"
     except:
       print "ip.taobao.com is Error"
       try:

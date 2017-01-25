@@ -1,0 +1,54 @@
+<SCRIPT>
+
+ var oPopup = window.createPopup();//产生Popup窗口
+ var popTop=50;
+
+ function popmsg(msgstr){
+  var winstr="<table style=/"border: 1 solid #FFA6CA/" width=/"241/" height=/"172/" border=/"0/" cellpadding=/"0/" cellspacing=/"0/" background=/"pict/mybakc.jpg/" >";
+  winstr+="<tr><td height=/"30/"> </td></tr><tr><td align=/"center/"><table width=/"90%/" height=/"110/" border=/"0/" cellpadding=/"0/" cellspacing=/"0/">";
+  winstr+="<tr><td valign=/"top/" style=/"font-size:12px; color: red; face: Tahoma/">"+msgstr+"</td></tr></table></td></tr></table>";
+  oPopup.document.body.innerHTML = winstr;
+  popshow();
+ }
+
+ function popshow(){
+  window.status=popTop;//写入浏览器状态栏
+  
+  //
+  if(popTop>1720){
+   clearTimeout(mytime);
+   oPopup.hide();
+   return;
+  }else if(popTop>1520&&popTop<1720){
+  oPopup.show(screen.width-250,screen.height,241,1720-popTop);
+ }else if(popTop>1500&&popTop<1520){
+  oPopup.show(screen.width-250,screen.height+(popTop-1720),241,172);
+ }else if(popTop<180){
+  oPopup.show(screen.width-250,screen.height,241,popTop);
+ }else if(popTop<220){
+  oPopup.show(screen.width-250,screen.height-popTop,241,172);
+ }
+  popTop+=10;
+  var mytime=setTimeout("popshow();",50);
+ } 
+ popmsg("在Popup窗口中显示的内容");
+</SCRIPT>  
+
+ 
+
+<html>
+<head>
+<SCRIPT>
+var oPopup = window.createPopup();
+function window_onload() {
+    var oPopupBody = oPopup.document.body;
+ oPopupBody.style.backgroundColor = "lightyellow";
+ oPopupBody.style.border = "solid black 1px";   
+    oPopupBody.innerHTML = "Display some <B>HTML</B> here.";
+    oPopup.show(0, 0, 200, 50);
+}
+</SCRIPT>
+</head>
+<body onload="window_onload();">
+</body>
+</html>
