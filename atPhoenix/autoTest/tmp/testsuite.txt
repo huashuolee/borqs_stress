@@ -1,0 +1,23 @@
+<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[<car_info_test.OtherTest testMethod=test_true>]>]>]>
+
+
+
+<>
+unittest.suite.TestSuite tests=
+
+[]
+
+<>
+
+unittest.suite.TestSuite tests=
+
+
+[]
+
+<>
+
+unittest.suite.TestSuite tests=[]>, ]
+
+<>
+unittest.suite.TestSuite tests=
+[<car_info_test.OtherTest testMethod=test_false>, <car_info_test.OtherTest testMethod=test_true
