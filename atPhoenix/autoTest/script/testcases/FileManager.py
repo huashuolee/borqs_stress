@@ -42,45 +42,45 @@ class Priority1(unittest.TestCase):
     def _pressBack(self):
         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/go_back").click()
 
-    # # 1289 新建文件
-    # def test_fm_createfile(self):
-    #     u.recordcase(self.test_fm_createfile, "FileManager.Priority1")
-    #     for i in xrange(self.loop):
-    #         self._launch_filemanager()
-    #         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/name_stub", text=u"文档").click()
-    #         time.sleep(2)
-    #         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/more").wait(5000)
-    #         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/more").click()
-    #         time.sleep(2)
-    #         d(className="android.widget.LinearLayout", index="1").wait(5000)
-    #         d(className="android.widget.LinearLayout", index="1").click()
-    #         time.sleep(2)
-    #         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/file_name_edit").set_text("test" + str(i) + ".txt")
-    #         time.sleep(2)
-    #         d.press("enter")
-    #         time.sleep(2)
-    #         d(resourceId="android:id/mwCloseBtn").click()
-    #         time.sleep(2)
-    #     u.log()
-    #
-    # # 1290 新建文件夹
-    # def test_fm_createfolder(self):
-    #     u.recordcase(self.test_fm_createfolder, "FileManager.Priority1")
-    #     for i in xrange(self.loop):
-    #         self._launch_filemanager()
-    #         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/name_stub", text=u"文档").click()
-    #         time.sleep(2)
-    #         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/more").click()
-    #         time.sleep(2)
-    #         d(className="android.widget.LinearLayout", index="0").click()
-    #         time.sleep(2)
-    #         d(resourceId="com.chaozhuo.filemanager.phoenixos:id/file_name_edit").set_text("test" + str(i))
-    #         time.sleep(2)
-    #         d.press("enter")
-    #         time.sleep(2)
-    #         d(resourceId="android:id/mwCloseBtn").click()
-    #         time.sleep(2)
-    #     u.log()
+    # 1289 新建文件
+    def test_fm_createfile(self):
+        u.recordcase(self.test_fm_createfile, "FileManager.Priority1")
+        for i in xrange(self.loop):
+            self._launch_filemanager()
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/name_stub", text=u"文档").click()
+            time.sleep(2)
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/more").wait(5000)
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/more").click()
+            time.sleep(2)
+            d(className="android.widget.LinearLayout", index="1").wait(5000)
+            d(className="android.widget.LinearLayout", index="1").click()
+            time.sleep(2)
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/file_name_edit").set_text("test" + str(i) + ".txt")
+            time.sleep(2)
+            d.press("enter")
+            time.sleep(2)
+            d(resourceId="android:id/mwCloseBtn").click()
+            time.sleep(2)
+        u.log()
+
+    # 1290 新建文件夹
+    def test_fm_createfolder(self):
+        u.recordcase(self.test_fm_createfolder, "FileManager.Priority1")
+        for i in xrange(self.loop):
+            self._launch_filemanager()
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/name_stub", text=u"文档").click()
+            time.sleep(2)
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/more").click()
+            time.sleep(2)
+            d(className="android.widget.LinearLayout", index="0").click()
+            time.sleep(2)
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/file_name_edit").set_text("test" + str(i))
+            time.sleep(2)
+            d.press("enter")
+            time.sleep(2)
+            d(resourceId="android:id/mwCloseBtn").click()
+            time.sleep(2)
+        u.log()
 
     # 收藏栏切换
     def test_switchBfav(self):
@@ -140,6 +140,23 @@ class Priority1(unittest.TestCase):
         for i in xrange(self.loop):
             time.sleep(2)
             self._launch_filemanager()
+            time.sleep(2)
+            d(resourceId="com.chaozhuo.filemanager.phoenixos:id/icon_behind", index="3").click()
+            d(text="192.168.1.").clear_text()
+            d(text=u"IP或计算机名").set_text(u"192.168.1.112")
+            d.press("enter")
+            d.press("enter")
+            d.press("enter")
+            time.sleep(10)
+
+    def test_min_max(self):
+        u.recordcase(self.test_min_max, "FileManager.Priority1")
+        for i in xrange(self.loop):
+            time.sleep(2)
+            self._launch_filemanager()
+            d(resourceId="android:id/maximize_window").click()
+            time.sleep(2)
+            d(resourceId="android:id/maximize_window").click()
             time.sleep(2)
 
 

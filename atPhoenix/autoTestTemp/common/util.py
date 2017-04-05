@@ -54,13 +54,11 @@ def getloop():
 
 def checkScreen():
     d.server.jsonrpc.sleep()
-    time.sleep(2)
 
     if d.screen == "off":  # of d.screen != "on"
         d.wakeup()
         time.sleep(2)
         d.press("menu")
-        time.sleep(2)
 
 
 def inputCode():
