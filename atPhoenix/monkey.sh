@@ -374,8 +374,10 @@ system1()
     echo $(date) "Now, start system monkey test."
 	mkdir -p ./system
     R=`date +%N`
-	adb $ss shell monkey -s $R -v 100000000 --ignore-crashes --monitor-native-crashes > ./system/monkey.log
-	mcmd="adb $ss shell monkey -s $R -v --pct-touch 30 --throttle $interval $count --ignore-crashes --monitor-native-crashes"
+    echo "please input the packageName"
+    read packageName
+	adb $ss shell monkey -s $R -p $packageName -v --pct-touch 30 --throttle 500 50000 --ignore-crashes --monitor-native-crashes |tee ./system/monkey.log
+	mcmd="adb $ss shell monkey -s $R -p $packageName -v --pct-touch 30 --throttle $interval $count --ignore-crashes --monitor-native-crashes"
 	lastline=`tail -n 1 ./system/monkey.log | cut -c 11-18`
 	if [ "$lastline" = "$lastlineok" ]; then
 		echo "`date +%X`: monkey ran without errors"
