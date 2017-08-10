@@ -62,7 +62,7 @@ class frame():
         os.system(cmd)
 
     def getMediainfo(self):
-        cmd = "mediainfo " + self.mediafile + " |grep Duration"
+        cmd = "mediainfo " + self.location + self.mediafile + " |grep Duration"
         p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
         out,err = p.communicate()
         o1 = out.split("\n")
