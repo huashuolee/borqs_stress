@@ -10,6 +10,7 @@ inf.append("MPG")
 inf.append("mkv")
 inf.append("MKV")
 inf.append("rmvb")
+inf.append("mov")
 
 class convert(object):
     def __init__(self,path):
