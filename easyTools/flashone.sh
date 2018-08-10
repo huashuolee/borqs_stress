@@ -1,0 +1,1 @@
+/home/huashuolee/work/code/borqs_stress/atPhoenix/flashone.sh
