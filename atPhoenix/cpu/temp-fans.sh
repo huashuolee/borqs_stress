@@ -14,7 +14,8 @@ cat /sys/class/thermal/thermal_zone10/temp
 #cat /sys/class/thermal/thermal_zone19/temp
 #cat /sys/class/thermal/thermal_zone20/temp
 #cat /sys/class/thermal/thermal_zone21/temp
-sleep 2
+cat /sys/class/hwmon/hwmon1/duty
+sleep 1
 echo "================================="
 done
 

@@ -17,7 +17,7 @@ function flash_bp()
 
 function flash_nonab()
 {
-    IMAGE="splash:splash.img userdata:userdata.img"
+    IMAGE="userdata:userdata.img"
     for var in $IMAGE
         do
             echo $var
@@ -62,7 +62,7 @@ else
     read choice
     if [ "$choice" == "yes" ];then
         flash_bp $1
-        flash_nonab $1
+       # flash_nonab $1
     fi
     flash_main $1
 fi
