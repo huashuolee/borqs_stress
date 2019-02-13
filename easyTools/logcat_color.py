@@ -1,7 +1,7 @@
+#!/usr/bin/python
 import sys
-import os
 import re
-import subprocess
+import fileinput
 
 class Color(object):
 
@@ -33,12 +33,13 @@ class Color(object):
         print('\033[1;35m'+logcat+'\033[0m')
 
 
-def getlog(input):
-    #cmd = 'adb logcat -v time '
-    #out = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+def getlog():
     color = Color()
-    with open (sys.argv[1],'r') as f:
-        logcat = f.readlines();
+    if len(sys.argv) == 2:
+        with open (sys.argv[1],'r') as f:
+            logcat = f.readlines();
+    else:
+        logcat = fileinput.input()
     for line in logcat:
         #Color().show_verbose(line);
         line = line.strip()
@@ -63,4 +64,7 @@ def getlog(input):
 
 
 if __name__ == "__main__":
-    getlog(sys.argv[1])
+    try:
+        getlog()
+    except KeyboardInterrupt:
+        print("\nTerminated by user")
