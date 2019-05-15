@@ -32,4 +32,3 @@ fi
 if [ "$1" == "speaker" ];then
     switch_speaker
 fi
-
