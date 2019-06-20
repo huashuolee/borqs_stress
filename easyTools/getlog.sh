@@ -10,4 +10,5 @@ adb remount
 
 adb pull -a /data/anr/ ./$dirname
 adb pull -a /data/system/dropbox/ ./$dirname
+adb logcat -v time -d |tee ./$dirname/logcat.log
 7z a -t7z $dirname.7z $dirname
