@@ -10,3 +10,4 @@ fastboot flash xbl_b xbl.elf
 fastboot flash abl_a abl.elf
 fastboot flash abl_b abl.elf
 fastboot erase userdata
+fastboot reboot
